@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE85D21E14ED993500B7D367 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE85D21D14ED993500B7D367 /* UIKit.framework */; };
+		CE85D22014ED993500B7D367 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE85D21F14ED993500B7D367 /* Foundation.framework */; };
+		CE85D22214ED993500B7D367 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE85D22114ED993500B7D367 /* CoreGraphics.framework */; };
+		CE85D22814ED993500B7D367 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE85D22614ED993500B7D367 /* InfoPlist.strings */; };
+		CE85D22A14ED993500B7D367 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE85D22914ED993500B7D367 /* main.m */; };
+		CE85D22E14ED993500B7D367 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE85D22D14ED993500B7D367 /* AppDelegate.m */; };
+		CE85D24414ED99E000B7D367 /* DesktopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE85D24314ED99E000B7D367 /* DesktopViewController.m */; };
+		CE85D24914ED99FA00B7D367 /* ModuleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE85D24714ED99FA00B7D367 /* ModuleTableCell.m */; };
+		CE85D24A14ED99FA00B7D367 /* ModuleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE85D24814ED99FA00B7D367 /* ModuleTableCell.xib */; };
+		CE85D24F14ED9A0800B7D367 /* DesktopViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE85D24B14ED9A0800B7D367 /* DesktopViewController_iPad.xib */; };
+		CE85D25014ED9A0800B7D367 /* DesktopViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE85D24D14ED9A0800B7D367 /* DesktopViewController_iPhone.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE85D21914ED993500B7D367 /* SelfHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE85D21D14ED993500B7D367 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE85D21F14ED993500B7D367 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE85D22114ED993500B7D367 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE85D22514ED993500B7D367 /* SelfHub-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SelfHub-Info.plist"; sourceTree = "<group>"; };
+		CE85D22714ED993500B7D367 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE85D22914ED993500B7D367 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE85D22B14ED993500B7D367 /* SelfHub-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SelfHub-Prefix.pch"; sourceTree = "<group>"; };
+		CE85D22C14ED993500B7D367 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE85D22D14ED993500B7D367 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE85D24214ED99E000B7D367 /* DesktopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesktopViewController.h; sourceTree = "<group>"; };
+		CE85D24314ED99E000B7D367 /* DesktopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesktopViewController.m; sourceTree = "<group>"; };
+		CE85D24614ED99FA00B7D367 /* ModuleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleTableCell.h; sourceTree = "<group>"; };
+		CE85D24714ED99FA00B7D367 /* ModuleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleTableCell.m; sourceTree = "<group>"; };
+		CE85D24814ED99FA00B7D367 /* ModuleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModuleTableCell.xib; sourceTree = "<group>"; };
+		CE85D24C14ED9A0800B7D367 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DesktopViewController_iPad.xib; sourceTree = "<group>"; };
+		CE85D24E14ED9A0800B7D367 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DesktopViewController_iPhone.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE85D21614ED993500B7D367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE85D21E14ED993500B7D367 /* UIKit.framework in Frameworks */,
+				CE85D22014ED993500B7D367 /* Foundation.framework in Frameworks */,
+				CE85D22214ED993500B7D367 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE85D20E14ED993500B7D367 = {
+			isa = PBXGroup;
+			children = (
+				CE85D22314ED993500B7D367 /* SelfHub */,
+				CE85D21C14ED993500B7D367 /* Frameworks */,
+				CE85D21A14ED993500B7D367 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE85D21A14ED993500B7D367 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE85D21914ED993500B7D367 /* SelfHub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE85D21C14ED993500B7D367 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE85D21D14ED993500B7D367 /* UIKit.framework */,
+				CE85D21F14ED993500B7D367 /* Foundation.framework */,
+				CE85D22114ED993500B7D367 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE85D22314ED993500B7D367 /* SelfHub */ = {
+			isa = PBXGroup;
+			children = (
+				CE85D25114ED9A0E00B7D367 /* DesktopViewController(root) */,
+				CE85D24514ED99E900B7D367 /* ModuleTableCell */,
+				CE85D22C14ED993500B7D367 /* AppDelegate.h */,
+				CE85D22D14ED993500B7D367 /* AppDelegate.m */,
+				CE85D22414ED993500B7D367 /* Supporting Files */,
+			);
+			path = SelfHub;
+			sourceTree = "<group>";
+		};
+		CE85D22414ED993500B7D367 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE85D22514ED993500B7D367 /* SelfHub-Info.plist */,
+				CE85D22614ED993500B7D367 /* InfoPlist.strings */,
+				CE85D22914ED993500B7D367 /* main.m */,
+				CE85D22B14ED993500B7D367 /* SelfHub-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE85D24514ED99E900B7D367 /* ModuleTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE85D24614ED99FA00B7D367 /* ModuleTableCell.h */,
+				CE85D24714ED99FA00B7D367 /* ModuleTableCell.m */,
+				CE85D24814ED99FA00B7D367 /* ModuleTableCell.xib */,
+			);
+			name = ModuleTableCell;
+			sourceTree = "<group>";
+		};
+		CE85D25114ED9A0E00B7D367 /* DesktopViewController(root) */ = {
+			isa = PBXGroup;
+			children = (
+				CE85D24214ED99E000B7D367 /* DesktopViewController.h */,
+				CE85D24314ED99E000B7D367 /* DesktopViewController.m */,
+				CE85D24B14ED9A0800B7D367 /* DesktopViewController_iPad.xib */,
+				CE85D24D14ED9A0800B7D367 /* DesktopViewController_iPhone.xib */,
+			);
+			name = "DesktopViewController(root)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE85D21814ED993500B7D367 /* SelfHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE85D23A14ED993600B7D367 /* Build configuration list for PBXNativeTarget "SelfHub" */;
+			buildPhases = (
+				CE85D21514ED993500B7D367 /* Sources */,
+				CE85D21614ED993500B7D367 /* Frameworks */,
+				CE85D21714ED993500B7D367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfHub;
+			productName = SelfHub;
+			productReference = CE85D21914ED993500B7D367 /* SelfHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE85D21014ED993500B7D367 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CE85D21314ED993500B7D367 /* Build configuration list for PBXProject "SelfHub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE85D20E14ED993500B7D367;
+			productRefGroup = CE85D21A14ED993500B7D367 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE85D21814ED993500B7D367 /* SelfHub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE85D21714ED993500B7D367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE85D22814ED993500B7D367 /* InfoPlist.strings in Resources */,
+				CE85D24A14ED99FA00B7D367 /* ModuleTableCell.xib in Resources */,
+				CE85D24F14ED9A0800B7D367 /* DesktopViewController_iPad.xib in Resources */,
+				CE85D25014ED9A0800B7D367 /* DesktopViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE85D21514ED993500B7D367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE85D22A14ED993500B7D367 /* main.m in Sources */,
+				CE85D22E14ED993500B7D367 /* AppDelegate.m in Sources */,
+				CE85D24414ED99E000B7D367 /* DesktopViewController.m in Sources */,
+				CE85D24914ED99FA00B7D367 /* ModuleTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE85D22614ED993500B7D367 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE85D22714ED993500B7D367 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE85D24B14ED9A0800B7D367 /* DesktopViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE85D24C14ED9A0800B7D367 /* en */,
+			);
+			name = DesktopViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		CE85D24D14ED9A0800B7D367 /* DesktopViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE85D24E14ED9A0800B7D367 /* en */,
+			);
+			name = DesktopViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE85D23814ED993600B7D367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE85D23914ED993600B7D367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE85D23B14ED993600B7D367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelfHub/SelfHub-Prefix.pch";
+				INFOPLIST_FILE = "SelfHub/SelfHub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE85D23C14ED993600B7D367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelfHub/SelfHub-Prefix.pch";
+				INFOPLIST_FILE = "SelfHub/SelfHub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE85D21314ED993500B7D367 /* Build configuration list for PBXProject "SelfHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE85D23814ED993600B7D367 /* Debug */,
+				CE85D23914ED993600B7D367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE85D23A14ED993600B7D367 /* Build configuration list for PBXNativeTarget "SelfHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE85D23B14ED993600B7D367 /* Debug */,
+				CE85D23C14ED993600B7D367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE85D21014ED993500B7D367 /* Project object */;
+}
