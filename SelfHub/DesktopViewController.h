@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ModuleGlobalDefinitions.h"
+#import "MainInformation.h"
+
 
 @interface DesktopViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>{
     NSMutableArray *modulesArray;

@@ -18,6 +18,9 @@
 		CE85D24A14ED99FA00B7D367 /* ModuleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE85D24814ED99FA00B7D367 /* ModuleTableCell.xib */; };
 		CE85D24F14ED9A0800B7D367 /* DesktopViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE85D24B14ED9A0800B7D367 /* DesktopViewController_iPad.xib */; };
 		CE85D25014ED9A0800B7D367 /* DesktopViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE85D24D14ED9A0800B7D367 /* DesktopViewController_iPhone.xib */; };
+		CE9AD05B14EED080002E7A48 /* mainInfoModule_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9AD05714EED080002E7A48 /* mainInfoModule_icon.png */; };
+		CE9AD05C14EED080002E7A48 /* MainInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9AD05914EED080002E7A48 /* MainInformation.m */; };
+		CE9AD05D14EED080002E7A48 /* MainInformation.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9AD05A14EED080002E7A48 /* MainInformation.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,11 @@
 		CE85D24814ED99FA00B7D367 /* ModuleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModuleTableCell.xib; sourceTree = "<group>"; };
 		CE85D24C14ED9A0800B7D367 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DesktopViewController_iPad.xib; sourceTree = "<group>"; };
 		CE85D24E14ED9A0800B7D367 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DesktopViewController_iPhone.xib; sourceTree = "<group>"; };
+		CE9AD05414EED055002E7A48 /* ModuleGlobalDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModuleGlobalDefinitions.h; path = Modules/ModuleGlobalDefinitions.h; sourceTree = "<group>"; };
+		CE9AD05714EED080002E7A48 /* mainInfoModule_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainInfoModule_icon.png; sourceTree = "<group>"; };
+		CE9AD05814EED080002E7A48 /* MainInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainInformation.h; sourceTree = "<group>"; };
+		CE9AD05914EED080002E7A48 /* MainInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainInformation.m; sourceTree = "<group>"; };
+		CE9AD05A14EED080002E7A48 /* MainInformation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainInformation.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,7 @@
 		CE85D22314ED993500B7D367 /* SelfHub */ = {
 			isa = PBXGroup;
 			children = (
+				CE9AD04A14EEC410002E7A48 /* Modules */,
 				CE85D25114ED9A0E00B7D367 /* DesktopViewController(root) */,
 				CE85D24514ED99E900B7D367 /* ModuleTableCell */,
 				CE85D22C14ED993500B7D367 /* AppDelegate.h */,
@@ -123,6 +132,35 @@
 				CE85D24D14ED9A0800B7D367 /* DesktopViewController_iPhone.xib */,
 			);
 			name = "DesktopViewController(root)";
+			sourceTree = "<group>";
+		};
+		CE9AD04A14EEC410002E7A48 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CE9AD05414EED055002E7A48 /* ModuleGlobalDefinitions.h */,
+				CE9AD05514EED080002E7A48 /* MainInformation */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		CE9AD05514EED080002E7A48 /* MainInformation */ = {
+			isa = PBXGroup;
+			children = (
+				CE9AD05614EED080002E7A48 /* images */,
+				CE9AD05814EED080002E7A48 /* MainInformation.h */,
+				CE9AD05914EED080002E7A48 /* MainInformation.m */,
+				CE9AD05A14EED080002E7A48 /* MainInformation.xib */,
+			);
+			name = MainInformation;
+			path = Modules/MainInformation;
+			sourceTree = "<group>";
+		};
+		CE9AD05614EED080002E7A48 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CE9AD05714EED080002E7A48 /* mainInfoModule_icon.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +217,8 @@
 				CE85D24A14ED99FA00B7D367 /* ModuleTableCell.xib in Resources */,
 				CE85D24F14ED9A0800B7D367 /* DesktopViewController_iPad.xib in Resources */,
 				CE85D25014ED9A0800B7D367 /* DesktopViewController_iPhone.xib in Resources */,
+				CE9AD05B14EED080002E7A48 /* mainInfoModule_icon.png in Resources */,
+				CE9AD05D14EED080002E7A48 /* MainInformation.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +233,7 @@
 				CE85D22E14ED993500B7D367 /* AppDelegate.m in Sources */,
 				CE85D24414ED99E000B7D367 /* DesktopViewController.m in Sources */,
 				CE85D24914ED99FA00B7D367 /* ModuleTableCell.m in Sources */,
+				CE9AD05C14EED080002E7A48 /* MainInformation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,7 +10,7 @@
 
 @implementation ModuleTableCell
 
-@synthesize moduleName, moduleDescription, moduleIcon, moduleMessage;
+@synthesize moduleName = _moduleName, moduleDescription = _moduleDescription, moduleIcon = _moduleIcon, moduleMessage = _moduleMessage;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
@@ -30,10 +30,10 @@
 
 - (void)dealloc
 {
-    [moduleName release];
-    [moduleDescription release];
-    [moduleIcon release];
-    [moduleMessage release];
+    [_moduleName release];
+    [_moduleDescription release];
+    [_moduleIcon release];
+    [_moduleMessage release];
     
     [super dealloc];
 }

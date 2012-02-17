@@ -38,7 +38,7 @@
 					<object class="IBUITableView" id="183163078">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrameSize">{320, 480}</string>
+						<string key="NSFrameSize">{320, 436}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:418</string>
@@ -56,7 +56,7 @@
 						<float key="IBUISectionFooterHeight">22</float>
 					</object>
 				</array>
-				<string key="NSFrameSize">{320, 480}</string>
+				<string key="NSFrame">{{0, 44}, {320, 436}}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
@@ -64,6 +64,9 @@
 					<bytes key="NSWhite">MQA</bytes>
 				</object>
 				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
+				<object class="IBUISimulatedNavigationBarMetrics" key="IBUISimulatedTopBarMetrics">
+					<bool key="IBUIPrompted">NO</bool>
+				</object>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
 		</array>

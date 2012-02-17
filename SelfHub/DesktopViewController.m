@@ -1,4 +1,4 @@
-//
+  //
 //  ViewController.m
 //  HealthCare
 //
@@ -29,6 +29,10 @@
     self.title = @"Desktop";
     
     modulesArray = [[NSMutableArray alloc] init];
+    
+    MainInformation *antropometryModule = [[MainInformation alloc] initWithNibName:@"MainInformation" bundle:nil];
+    [modulesArray addObject:antropometryModule];
+    [antropometryModule release];
 }
 
 - (void)viewDidUnload
@@ -71,7 +75,7 @@
 
 #pragma mark - TableView delegate
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 5;
+    return [modulesArray count];
 };
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -88,9 +92,12 @@
     };
     
     
-    cell.moduleName.text = @"My module";
-    cell.moduleDescription.text = @"this is the short description of this module";
-    cell.moduleMessage.text = @"Hello from new module!";
+    UIViewController<ModuleProtocol> *curModuleController;
+    curModuleController = [modulesArray objectAtIndex:[indexPath row]];
+    cell.moduleName.text = [curModuleController getModuleName];
+    cell.moduleDescription.text = [curModuleController getModuleDescription];
+    cell.moduleMessage.text = [curModuleController getModuleMessage];
+    cell.moduleIcon.image = [curModuleController getModuleIcon];
         
     return cell;
 
@@ -98,6 +105,13 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 160.0f;
+};
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    UIViewController<ModuleProtocol> *curModuleController;
+    curModuleController = [modulesArray objectAtIndex:[indexPath row]];
+    
+    [self.navigationController pushViewController:curModuleController animated:YES];
 };
 
 
