@@ -15,6 +15,10 @@
 - (NSString *)getModuleMessage;
 - (float)getModuleVersion;
 - (UIImage *)getModuleIcon;
+
+- (void)loadModuleData;
+- (void)saveModuleData;
+
 @optional
 - (void)didReceivedMemoryWarning;
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1B9FCB14F10FE700E8EE20 /* birthday_navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1B9FCA14F10FE700E8EE20 /* birthday_navbar.png */; };
+		CE1B9FD614F16DD700E8EE20 /* voidPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1B9FD514F16DD700E8EE20 /* voidPhoto.png */; };
 		CE85D21E14ED993500B7D367 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE85D21D14ED993500B7D367 /* UIKit.framework */; };
 		CE85D22014ED993500B7D367 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE85D21F14ED993500B7D367 /* Foundation.framework */; };
 		CE85D22214ED993500B7D367 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE85D22114ED993500B7D367 /* CoreGraphics.framework */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE1B9FCA14F10FE700E8EE20 /* birthday_navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = birthday_navbar.png; sourceTree = "<group>"; };
+		CE1B9FD514F16DD700E8EE20 /* voidPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voidPhoto.png; sourceTree = "<group>"; };
 		CE85D21914ED993500B7D367 /* SelfHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE85D21D14ED993500B7D367 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE85D21F14ED993500B7D367 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -158,7 +162,9 @@
 		CE9AD05614EED080002E7A48 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				CE1B9FD514F16DD700E8EE20 /* voidPhoto.png */,
 				CE9AD05714EED080002E7A48 /* mainInfoModule_icon.png */,
+				CE1B9FCA14F10FE700E8EE20 /* birthday_navbar.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -219,6 +225,8 @@
 				CE85D25014ED9A0800B7D367 /* DesktopViewController_iPhone.xib in Resources */,
 				CE9AD05B14EED080002E7A48 /* mainInfoModule_icon.png in Resources */,
 				CE9AD05D14EED080002E7A48 /* MainInformation.xib in Resources */,
+				CE1B9FCB14F10FE700E8EE20 /* birthday_navbar.png in Resources */,
+				CE1B9FD614F16DD700E8EE20 /* voidPhoto.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
