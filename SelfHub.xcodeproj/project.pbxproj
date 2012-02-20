@@ -334,10 +334,12 @@
 		CE85D23C14ED993600B7D367 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Igor Barinov";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SelfHub/SelfHub-Prefix.pch";
 				INFOPLIST_FILE = "SelfHub/SelfHub-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CB9723A2-C225-4617-BDE6-67D8C8766794";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

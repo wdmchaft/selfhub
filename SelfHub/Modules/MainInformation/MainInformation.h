@@ -19,6 +19,9 @@
 @property (nonatomic, retain) IBOutlet UIScrollView *scrollView;
 @property (nonatomic, retain) IBOutlet UIView *dateSelector;
 @property (nonatomic, retain) IBOutlet UIDatePicker *birthday;
+@property (nonatomic, retain) NSDate *realBirthday;
+
+@property (nonatomic, retain) NSDictionary *moduleData;
 
 - (NSString *)getBaseDir;
 - (NSDate *)getDateFromString_ddMMyy:(NSString *)dateStr;
@@ -78,7 +81,8 @@
 
 
 
-
+- (void)convertSavedDataToViewFields;
+- (void)convertViewFieldsToSavedData;
 
 
 

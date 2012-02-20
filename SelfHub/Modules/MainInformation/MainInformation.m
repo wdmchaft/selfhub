@@ -10,7 +10,7 @@
 
 @implementation MainInformation
 
-@synthesize scrollView, dateSelector, birthday;
+@synthesize scrollView, dateSelector, birthday, realBirthday, moduleData;
 @synthesize photo, surname, name, patronymic;
 @synthesize sex, ageLabel, birthdayLabel;
 @synthesize lengthLabel, lengthStepper, weightLabel, weightStepper, spirometry, thighLabel, thighStepper, waistLabel, waistStepper, chestLabel, chestStepper;
@@ -20,6 +20,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        realBirthday = nil;
+        moduleData = nil;
     }
     return self;
 }
@@ -56,6 +58,8 @@
     scrollView = nil;
     dateSelector = nil;
     birthday = nil;
+    realBirthday = nil;
+    moduleData = nil;
     photo = nil;
     surname = nil;
     name = nil;
@@ -81,6 +85,8 @@
     [scrollView release];
     [dateSelector release];
     [birthday release];
+    if(realBirthday) [realBirthday release];
+    if(moduleData) [moduleData release];
     [photo release];
     [surname release];
     [name release];
@@ -102,6 +108,18 @@
     
     [super dealloc];
 }
+
+- (void)viewWillAppear:(BOOL)animated{
+    if(moduleData==nil){
+        [self loadModuleData];
+    }else{
+        [self convertSavedDataToViewFields];
+    };
+};
+
+- (void)viewWillDisappear:(BOOL)animated{
+    [self saveModuleData];
+};
 
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -166,23 +184,20 @@
     
     dateSelector.center = CGPointMake(160, 720);
     dateSelector.hidden = NO;
-    [UIView beginAnimations:@"showDateSelector" context:nil];
-    [UIView setAnimationDuration:0.4f];
-    [UIView setAnimationBeginsFromCurrentState:YES];
     
-    dateSelector.center = CGPointMake(160, 230);
+    if(realBirthday){
+        [birthday setDate:realBirthday];
+    };
     
-    [UIView commitAnimations];
+    [UIView animateWithDuration:0.4f animations:^{
+        dateSelector.center = CGPointMake(160, 230);
+    }];
 };
 - (IBAction)pressFinishSelectBirthday:(id)sender{
     dateSelector.center = CGPointMake(160, 230);
-    [UIView beginAnimations:@"hideDateSelector" context:nil];
-    [UIView setAnimationDuration:0.4f];
-    [UIView setAnimationBeginsFromCurrentState:YES];
-    
-    dateSelector.center = CGPointMake(160, 720);
-    
-    [UIView commitAnimations];
+    [UIView animateWithDuration:0.4f animations:^{
+        dateSelector.center = CGPointMake(160, 720);
+    }];
     
     if([(UIButton *)sender tag]==1){
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
@@ -193,6 +208,9 @@
         
         NSUInteger ageNum = [self getAgeByBirthday:birthday.date];
         ageLabel.text = [NSString stringWithFormat:@"Возраст: %d %@", ageNum, [self getYearsWord:ageNum padej:NO]];
+        
+        //if(realBirthday) [realBirthday release];
+        realBirthday = birthday.date;
     };
 
 };
@@ -201,6 +219,7 @@
     lengthLabel.text = [NSString stringWithFormat:@"%.0f", [(UIStepper *)sender value]];
 };
 - (IBAction)valueLengthFinishChanged:(id)sender{
+    if([lengthLabel.text length]==0) return;
     int value = [lengthLabel.text intValue];
     if(value<lengthStepper.minimumValue){
         value = lengthStepper.minimumValue;
@@ -217,6 +236,7 @@
     weightLabel.text = [NSString stringWithFormat:@"%.0f", [(UIStepper *)sender value]];
 }
 - (IBAction)valueWeightFinishChanged:(id)sender{
+    if([weightLabel.text length]==0) return;
     int value = [weightLabel.text intValue];
     if(value<weightStepper.minimumValue){
         value = lengthStepper.minimumValue;
@@ -233,6 +253,7 @@
     thighLabel.text = [NSString stringWithFormat:@"%.0f", [(UIStepper *)sender value]];
 };
 - (IBAction)valueThighFinishChanged:(id)sender{
+    if([thighLabel.text length]==0) return;
     int value = [thighLabel.text intValue];
     if(value<thighStepper.minimumValue){
         value = thighStepper.minimumValue;
@@ -249,6 +270,7 @@
     waistLabel.text = [NSString stringWithFormat:@"%.0f", [(UIStepper *)sender value]];
 };
 - (IBAction)valueWaistFinishChanged:(id)sender{
+    if([waistLabel.text length]==0) return;
     int value = [waistLabel.text intValue];
     if(value<waistStepper.minimumValue){
         value = waistStepper.minimumValue;
@@ -265,6 +287,7 @@
     chestLabel.text = [NSString stringWithFormat:@"%.0f", [(UIStepper *)sender value]];
 };
 - (IBAction)valueChestFinishChanged:(id)sender{
+    if([chestLabel.text length]==0) return;
     int value = [chestLabel.text intValue];
     if(value<chestStepper.minimumValue){
         value = chestStepper.minimumValue;
@@ -277,13 +300,19 @@
     chestStepper.value = value;
 };
 - (IBAction)correctScrollBeforeEditing:(id)sender{
+    [UIView animateWithDuration:0.4f animations:^(void){
+        [scrollView setFrame:CGRectMake(0, 0, 320, 220)];
+    }];
     CGRect fieldRect = [scrollView convertRect:[sender frame] toView:self.view];
-    NSLog(@"%.0f, %.0f, %.0f, %.0f", fieldRect.origin.x, fieldRect.origin.y, fieldRect.size.width, fieldRect.size.height);
+    //NSLog(@"%.0f, %.0f, %.0f, %.0f", fieldRect.origin.x, fieldRect.origin.y, fieldRect.size.width, fieldRect.size.height);
     if(fieldRect.origin.y>200){
-        [scrollView scrollRectToVisible:CGRectMake(0, [sender frame].origin.y+200, 320, 436) animated:YES];
+        [scrollView scrollRectToVisible:CGRectMake(0, [sender frame].origin.y, 320, 436) animated:YES];
     };
 };
 - (IBAction)hideKeyboard:(id)sender{
+    [UIView animateWithDuration:0.4f animations:^(void){
+        [scrollView setFrame:CGRectMake(0, 0, 320, 436)];
+    }];
     [sender resignFirstResponder];
 };
 
@@ -351,7 +380,17 @@
 };
 
 - (NSString *)getModuleMessage{
-    return @"Заполните информацию о себе";
+    if(moduleData==nil) return @"Данные не загружены";
+    
+    //NSLog(@"getModuleMessage: %@, %@, %@", name.text, surname.text, patronymic.text);
+    if([moduleData objectForKey:@"name"]==nil || [moduleData objectForKey:@"surname"]==nil || [moduleData objectForKey:@"patronymic"]==nil) return @"Укажите ФИО";
+    if([moduleData objectForKey:@"birthday"]==nil) return @"Укажите дату рождения";
+    if([moduleData objectForKey:@"length"]==nil) return @"Измерьте свой рост!";
+    if([moduleData objectForKey:@"weight"]==nil) return @"Измерьте свой вес!";
+    if([moduleData objectForKey:@"spirometry"]==nil) return @"Выполните спирометрию!";
+    if([moduleData objectForKey:@"thigh"]==nil || [moduleData objectForKey:@"waist"]==nil || [moduleData objectForKey:@"chest"]==nil) return @"Измерьте параметры телосложения!";
+    
+    return @"Все поля заполнены";
 };
 
 - (float)getModuleVersion{
@@ -362,16 +401,16 @@
     return [UIImage imageNamed:@"mainInfoModule_icon.png"];
 };
 
-- (void)loadModuleData{
-    NSString *listFilePath = [[self getBaseDir] stringByAppendingPathComponent:@"antropometry.dat"];
-    if([[NSFileManager defaultManager] fileExistsAtPath:listFilePath]==NO){
+- (void)convertSavedDataToViewFields{
+    if(moduleData==nil){
         name.text = @"";
         surname.text = @"";
         patronymic.text = @"";
         sex.selectedSegmentIndex = 0;
         ageLabel.text = @"Возраст: неизвестно";
-        lengthLabel.text = @"170";
-        weightLabel.text = @"75";
+        birthdayLabel.text = @"День Рождения: неизвестно";
+        lengthLabel.text = @"";
+        weightLabel.text = @"";
         spirometry.text = @"";
         photo.image = [UIImage imageNamed:@"voidPhoto.png"];
         lengthLabel.text = @"";
@@ -383,73 +422,127 @@
         return;
     };
     
-    NSDictionary *loadedParams = [NSDictionary dictionaryWithContentsOfFile:listFilePath];
-    if([loadedParams objectForKey:@"name"]){name.text = [loadedParams objectForKey:@"name"];}else{name.text = @"";};
-    if([loadedParams objectForKey:@"surname"]){surname.text = [loadedParams objectForKey:@"surname"];}else{surname.text = @"";};
-    if([loadedParams objectForKey:@"patronymic"]){patronymic.text = [loadedParams objectForKey:@"patronymic"];}else{patronymic.text = @"";};
-    sex.selectedSegmentIndex = [[loadedParams objectForKey:@"sex"] intValue];
-    birthday.date = [loadedParams objectForKey:@"birthday"];
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    birthdayLabel.text = [NSString stringWithFormat:@"День Рождения: %@ г.", [dateFormatter stringFromDate:birthday.date]];
-    [dateFormatter release];
-    NSUInteger ageNum = [self getAgeByBirthday:birthday.date];
-    ageLabel.text = [NSString stringWithFormat:@"Возраст: %d %@", ageNum, [self getYearsWord:ageNum padej:NO]];
-    if([loadedParams objectForKey:@"length"]){
-        lengthStepper.value = [[loadedParams objectForKey:@"length"] intValue];
+    
+    if([moduleData objectForKey:@"photo"]){photo.image = [UIImage imageWithData:[moduleData objectForKey:@"photo"]];};
+    if([moduleData objectForKey:@"name"]){
+        name.text = [moduleData objectForKey:@"name"];
+    }else{
+        name.text = @"";
+    };
+    if([moduleData objectForKey:@"surname"]){surname.text = [moduleData objectForKey:@"surname"];}else{surname.text = @"";};
+    if([moduleData objectForKey:@"patronymic"]){patronymic.text = [moduleData objectForKey:@"patronymic"];}else{patronymic.text = @"";};
+    sex.selectedSegmentIndex = [[moduleData objectForKey:@"sex"] intValue];
+    if([moduleData objectForKey:@"birthday"]){
+        //if(realBirthday) [realBirthday release];
+        realBirthday = [moduleData objectForKey:@"birthday"];
+        [birthday setDate:realBirthday];
+        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+        [dateFormatter setDateFormat:@"dd.MM.yy"];
+        birthdayLabel.text = [NSString stringWithFormat:@"День Рождения: %@ г.", [dateFormatter stringFromDate:realBirthday]];
+        [dateFormatter release];
+        NSUInteger ageNum = [self getAgeByBirthday:birthday.date];
+        ageLabel.text = [NSString stringWithFormat:@"Возраст: %d %@", ageNum, [self getYearsWord:ageNum padej:NO]];
+    }else{
+        ageLabel.text = @"Возраст: неизвестно";
+        birthdayLabel.text = @"День Рождения: неизвестно";
+    };
+    if([moduleData objectForKey:@"length"]){
+        lengthStepper.value = [[moduleData objectForKey:@"length"] floatValue];
         lengthLabel.text = [NSString stringWithFormat:@"%.0f", lengthStepper.value];
     }else{
         lengthLabel.text = @"";
     };
-    if([loadedParams objectForKey:@"weight"]){
-        weightStepper.value = [[loadedParams objectForKey:@"weight"] intValue];
+    if([moduleData objectForKey:@"weight"]){
+        weightStepper.value = [[moduleData objectForKey:@"weight"] intValue];
         weightLabel.text = [NSString stringWithFormat:@"%.0f", weightStepper.value];
     }else{
         weightLabel.text = @"";
     };
-    if([loadedParams objectForKey:@"spirometry"]){
-        lengthLabel.text = [NSString stringWithFormat:@"%d", [loadedParams objectForKey:@"spirometry"]];
+    if([moduleData objectForKey:@"spirometry"]){
+        spirometry.text = [NSString stringWithFormat:@"%d", [[moduleData objectForKey:@"spirometry"] intValue]];
     }else{
-        lengthLabel.text = @"";
+        spirometry.text = @"";
     };
-    if([loadedParams objectForKey:@"waist"]){
-        waistStepper.value = [[loadedParams objectForKey:@"waist"] intValue];
+    if([moduleData objectForKey:@"waist"]){
+        waistStepper.value = [[moduleData objectForKey:@"waist"] intValue];
         waistLabel.text = [NSString stringWithFormat:@"%.0f", waistStepper.value];
     }else{
         waistLabel.text = @"";
     };
-    if([loadedParams objectForKey:@"thigh"]){
-        thighStepper.value = [[loadedParams objectForKey:@"thigh"] intValue];
+    if([moduleData objectForKey:@"thigh"]){
+        thighStepper.value = [[moduleData objectForKey:@"thigh"] intValue];
         thighLabel.text = [NSString stringWithFormat:@"%.0f", thighStepper.value];
     }else{
         thighLabel.text = @"";
     };
-    if([loadedParams objectForKey:@"chest"]){
-        chestStepper.value = [[loadedParams objectForKey:@"chest"] intValue];
+    if([moduleData objectForKey:@"chest"]){
+        chestStepper.value = [[moduleData objectForKey:@"chest"] intValue];
         chestLabel.text = [NSString stringWithFormat:@"%.0f", chestStepper.value];
     }else{
         chestLabel.text = @"";
     };
+
 };
-- (void)saveModuleData{
+
+- (void)convertViewFieldsToSavedData{
     NSMutableDictionary *exportDict;
     
     exportDict = [[NSMutableDictionary alloc] init];
-    if(name.text && [name.text length]>0) [exportDict setObject:name.text forKey:@"name"];
-    if(surname.text && [surname.text length]>0) [exportDict setObject:surname.text forKey:@"surname"];
-    if(patronymic.text && [patronymic.text length]>0) [exportDict setObject:patronymic.text forKey:@"patronymic"];
-    if(photo.image) [exportDict setObject:photo.image forKey:@"photo"];
+    if(name.text && [name.text length]>0)
+        [exportDict setObject:name.text forKey:@"name"];
+    if(surname.text && [surname.text length]>0)
+        [exportDict setObject:surname.text forKey:@"surname"];
+    if(patronymic.text && [patronymic.text length]>0)
+        [exportDict setObject:patronymic.text forKey:@"patronymic"];
+    if(photo.image)
+        [exportDict setObject:UIImagePNGRepresentation(photo.image) forKey:@"photo"];
     [exportDict setObject:[NSNumber numberWithInteger:sex.selectedSegmentIndex] forKey:@"sex"];
-    [exportDict setObject:birthday.date forKey:@"birthday"];
-    if(lengthLabel.text && [lengthLabel.text length]>0) [exportDict setObject:[NSNumber numberWithInteger:lengthStepper.value] forKey:@"length"];
-    if(weightLabel.text && [weightLabel.text length]>0) [exportDict setObject:[NSNumber numberWithInteger:weightStepper.value] forKey:@"weight"];
-    if(spirometry.text && [spirometry.text length]>0) [exportDict setObject:[NSNumber numberWithInteger:[spirometry.text intValue]] forKey:@"spirometry"];
-    if(thighLabel.text && [thighLabel.text length]>0) [exportDict setObject:[NSNumber numberWithInteger:thighStepper.value] forKey:@"thigh"];
-    if(waistLabel.text && [waistLabel.text length]>0) [exportDict setObject:[NSNumber numberWithInteger:waistStepper.value] forKey:@"waist"];
-    if(chestLabel.text && [chestLabel.text length]>0) [exportDict setObject:[NSNumber numberWithInteger:chestStepper.value] forKey:@"chest"];
+    if(realBirthday)
+        [exportDict setObject:realBirthday forKey:@"birthday"];
+    if(lengthLabel.text && [lengthLabel.text length]>0)
+        [exportDict setObject:[NSNumber numberWithInteger:lengthStepper.value] forKey:@"length"];
+    if(weightLabel.text && [weightLabel.text length]>0)
+        [exportDict setObject:[NSNumber numberWithInteger:weightStepper.value] forKey:@"weight"];
+    if(spirometry.text && [spirometry.text length]>0)
+        [exportDict setObject:[NSNumber numberWithInteger:[spirometry.text intValue]] forKey:@"spirometry"];
+    if(thighLabel.text && [thighLabel.text length]>0)
+        [exportDict setObject:[NSNumber numberWithInteger:thighStepper.value] forKey:@"thigh"];
+    if(waistLabel.text && [waistLabel.text length]>0)
+        [exportDict setObject:[NSNumber numberWithInteger:waistStepper.value] forKey:@"waist"];
+    if(chestLabel.text && [chestLabel.text length]>0)
+        [exportDict setObject:[NSNumber numberWithInteger:chestStepper.value] forKey:@"chest"];
     
-    [exportDict writeToFile:[[self getBaseDir] stringByAppendingPathComponent:@"antropometry.dat"] atomically:YES];
+    if(moduleData) [moduleData release];
+    moduleData = [[NSDictionary alloc] initWithDictionary:exportDict];
     
     [exportDict release];
+};
+
+- (void)loadModuleData{
+    NSString *listFilePath = [[self getBaseDir] stringByAppendingPathComponent:@"antropometry.dat"];
+    NSDictionary *loadedParams = [NSDictionary dictionaryWithContentsOfFile:listFilePath];
+    if(loadedParams){
+        if(moduleData) [moduleData release];
+        moduleData = [[NSDictionary alloc] initWithDictionary:loadedParams];
+    };
+    
+    if([self isViewLoaded]){
+        [self convertSavedDataToViewFields];
+    }
+};
+- (void)saveModuleData{    
+    if([self isViewLoaded]){
+        [self convertViewFieldsToSavedData];
+    };
+    
+    if(moduleData==nil){
+        return;
+    };
+    
+    BOOL succ = [moduleData writeToFile:[[self getBaseDir] stringByAppendingPathComponent:@"antropometry.dat"] atomically:YES];
+    if(succ==NO){
+        NSLog(@"Error during save data");
+    };
 };
 
 

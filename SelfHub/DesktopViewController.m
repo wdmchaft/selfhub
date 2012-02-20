@@ -31,6 +31,7 @@
     modulesArray = [[NSMutableArray alloc] init];
     
     MainInformation *antropometryModule = [[MainInformation alloc] initWithNibName:@"MainInformation" bundle:nil];
+    [antropometryModule loadModuleData];
     [modulesArray addObject:antropometryModule];
     [antropometryModule release];
 }
@@ -46,6 +47,8 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+    [modulesTable reloadData];
 }
 
 - (void)viewDidAppear:(BOOL)animated

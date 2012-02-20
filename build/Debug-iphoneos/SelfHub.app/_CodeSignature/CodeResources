@@ -4,13 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>MainInformation.nib</key>
+		<data>
+		0IbHh+UES5Y3/GskurCUIR0aSD0=
+		</data>
 		<key>ModuleTableCell.nib</key>
 		<data>
-		DJKJMbFPWhnNz1MhjglkZntpvWE=
+		9cGgjhy4jRmL07JMdoPCf6iASoo=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>birthday_navbar.png</key>
+		<data>
+		+pM4RTq4zYidNthoJAOncMOIpKo=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -18,15 +26,23 @@
 		</data>
 		<key>en.lproj/DesktopViewController_iPad.nib</key>
 		<data>
-		AGagReAi5uzHzhQZUkq2aYdMYtw=
+		hBzKDjUQnCMzNigpLVWFAECMfss=
 		</data>
 		<key>en.lproj/DesktopViewController_iPhone.nib</key>
 		<data>
-		GupQCn55H4cbZE2dshcTDAdf2W0=
+		pbnNJ+b+BoSLyFSElHrh5sxuEwY=
 		</data>
 		<key>en.lproj/InfoPlist.strings</key>
 		<data>
 		zmV6UqBSo6r1NOz798vd5O4zTBA=
+		</data>
+		<key>mainInfoModule_icon.png</key>
+		<data>
+		bgv2CczWZ7uMPukzfqhyPnBdDfk=
+		</data>
+		<key>voidPhoto.png</key>
+		<data>
+		38dbqNrfNJVI2x+IfcubGscbS6o=
 		</data>
 	</dict>
 	<key>rules</key>
