@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ModuleGlobalDefinitions.h"
+#import "ModuleHelper.h"
 #import "MainInformation.h"
 
 
-@interface DesktopViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>{
-    NSMutableArray *modulesArray;
+@interface DesktopViewController : UIViewController <ServerProtocol, UITableViewDelegate, UITableViewDataSource>{
+    NSArray *modulesArray;
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *modulesTable;

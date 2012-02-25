@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		CE1B9FCB14F10FE700E8EE20 /* birthday_navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1B9FCA14F10FE700E8EE20 /* birthday_navbar.png */; };
 		CE1B9FD614F16DD700E8EE20 /* voidPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1B9FD514F16DD700E8EE20 /* voidPhoto.png */; };
+		CE1DDD1B14F42EC800A988AE /* MainInformation.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1DDD1D14F42EC800A988AE /* MainInformation.xib */; };
+		CE1DDD2314F696DF00A988AE /* ModuleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1DDD2214F696DF00A988AE /* ModuleHelper.m */; };
+		CE1DDD2A14F699FB00A988AE /* AllModules.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE1DDD2914F699FB00A988AE /* AllModules.plist */; };
+		CE1DDD3914F6AF1200A988AE /* antropometry.export.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE1DDD3814F6AF1200A988AE /* antropometry.export.plist */; };
+		CE1DDD3B14F9630600A988AE /* antropometry.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE1DDD3A14F9630600A988AE /* antropometry.strings */; };
+		CE1DDD4014F9634600A988AE /* MainInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1DDD4114F9634600A988AE /* MainInformation.m */; };
 		CE85D21E14ED993500B7D367 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE85D21D14ED993500B7D367 /* UIKit.framework */; };
 		CE85D22014ED993500B7D367 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE85D21F14ED993500B7D367 /* Foundation.framework */; };
 		CE85D22214ED993500B7D367 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE85D22114ED993500B7D367 /* CoreGraphics.framework */; };
@@ -21,13 +27,19 @@
 		CE85D24F14ED9A0800B7D367 /* DesktopViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE85D24B14ED9A0800B7D367 /* DesktopViewController_iPad.xib */; };
 		CE85D25014ED9A0800B7D367 /* DesktopViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE85D24D14ED9A0800B7D367 /* DesktopViewController_iPhone.xib */; };
 		CE9AD05B14EED080002E7A48 /* mainInfoModule_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9AD05714EED080002E7A48 /* mainInfoModule_icon.png */; };
-		CE9AD05C14EED080002E7A48 /* MainInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9AD05914EED080002E7A48 /* MainInformation.m */; };
-		CE9AD05D14EED080002E7A48 /* MainInformation.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9AD05A14EED080002E7A48 /* MainInformation.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE1B9FCA14F10FE700E8EE20 /* birthday_navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = birthday_navbar.png; sourceTree = "<group>"; };
 		CE1B9FD514F16DD700E8EE20 /* voidPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voidPhoto.png; sourceTree = "<group>"; };
+		CE1DDD1C14F42EC800A988AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainInformation.xib; sourceTree = "<group>"; };
+		CE1DDD2014F68C2300A988AE /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/MainInformation.xib; sourceTree = "<group>"; };
+		CE1DDD2114F6968F00A988AE /* ModuleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModuleHelper.h; path = Modules/ModuleHelper.h; sourceTree = "<group>"; };
+		CE1DDD2214F696DF00A988AE /* ModuleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModuleHelper.m; path = Modules/ModuleHelper.m; sourceTree = "<group>"; };
+		CE1DDD2914F699FB00A988AE /* AllModules.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.info; fileEncoding = 4; path = AllModules.plist; sourceTree = "<group>"; };
+		CE1DDD3814F6AF1200A988AE /* antropometry.export.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = antropometry.export.plist; sourceTree = "<group>"; };
+		CE1DDD3A14F9630600A988AE /* antropometry.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = antropometry.strings; sourceTree = "<group>"; };
+		CE1DDD4114F9634600A988AE /* MainInformation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainInformation.m; sourceTree = "<group>"; };
 		CE85D21914ED993500B7D367 /* SelfHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE85D21D14ED993500B7D367 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE85D21F14ED993500B7D367 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,11 +57,8 @@
 		CE85D24814ED99FA00B7D367 /* ModuleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModuleTableCell.xib; sourceTree = "<group>"; };
 		CE85D24C14ED9A0800B7D367 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DesktopViewController_iPad.xib; sourceTree = "<group>"; };
 		CE85D24E14ED9A0800B7D367 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DesktopViewController_iPhone.xib; sourceTree = "<group>"; };
-		CE9AD05414EED055002E7A48 /* ModuleGlobalDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModuleGlobalDefinitions.h; path = Modules/ModuleGlobalDefinitions.h; sourceTree = "<group>"; };
 		CE9AD05714EED080002E7A48 /* mainInfoModule_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainInfoModule_icon.png; sourceTree = "<group>"; };
 		CE9AD05814EED080002E7A48 /* MainInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainInformation.h; sourceTree = "<group>"; };
-		CE9AD05914EED080002E7A48 /* MainInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainInformation.m; sourceTree = "<group>"; };
-		CE9AD05A14EED080002E7A48 /* MainInformation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainInformation.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +105,7 @@
 		CE85D22314ED993500B7D367 /* SelfHub */ = {
 			isa = PBXGroup;
 			children = (
+				CE1DDD2914F699FB00A988AE /* AllModules.plist */,
 				CE9AD04A14EEC410002E7A48 /* Modules */,
 				CE85D25114ED9A0E00B7D367 /* DesktopViewController(root) */,
 				CE85D24514ED99E900B7D367 /* ModuleTableCell */,
@@ -141,7 +151,8 @@
 		CE9AD04A14EEC410002E7A48 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				CE9AD05414EED055002E7A48 /* ModuleGlobalDefinitions.h */,
+				CE1DDD2114F6968F00A988AE /* ModuleHelper.h */,
+				CE1DDD2214F696DF00A988AE /* ModuleHelper.m */,
 				CE9AD05514EED080002E7A48 /* MainInformation */,
 			);
 			name = Modules;
@@ -152,8 +163,10 @@
 			children = (
 				CE9AD05614EED080002E7A48 /* images */,
 				CE9AD05814EED080002E7A48 /* MainInformation.h */,
-				CE9AD05914EED080002E7A48 /* MainInformation.m */,
-				CE9AD05A14EED080002E7A48 /* MainInformation.xib */,
+				CE1DDD4114F9634600A988AE /* MainInformation.m */,
+				CE1DDD1D14F42EC800A988AE /* MainInformation.xib */,
+				CE1DDD3814F6AF1200A988AE /* antropometry.export.plist */,
+				CE1DDD3A14F9630600A988AE /* antropometry.strings */,
 			);
 			name = MainInformation;
 			path = Modules/MainInformation;
@@ -203,6 +216,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ru,
 			);
 			mainGroup = CE85D20E14ED993500B7D367;
 			productRefGroup = CE85D21A14ED993500B7D367 /* Products */;
@@ -224,9 +238,12 @@
 				CE85D24F14ED9A0800B7D367 /* DesktopViewController_iPad.xib in Resources */,
 				CE85D25014ED9A0800B7D367 /* DesktopViewController_iPhone.xib in Resources */,
 				CE9AD05B14EED080002E7A48 /* mainInfoModule_icon.png in Resources */,
-				CE9AD05D14EED080002E7A48 /* MainInformation.xib in Resources */,
+				CE1DDD1B14F42EC800A988AE /* MainInformation.xib in Resources */,
 				CE1B9FCB14F10FE700E8EE20 /* birthday_navbar.png in Resources */,
 				CE1B9FD614F16DD700E8EE20 /* voidPhoto.png in Resources */,
+				CE1DDD2A14F699FB00A988AE /* AllModules.plist in Resources */,
+				CE1DDD3914F6AF1200A988AE /* antropometry.export.plist in Resources */,
+				CE1DDD3B14F9630600A988AE /* antropometry.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,13 +258,23 @@
 				CE85D22E14ED993500B7D367 /* AppDelegate.m in Sources */,
 				CE85D24414ED99E000B7D367 /* DesktopViewController.m in Sources */,
 				CE85D24914ED99FA00B7D367 /* ModuleTableCell.m in Sources */,
-				CE9AD05C14EED080002E7A48 /* MainInformation.m in Sources */,
+				CE1DDD4014F9634600A988AE /* MainInformation.m in Sources */,
+				CE1DDD2314F696DF00A988AE /* ModuleHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		CE1DDD1D14F42EC800A988AE /* MainInformation.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1DDD1C14F42EC800A988AE /* en */,
+				CE1DDD2014F68C2300A988AE /* ru */,
+			);
+			name = MainInformation.xib;
+			sourceTree = "<group>";
+		};
 		CE85D22614ED993500B7D367 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

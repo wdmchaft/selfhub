@@ -10,14 +10,15 @@
 
 @implementation MainInformation
 
+@synthesize delegate;
 @synthesize scrollView, dateSelector, birthday, realBirthday, moduleData;
 @synthesize photo, surname, name, patronymic;
 @synthesize sex, ageLabel, birthdayLabel;
 @synthesize lengthLabel, lengthStepper, weightLabel, weightStepper, spirometry, thighLabel, thighStepper, waistLabel, waistStepper, chestLabel, chestStepper;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id)init
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    self = [super init];
     if (self) {
         // Custom initialization
         realBirthday = nil;
@@ -55,6 +56,7 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    delegate = nil;
     scrollView = nil;
     dateSelector = nil;
     birthday = nil;
@@ -82,6 +84,7 @@
 
 - (void)dealloc
 {
+    delegate = nil;
     [scrollView release];
     [dateSelector release];
     [birthday release];
@@ -115,6 +118,9 @@
     }else{
         [self convertSavedDataToViewFields];
     };
+    
+    //NSLog(@"Getting value from module: %@", [delegate getValueForName:@"surname" fromModuleWithID:@"selfhub.antropometry"]);
+    [[ModuleHelper sharedHelper] testExchangeListForModuleWithID:@"selfhub.antropometry"];
 };
 
 - (void)viewWillDisappear:(BOOL)animated{
@@ -371,6 +377,27 @@
 
 #pragma mark - Module protocol functions
 
+- (id)initModuleWithDelegate:(id<ServerProtocol>)serverDelegate{
+    NSString *nibName;
+    if([[UIDevice currentDevice] userInterfaceIdiom]==UIUserInterfaceIdiomPhone){
+        nibName = @"MainInformation";
+    }else{
+        return nil;
+    };
+    
+    self = [super initWithNibName:nibName bundle:nil];
+    if (self) {
+        // Custom initialization
+        realBirthday = nil;
+        moduleData = nil;
+        delegate = serverDelegate;
+        if(serverDelegate==nil){
+            NSLog(@"WARNING: module \"%@\" initialized without server delegate!", [self getModuleName]);
+        };
+    }
+    return self;
+};
+
 - (NSString *)getModuleName{
     return @"Антропометрия";
 };
@@ -399,6 +426,25 @@
 
 - (UIImage *)getModuleIcon{
     return [UIImage imageNamed:@"mainInfoModule_icon.png"];
+};
+
+- (BOOL)isInterfaceIdiomSupportedByModule:(UIUserInterfaceIdiom)idiom{
+    BOOL res;
+    switch (idiom) {
+        case UIUserInterfaceIdiomPhone:
+            res = YES;
+            break;
+            
+        case UIUserInterfaceIdiomPad:
+            res = NO;
+            break;
+            
+        default:
+            res = NO;
+            break;
+    };
+    
+    return res;
 };
 
 - (void)convertSavedDataToViewFields{
@@ -513,7 +559,7 @@
         [exportDict setObject:[NSNumber numberWithInteger:chestStepper.value] forKey:@"chest"];
     
     if(moduleData) [moduleData release];
-    moduleData = [[NSDictionary alloc] initWithDictionary:exportDict];
+    moduleData = [[NSMutableDictionary alloc] initWithDictionary:exportDict];
     
     [exportDict release];
 };
@@ -523,7 +569,7 @@
     NSDictionary *loadedParams = [NSDictionary dictionaryWithContentsOfFile:listFilePath];
     if(loadedParams){
         if(moduleData) [moduleData release];
-        moduleData = [[NSDictionary alloc] initWithDictionary:loadedParams];
+        moduleData = [[NSMutableDictionary alloc] initWithDictionary:loadedParams];
     };
     
     if([self isViewLoaded]){
@@ -543,6 +589,14 @@
     if(succ==NO){
         NSLog(@"Error during save data");
     };
+};
+
+- (id)getModuleValueForKey:(NSString *)key{
+    return nil;
+};
+
+- (void)setModuleValue:(id)object forKey:(NSString *)key{
+    
 };
 
 

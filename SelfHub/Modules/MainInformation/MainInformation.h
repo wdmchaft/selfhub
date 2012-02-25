@@ -7,21 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ModuleGlobalDefinitions.h"
+#import "ModuleHelper.h"
 
 @protocol ModuleProtocol;
 
 
-@interface MainInformation : UIViewController <ModuleProtocol, UIImagePickerControllerDelegate, UIActionSheetDelegate, UINavigationControllerDelegate>{
+@interface MainInformation : UIViewController <ModuleProtocol,  UIImagePickerControllerDelegate, UIActionSheetDelegate, UINavigationControllerDelegate>{
     
 };
+
+@property (nonatomic, assign) id <ServerProtocol> delegate;
 
 @property (nonatomic, retain) IBOutlet UIScrollView *scrollView;
 @property (nonatomic, retain) IBOutlet UIView *dateSelector;
 @property (nonatomic, retain) IBOutlet UIDatePicker *birthday;
 @property (nonatomic, retain) NSDate *realBirthday;
 
-@property (nonatomic, retain) NSDictionary *moduleData;
+@property (nonatomic, retain) NSMutableDictionary *moduleData;
 
 - (NSString *)getBaseDir;
 - (NSDate *)getDateFromString_ddMMyy:(NSString *)dateStr;
