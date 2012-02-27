@@ -26,7 +26,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.title = @"Desktop";
+    self.title = NSLocalizedString(@"Desktop", @"");
     
     //NSMutableArray *tmpModulesArray = [[NSMutableArray alloc] init];
     
@@ -136,7 +136,6 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     //NSLog(@"%@", [[modulesArray objectAtIndex:0] valueForKeyPath:@"moduleData.name"]);
-    [self setValue:@"Hello, my darling!" forName:@"surname" forModuleWithID:@"selfhub.antropometry"];
     
     UIViewController<ModuleProtocol> *curModuleController;
     curModuleController = [[modulesArray objectAtIndex:[indexPath row]] objectForKey:@"viewController"];

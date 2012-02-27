@@ -2,27 +2,29 @@ TSelfHub
 v4
 r1
 cCheck dependencies
-cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Release-iphoneos/SelfHub.app/ResourceRules.plist
 cProcessInfoPlistFile /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/Info.plist SelfHub/SelfHub-Info.plist
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Release-iphoneos/SelfHub.app/ResourceRules.plist
 cProcessPCH /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-dtedsromwxynheaipjixnpxlczyc/SelfHub-Prefix.pch.pth SelfHub/SelfHub-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/main.o /Projects/SelfHub/SelfHub/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/AppDelegate.o /Projects/SelfHub/SelfHub/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/DesktopViewController.o /Projects/SelfHub/SelfHub/DesktopViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/ModuleTableCell.o /Projects/SelfHub/SelfHub/ModuleTableCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/ModuleHelper.o /Projects/SelfHub/SelfHub/Modules/ModuleHelper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/MainInformation.o /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/ModuleHelper.o /Projects/SelfHub/SelfHub/Modules/ModuleHelper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/SelfHub normal armv7
 cGenerateDSYMFile /Projects/SelfHub/build/Release-iphoneos/SelfHub.app.dSYM /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/SelfHub
-cCopyStringsFile /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/en.lproj/InfoPlist.strings SelfHub/en.lproj/InfoPlist.strings
 cCompileXIB /Projects/SelfHub/SelfHub/ModuleTableCell.xib
 cCompileXIB /Projects/SelfHub/SelfHub/en.lproj/DesktopViewController_iPad.xib
+cCopyStringsFile /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/en.lproj/InfoPlist.strings SelfHub/en.lproj/InfoPlist.strings
 cCompileXIB /Projects/SelfHub/SelfHub/en.lproj/DesktopViewController_iPhone.xib
 cCopyPNGFile /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/mainInfoModule_icon.png SelfHub/Modules/MainInformation/images/mainInfoModule_icon.png
-cCompileXIB /Projects/SelfHub/SelfHub/Modules/MainInformation/ru.lproj/MainInformation.xib
 cCompileXIB /Projects/SelfHub/SelfHub/Modules/MainInformation/en.lproj/MainInformation.xib
+cCompileXIB /Projects/SelfHub/SelfHub/Modules/MainInformation/ru.lproj/MainInformation.xib
 cCopyPNGFile /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/birthday_navbar.png SelfHub/Modules/MainInformation/images/birthday_navbar.png
-cCopyPNGFile /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/voidPhoto.png SelfHub/Modules/MainInformation/images/voidPhoto.png
 cCopyPlistFile /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/AllModules.plist SelfHub/AllModules.plist
+cCopyPlistFile /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/antropometry.export.plist SelfHub/Modules/MainInformation/antropometry.export.plist
+cCopyPNGFile /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/voidPhoto.png SelfHub/Modules/MainInformation/images/voidPhoto.png
+cCopyStringsFile /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/antropometry.strings SelfHub/Modules/MainInformation/antropometry.strings
 cProcessProductPackaging "/Users/User/Library/MobileDevice/Provisioning Profiles/CB9723A2-C225-4617-BDE6-67D8C8766794.mobileprovision" /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/embedded.mobileprovision
 cProcessProductPackaging "/Users/User/Library/MobileDevice/Provisioning Profiles/CB9723A2-C225-4617-BDE6-67D8C8766794.mobileprovision" /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/embedded.mobileprovision
 cTouch /Projects/SelfHub/build/Release-iphoneos/SelfHub.app
@@ -61,9 +63,9 @@ t1316489415
 s7913040
 
 N/Projects/SelfHub/SelfHub/AllModules.plist
-c000000004F4663770000000000000197
-t1330013047
-s407
+c000000004F48FAFD00000000000001E0
+t1330182909
+s480
 
 N/Projects/SelfHub/SelfHub/AppDelegate.h
 c000000004F3D635500000000000001DA
@@ -76,14 +78,14 @@ t1329423094
 s3122
 
 N/Projects/SelfHub/SelfHub/DesktopViewController.h
-c000000004F46622600000000000001B2
-t1330012710
-s434
+c000000004F48EF2200000000000001C2
+t1330179874
+s450
 
 N/Projects/SelfHub/SelfHub/DesktopViewController.m
-c000000004F46652D0000000000000ED4
-t1330013485
-s3796
+c000000004F49251C0000000000002A94
+t1330193692
+s10900
 
 N/Projects/SelfHub/SelfHub/ModuleGlobalDefinitions.m
 c000000004F43F0C300000000000000B5
@@ -106,19 +108,29 @@ t1329760776
 s13103
 
 N/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.h
-c000000004F4662060000000000000B15
-t1330012678
-s2837
+c000000004F48FC250000000000000B5A
+t1330183205
+s2906
 
 N/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m
-c000000004F43F4160000000000004E70
-t1329853462
-s20080
+c000000004F4BAD570000000000005108
+t1330359639
+s20744
 
 N/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.xib
 c000000004F42A8FC0000000000017356
 t1329768700
 s95062
+
+N/Projects/SelfHub/SelfHub/Modules/MainInformation/antropometry.export.plist
+c000000004F49295E0000000000000ADF
+t1330194782
+s2783
+
+N/Projects/SelfHub/SelfHub/Modules/MainInformation/antropometry.strings
+c000000004F492B850000000000000092
+t1330195333
+s146
 
 N/Projects/SelfHub/SelfHub/Modules/MainInformation/en.lproj/MainInformation.xib
 c000000004F4654A00000000000017995
@@ -151,14 +163,14 @@ t2
 s0
 
 N/Projects/SelfHub/SelfHub/Modules/ModuleHelper.h
-c000000004F4660D4000000000000029E
-t1330012372
-s670
+c000000004F492480000000000000045B
+t1330193536
+s1115
 
 N/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m
-c000000004F4661E90000000000000126
-t1330012649
-s294
+c000000004F4927D000000000000012AB
+t1330194384
+s4779
 
 N/Projects/SelfHub/SelfHub/SelfHub-Prefix.pch
 c000000004F3D61B5000000000000013D
@@ -186,16 +198,16 @@ t1329422773
 s349
 
 N/Projects/SelfHub/build/Release-iphoneos/SelfHub.app
-t1330012420
-s476
+t1330013486
+s510
 
 N/Projects/SelfHub/build/Release-iphoneos/SelfHub.app.dSYM
-t1330012418
+t1330013485
 s102
 
 N/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/AllModules.plist
-t2
-s0
+t1330013485
+s131
 
 N/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/Info.plist
 t1330012416
@@ -218,8 +230,16 @@ t1330012416
 s485
 
 N/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/SelfHub
-t1330012420
-s76800
+t1330013486
+s76864
+
+N/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/antropometry.export.plist
+t2
+s0
+
+N/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/antropometry.strings
+t2
+s0
 
 N/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/birthday_navbar.png
 t1330012419
@@ -258,15 +278,15 @@ t1330012419
 s4021
 
 N/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/AppDelegate.o
-t1330012417
+t1330013485
 s57364
 
 N/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/DesktopViewController.o
-t1330012417
-s55892
+t1330013485
+s57052
 
 N/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/MainInformation.o
-t1330012417
+t1330013485
 s146908
 
 N/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/ModuleGlobalDefinitions.o
@@ -274,8 +294,8 @@ t2
 s0
 
 N/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/ModuleHelper.o
-t1330012417
-s3952
+t1330013485
+s3940
 
 N/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/ModuleTableCell.o
 t1330012417
@@ -339,19 +359,19 @@ r0
 
 CCheck dependencies
 r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciescb852aad9cf6b441^c1fe33ad9cf6b441^---0#1#0#--18"Check dependencies36"DF2CD89D-3569-45F4-BDD4-6F0E3CAFCEA2-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies40fcf8d7e4fbb441^197416d8e4fbb441^---0#1#0#--18"Check dependencies36"AEFE4F64-C05C-4FF3-817D-33979F25CB5E-
 
 CCodeSign /Projects/SelfHub/build/Release-iphoneos/SelfHub.app
-s351706285.999889
-e351706286.180560
+s352052442.307338
+e352052443.268245
 r1
 xCodeSign
 x/Projects/SelfHub/build/Release-iphoneos/SelfHub.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"CodeSign build/Release-iphoneos/SelfHub.appdd0700ae9cf6b441^82392eae9cf6b441^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/0000000000000000^611"CodeSign build/Release-iphoneos/SelfHub.app    cd /Projects/SelfHub    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign "iPhone Distribution: Igor Barinov" --resource-rules=/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/ResourceRules.plist --entitlements /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub.xcent /Projects/SelfHub/build/Release-iphoneos/SelfHub.app36"DDA77041-4765-4E3C-828F-820DB224411B-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"CodeSign build/Release-iphoneos/SelfHub.app49be4edae4fbb441^3bac44dbe4fbb441^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/0000000000000000^611"CodeSign build/Release-iphoneos/SelfHub.app    cd /Projects/SelfHub    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign "iPhone Distribution: Igor Barinov" --resource-rules=/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/ResourceRules.plist --entitlements /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub.xcent /Projects/SelfHub/build/Release-iphoneos/SelfHub.app36"153BE38F-8942-4E61-AB36-849605B7E2D2-
 
 CCompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/AppDelegate.o /Projects/SelfHub/SelfHub/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s351706285.228867
-e351706285.703284
+s352052440.111302
+e352052441.203060
 r1
 xCompileC
 xbuild/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/AppDelegate.o
@@ -360,11 +380,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Compile /Projects/SelfHub/SelfHub/AppDelegate.meeb03dad9cf6b441^a514b4ad9cf6b441^---0#0#0#-19%DVTDocumentLocation2@55"file://localhost/Projects/SelfHub/SelfHub/AppDelegate.m0000000000000000^2250"CompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/AppDelegate.o SelfHub/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Release-iphoneos/include -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/DerivedSources/armv7 -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-dtedsromwxynheaipjixnpxlczyc/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/AppDelegate.d -c /Projects/SelfHub/SelfHub/AppDelegate.m -o /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/AppDelegate.o36"57B88DE0-E4C7-45B0-8EE9-F74560577756-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Compile /Projects/SelfHub/SelfHub/AppDelegate.m31971cd8e4fbb441^360334d9e4fbb441^---0#0#0#-19%DVTDocumentLocation2@55"file://localhost/Projects/SelfHub/SelfHub/AppDelegate.m0000000000000000^2250"CompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/AppDelegate.o SelfHub/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Release-iphoneos/include -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/DerivedSources/armv7 -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-dtedsromwxynheaipjixnpxlczyc/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/AppDelegate.d -c /Projects/SelfHub/SelfHub/AppDelegate.m -o /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/AppDelegate.o36"6D12BC53-F58B-4D8A-82D8-8A4B6D5A22EF-
 
 CCompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/DesktopViewController.o /Projects/SelfHub/SelfHub/DesktopViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s351706285.228997
-e351706285.703279
+s352052440.111383
+e352052441.203724
 r1
 xCompileC
 xbuild/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/DesktopViewController.o
@@ -373,33 +393,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Projects/SelfHub/SelfHub/DesktopViewController.m:37:30:{37:51-37:152}: warning: incompatible pointer types initializing 'id<ModuleProtocol> *' with an expression of type 'id' [-Wincompatible-pointer-types,3]
-o         id <ModuleProtocol> *antropometryModule = [[[[oneModuleInfo objectForKey:@"Interface"] classForClassName:@"MainInformation"] alloc] initModule];
-o                              ^                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Projects/SelfHub/SelfHub/DesktopViewController.m:38:10:{38:10-38:28}: warning: receiver type 'id<ModuleProtocol> *' is not 'id' or interface pointer, consider casting it to 'id' [3]
-o         [antropometryModule loadModuleData];
-o          ^~~~~~~~~~~~~~~~~~
-o/Projects/SelfHub/SelfHub/DesktopViewController.m:38:9:{38:9-38:44}: warning: instance method '-loadModuleData' not found (return type defaults to 'id') [3]
-o         [antropometryModule loadModuleData];
-o         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Projects/SelfHub/SelfHub/DesktopViewController.m:39:36:{39:36-39:54}: warning: incompatible pointer types sending 'id<ModuleProtocol> *' to parameter of type 'id' [-Wincompatible-pointer-types,3]
-o         [tmpModulesArray addObject:antropometryModule];
-o                                    ^~~~~~~~~~~~~~~~~~
-o/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h:114:23: note: passing argument to parameter 'anObject' here [3]
-o - (void)addObject:(id)anObject;
-o                       ^
-o/Projects/SelfHub/SelfHub/DesktopViewController.m:40:10:{40:10-40:28}: warning: receiver type 'id<ModuleProtocol> *' is not 'id' or interface pointer, consider casting it to 'id' [3]
-o         [antropometryModule release];
-o          ^~~~~~~~~~~~~~~~~~
-o/Projects/SelfHub/SelfHub/DesktopViewController.m:40:9:{40:9-40:37}: warning: instance method '-release' not found (return type defaults to 'id') [3]
-o         [antropometryModule release];
-o         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o6 warnings generated.
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Projects/SelfHub/SelfHub/DesktopViewController.md5b03fad9cf6b441^390ab4ad9cf6b441^-2088"/Projects/SelfHub/SelfHub/DesktopViewController.m:37:30:{37:51-37:152}: warning: incompatible pointer types initializing 'id<ModuleProtocol> *' with an expression of type 'id' [-Wincompatible-pointer-types,3]         id <ModuleProtocol> *antropometryModule = [[[[oneModuleInfo objectForKey:@"Interface"] classForClassName:@"MainInformation"] alloc] initModule];                              ^                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Projects/SelfHub/SelfHub/DesktopViewController.m:38:10:{38:10-38:28}: warning: receiver type 'id<ModuleProtocol> *' is not 'id' or interface pointer, consider casting it to 'id' [3]         [antropometryModule loadModuleData];          ^~~~~~~~~~~~~~~~~~/Projects/SelfHub/SelfHub/DesktopViewController.m:38:9:{38:9-38:44}: warning: instance method '-loadModuleData' not found (return type defaults to 'id') [3]         [antropometryModule loadModuleData];         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Projects/SelfHub/SelfHub/DesktopViewController.m:39:36:{39:36-39:54}: warning: incompatible pointer types sending 'id<ModuleProtocol> *' to parameter of type 'id' [-Wincompatible-pointer-types,3]         [tmpModulesArray addObject:antropometryModule];                                    ^~~~~~~~~~~~~~~~~~/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h:114:23: note: passing argument to parameter 'anObject' here [3] - (void)addObject:(id)anObject;                       ^/Projects/SelfHub/SelfHub/DesktopViewController.m:40:10:{40:10-40:28}: warning: receiver type 'id<ModuleProtocol> *' is not 'id' or interface pointer, consider casting it to 'id' [3]         [antropometryModule release];          ^~~~~~~~~~~~~~~~~~/Projects/SelfHub/SelfHub/DesktopViewController.m:40:9:{40:9-40:37}: warning: instance method '-release' not found (return type defaults to 'id') [3]         [antropometryModule release];         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~6 warnings generated.6(21%IDEActivityLogMessage2@94"Incompatible pointer types initializing 'id<ModuleProtocol> *' with an expression of type 'id'-351706285#0#209#-1#-23%DVTTextDocumentLocation3@65"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController.m0000000000000000^36#29#36#29#18446744073709551615#0#14"Semantic Issue1(3@65"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController.m0000000000000000^36#50#36#151#18446744073709551615#0#-2@98"Receiver type 'id<ModuleProtocol> *' is not 'id' or interface pointer, consider casting it to 'id'-351706285#516#183#-1#-3@65"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController.m0000000000000000^37#9#37#9#18446744073709551615#0#14"Semantic Issue1(3@65"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController.m0000000000000000^37#9#37#27#18446744073709551615#0#-2@74"Instance method '-loadModuleData' not found (return type defaults to 'id')43"Instance method '-loadModuleData' not found351706285#774#157#-1#-3@65"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController.m0000000000000000^37#8#37#8#18446744073709551615#0#14"Semantic Issue1(3@65"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController.m0000000000000000^37#8#37#43#18446744073709551615#0#-2@83"Incompatible pointer types sending 'id<ModuleProtocol> *' to parameter of type 'id'-351706285#1022#197#1(2@45"Passing argument to parameter 'anObject' here-351706285#1331#199#-0#-3@150"file://localhost/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h0000000000000000^113#22#113#22#18446744073709551615#0#14"Semantic Issue--1#-3@65"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController.m0000000000000000^38#35#38#35#18446744073709551615#0#14"Semantic Issue1(3@65"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController.m0000000000000000^38#35#38#53#18446744073709551615#0#-2@98"Receiver type 'id<ModuleProtocol> *' is not 'id' or interface pointer, consider casting it to 'id'-351706285#1588#183#-1#-3@65"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController.m0000000000000000^39#9#39#9#18446744073709551615#0#14"Semantic Issue1(3@65"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController.m0000000000000000^39#9#39#27#18446744073709551615#0#-2@67"Instance method '-release' not found (return type defaults to 'id')36"Instance method '-release' not found351706285#1839#150#-1#-3@65"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController.m0000000000000000^39#8#39#8#18446744073709551615#0#14"Semantic Issue1(3@65"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController.m0000000000000000^39#8#39#36#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation4@65"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController.m0000000000000000^2300"CompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/DesktopViewController.o SelfHub/DesktopViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Release-iphoneos/include -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/DerivedSources/armv7 -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-dtedsromwxynheaipjixnpxlczyc/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/DesktopViewController.d -c /Projects/SelfHub/SelfHub/DesktopViewController.m -o /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/DesktopViewController.o36"4D0973C0-0A54-4B76-8A1F-84AD9DB63F20-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Projects/SelfHub/SelfHub/DesktopViewController.m1c981cd8e4fbb441^952734d9e4fbb441^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController.m0000000000000000^2300"CompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/DesktopViewController.o SelfHub/DesktopViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Release-iphoneos/include -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/DerivedSources/armv7 -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-dtedsromwxynheaipjixnpxlczyc/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/DesktopViewController.d -c /Projects/SelfHub/SelfHub/DesktopViewController.m -o /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/DesktopViewController.o36"9CF6B223-0762-4E5E-8513-09790B4A18D6-
 
 CCompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/MainInformation.o /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s351706285.248496
-e351706285.856365
+s352052440.112490
+e352052441.277025
 r1
 xCompileC
 xbuild/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/MainInformation.o
@@ -408,25 +406,14 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m:11:1: warning: incomplete implementation [-Wincomplete-implementation,3]
-o @implementation MainInformation
-o ^
-o/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m:11:1: warning: method in protocol not implemented [-Wprotocol,3]
-o/Projects/SelfHub/SelfHub/Modules/ModuleHelper.h:14:1: note: method declared here [3]
-o - (NSString *)getModuleID;
-o ^
-o/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.h:15:1: note: required for direct or indirect protocol 'ModuleProtocol' [3]
-o @interface MainInformation : UIViewController <ModuleProtocol, UIImagePickerControllerDelegate, UIActionSheetDelegate, UINavigationControllerDelegate>{
-o ^
-o2 warnings generated.
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m5fb43fad9cf6b441^603cdbad9cf6b441^-747"/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m:11:1: warning: incomplete implementation [-Wincomplete-implementation,3] @implementation MainInformation ^/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m:11:1: warning: method in protocol not implemented [-Wprotocol,3]/Projects/SelfHub/SelfHub/Modules/ModuleHelper.h:14:1: note: method declared here [3] - (NSString *)getModuleID; ^/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.h:15:1: note: required for direct or indirect protocol 'ModuleProtocol' [3] @interface MainInformation : UIViewController <ModuleProtocol, UIImagePickerControllerDelegate, UIActionSheetDelegate, UINavigationControllerDelegate>{ ^2 warnings generated.2(21%IDEActivityLogMessage2@25"Incomplete implementation-351706285#0#141#-1#-23%DVTTextDocumentLocation3@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^10#0#10#0#18446744073709551615#0#14"Semantic Issue--2@34"Method in protocol not implemented-351706285#177#133#2(2@20"Method declared here-351706285#310#86#-0#-3@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.h0000000000000000^13#0#13#0#18446744073709551615#0#14"Semantic Issue--2@57"Required for direct or indirect protocol 'ModuleProtocol'-351706285#427#142#-0#-3@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.h0000000000000000^14#0#14#0#18446744073709551615#0#14"Semantic Issue--1#-3@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^10#0#10#0#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^2318"CompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/MainInformation.o SelfHub/Modules/MainInformation/MainInformation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Release-iphoneos/include -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/DerivedSources/armv7 -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-dtedsromwxynheaipjixnpxlczyc/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/MainInformation.d -c /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m -o /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/MainInformation.o36"0F84A8FA-8AD3-4201-96EF-34793225AFE0-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m93e11cd8e4fbb441^5feb46d9e4fbb441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^2318"CompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/MainInformation.o SelfHub/Modules/MainInformation/MainInformation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Release-iphoneos/include -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/DerivedSources/armv7 -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-dtedsromwxynheaipjixnpxlczyc/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/MainInformation.d -c /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m -o /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/MainInformation.o36"D80D99D1-6E3F-4B59-89D1-2CA100A76A2D-
 
 CCompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/ModuleGlobalDefinitions.o /Projects/SelfHub/SelfHub/ModuleGlobalDefinitions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 r0
 
 CCompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/ModuleHelper.o /Projects/SelfHub/SelfHub/Modules/ModuleHelper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s351706285.240925
-e351706285.697394
+s352052440.112511
+e352052441.200050
 r1
 xCompileC
 xbuild/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/ModuleHelper.o
@@ -435,7 +422,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Projects/SelfHub/SelfHub/Modules/ModuleHelper.md8bb3fad9cf6b441^9c88b2ad9cf6b441^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^2271"CompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/ModuleHelper.o SelfHub/Modules/ModuleHelper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Release-iphoneos/include -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/DerivedSources/armv7 -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-dtedsromwxynheaipjixnpxlczyc/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/ModuleHelper.d -c /Projects/SelfHub/SelfHub/Modules/ModuleHelper.m -o /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/ModuleHelper.o36"8D6E6D9F-CB00-4E91-AC2D-F1FE96FCBF5F-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Projects/SelfHub/SelfHub/Modules/ModuleHelper.m43e41cd8e4fbb441^244233d9e4fbb441^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^2271"CompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/ModuleHelper.o SelfHub/Modules/ModuleHelper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Release-iphoneos/include -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/DerivedSources/armv7 -I/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-dtedsromwxynheaipjixnpxlczyc/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/ModuleHelper.d -c /Projects/SelfHub/SelfHub/Modules/ModuleHelper.m -o /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/ModuleHelper.o36"989D8188-785B-46C6-9D2E-20B839D55702-
 
 CCompileC build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/ModuleTableCell.o /Projects/SelfHub/SelfHub/ModuleTableCell.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s351705217.256010
@@ -539,13 +526,31 @@ xSelfHub/Modules/MainInformation/images/voidPhoto.png
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"CopyPNGFile build/Release-iphoneos/SelfHub.app/voidPhoto.png SelfHub/Modules/MainInformation/images/voidPhoto.png9279988398f6b441^ad4fbd8398f6b441^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/images/voidPhoto.png0000000000000000^564"CopyPNGFile build/Release-iphoneos/SelfHub.app/voidPhoto.png SelfHub/Modules/MainInformation/images/voidPhoto.png    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Projects/SelfHub/SelfHub/Modules/MainInformation/images/voidPhoto.png /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/voidPhoto.png36"697EFBC2-5C58-48DB-9018-0E88ADC3C2EA-
 
 CCopyPlistFile /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/AllModules.plist SelfHub/AllModules.plist
-s351706285.940556
-e351706285.943541
+s352052442.177221
+e352052442.230955
 r1
 xCopyPlistFile
 x/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/AllModules.plist
 xSelfHub/AllModules.plist
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Copy SelfHub/AllModules.plist40d9f0ad9cf6b441^7e8cf1ad9cf6b441^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Projects/SelfHub/SelfHub/AllModules.plist0000000000000000^370"CopyPlistFile build/Release-iphoneos/SelfHub.app/AllModules.plist SelfHub/AllModules.plist    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Projects/SelfHub/build/Release-iphoneos/SelfHub.app -- SelfHub/AllModules.plist36"EBDB0450-E5FD-4A2A-8195-4896C02C0DE7-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Copy SelfHub/AllModules.plist624b2fdae4fbb441^89273bdae4fbb441^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Projects/SelfHub/SelfHub/AllModules.plist0000000000000000^370"CopyPlistFile build/Release-iphoneos/SelfHub.app/AllModules.plist SelfHub/AllModules.plist    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Projects/SelfHub/build/Release-iphoneos/SelfHub.app -- SelfHub/AllModules.plist36"9E60907F-5A95-419B-A1AE-9831890001FE-
+
+CCopyPlistFile /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/antropometry.export.plist SelfHub/Modules/MainInformation/antropometry.export.plist
+s352052442.177253
+e352052442.230922
+r1
+xCopyPlistFile
+x/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/antropometry.export.plist
+xSelfHub/Modules/MainInformation/antropometry.export.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy SelfHub/Modules/MainInformation/antropometry.export.plist7b492fdae4fbb441^9b1f3bdae4fbb441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/antropometry.export.plist0000000000000000^445"CopyPlistFile build/Release-iphoneos/SelfHub.app/antropometry.export.plist SelfHub/Modules/MainInformation/antropometry.export.plist    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Projects/SelfHub/build/Release-iphoneos/SelfHub.app -- SelfHub/Modules/MainInformation/antropometry.export.plist36"268FB908-8B37-4E10-B16A-A63FD77E943A-
+
+CCopyStringsFile /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/antropometry.strings SelfHub/Modules/MainInformation/antropometry.strings
+s352052442.184779
+e352052442.231218
+r1
+xCopyStringsFile
+x/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/antropometry.strings
+xSelfHub/Modules/MainInformation/antropometry.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy SelfHub/Modules/MainInformation/antropometry.strings5f9632dae4fbb441^1a313bdae4fbb441^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/antropometry.strings0000000000000000^473"CopyStringsFile build/Release-iphoneos/SelfHub.app/antropometry.strings SelfHub/Modules/MainInformation/antropometry.strings    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Projects/SelfHub/build/Release-iphoneos/SelfHub.app -- SelfHub/Modules/MainInformation/antropometry.strings36"67E766DB-55FF-4E3B-90A5-1AC1ADCDCBB4-
 
 CCopyStringsFile /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/en.lproj/InfoPlist.strings SelfHub/en.lproj/InfoPlist.strings
 s351705218.512579
@@ -566,23 +571,23 @@ xbuild/Release-iphoneos/SelfHub.app/ResourceRules.plist
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Release-iphoneos/SelfHub.app/ResourceRules.plist77689c8098f6b441^ff59a38098f6b441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/ResourceRules.plist00f45899deffdf42^581"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist build/Release-iphoneos/SelfHub.app/ResourceRules.plist    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist /Projects/SelfHub/build/Release-iphoneos/SelfHub.app36"3E95335A-0AA2-4377-9AB0-7AE9080A5272-
 
 CGenerateDSYMFile /Projects/SelfHub/build/Release-iphoneos/SelfHub.app.dSYM /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/SelfHub
-s351706285.902775
-e351706285.929222
+s352052441.999183
+e352052442.166246
 r1
 xGenerateDSYMFile
 x/Projects/SelfHub/build/Release-iphoneos/SelfHub.app.dSYM
 x/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/SelfHub
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Generating /Projects/SelfHub/build/Release-iphoneos/SelfHub.app.dSYM392ae7ad9cf6b441^7ee1edad9cf6b441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Projects/SelfHub/build/Release-iphoneos/SelfHub.app.dSYM/0000000000000000^403"GenerateDSYMFile build/Release-iphoneos/SelfHub.app.dSYM build/Release-iphoneos/SelfHub.app/SelfHub    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/SelfHub -o /Projects/SelfHub/build/Release-iphoneos/SelfHub.app.dSYM36"2131FEFE-D07C-45F8-A856-76CD6B973C3C-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Generating /Projects/SelfHub/build/Release-iphoneos/SelfHub.app.dSYM34d9ffd9e4fbb441^6d8f2adae4fbb441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Projects/SelfHub/build/Release-iphoneos/SelfHub.app.dSYM/0000000000000000^403"GenerateDSYMFile build/Release-iphoneos/SelfHub.app.dSYM build/Release-iphoneos/SelfHub.app/SelfHub    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/SelfHub -o /Projects/SelfHub/build/Release-iphoneos/SelfHub.app.dSYM36"E4D95711-590F-44CD-9997-53FDF018B02F-
 
 CLd /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/SelfHub normal armv7
-s351706285.863241
-e351706285.895938
+s352052441.283396
+e352052441.991584
 r1
 xLd
 x/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/SelfHub
 xnormal
 xarmv7
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Link /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/SelfHub280dddad9cf6b441^b85ce5ad9cf6b441^---0#0#0#--782"Ld build/Release-iphoneos/SelfHub.app/SelfHub normal armv7    cd /Projects/SelfHub    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Projects/SelfHub/build/Release-iphoneos -F/Projects/SelfHub/build/Release-iphoneos -filelist /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/SelfHub.LinkFileList -dead_strip -miphoneos-version-min=5.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/SelfHub36"0265A20C-D86A-41D2-B291-8741FA7991C7-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Link /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/SelfHub2ca048d9e4fbb441^a1d9fdd9e4fbb441^---0#0#0#--782"Ld build/Release-iphoneos/SelfHub.app/SelfHub normal armv7    cd /Projects/SelfHub    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Projects/SelfHub/build/Release-iphoneos -F/Projects/SelfHub/build/Release-iphoneos -filelist /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/Objects-normal/armv7/SelfHub.LinkFileList -dead_strip -miphoneos-version-min=5.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/SelfHub36"4AA0A955-311F-4094-87EB-718E3B34D023-
 
 CProcessInfoPlistFile /Projects/SelfHub/build/Release-iphoneos/SelfHub.app/Info.plist SelfHub/SelfHub-Info.plist
 s351705216.596145
@@ -644,16 +649,16 @@ x/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub.xc
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection177"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub.xcent0039298498f6b441^5ccb2c8498f6b441^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub.xcent0000000000000000^564"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub.xcent    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o /Projects/SelfHub/build/SelfHub.build/Release-iphoneos/SelfHub.build/SelfHub.xcent36"6B0A846B-569D-411A-8A17-1ED21665F76C-
 
 CTouch /Projects/SelfHub/build/Release-iphoneos/SelfHub.app
-s351706285.974104
-e351706285.983461
+s352052442.255405
+e352052442.289349
 r1
 xTouch
 x/Projects/SelfHub/build/Release-iphoneos/SelfHub.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Touch /Projects/SelfHub/build/Release-iphoneos/SelfHub.appca6bf9ad9cf6b441^1153fead9cf6b441^---0#0#0#--265"Touch build/Release-iphoneos/SelfHub.app    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Projects/SelfHub/build/Release-iphoneos/SelfHub.app36"B42DA342-870D-4629-924B-965A7BB1FDC4-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Touch /Projects/SelfHub/build/Release-iphoneos/SelfHub.app006f41dae4fbb441^5e134adae4fbb441^---0#0#0#--265"Touch build/Release-iphoneos/SelfHub.app    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Projects/SelfHub/build/Release-iphoneos/SelfHub.app36"AED2E514-D2CC-40F9-BC6D-4B48E3870F89-
 
 CValidate /Projects/SelfHub/build/Release-iphoneos/SelfHub.app
-s351706286.188751
-e351706287.889414
+s352052443.276374
+e352052445.226697
 r1
 xValidate
 x/Projects/SelfHub/build/Release-iphoneos/SelfHub.app
@@ -663,5 +668,5 @@ o
 owarning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)
 oUnable to validate your application. - (null)
 o
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Validate build/Release-iphoneos/SelfHub.appc45e30ae9cf6b441^18b1e3af9cf6b441^-506"warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)warning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)Unable to validate your application. - (null)2(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57351706287#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---2@192" iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)182"IPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72351706287#18446744073709551615#0#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@69"file://localhost/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/0000000000000000^377"Validate build/Release-iphoneos/SelfHub.app    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Projects/SelfHub/build/Release-iphoneos/SelfHub.app36"1593928A-03A0-4AF1-B9A9-D8CBB24D4FCD-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Validate build/Release-iphoneos/SelfHub.app96cf46dbe4fbb441^200a3adde4fbb441^-506"warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)Unable to validate your application. - (null)warning: iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)Unable to validate your application. - (null)2(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57352052445#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---2@192" iPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72 (-19013)182"IPad: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon-72.png that is 72x72352052445#18446744073709551615#0#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@69"file://localhost/Projects/SelfHub/build/Release-iphoneos/SelfHub.app/0000000000000000^377"Validate build/Release-iphoneos/SelfHub.app    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Projects/SelfHub/build/Release-iphoneos/SelfHub.app36"80C8539F-AC3D-4BAC-8558-867861BA6D85-
 

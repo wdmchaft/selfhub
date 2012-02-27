@@ -25,6 +25,7 @@
 
 @property (nonatomic, retain) NSMutableDictionary *moduleData;
 
+- (void)fillAllFieldsLocalized;
 - (NSString *)getBaseDir;
 - (NSDate *)getDateFromString_ddMMyy:(NSString *)dateStr;
 - (NSString *)getYearsWord:(NSUInteger)years padej:(BOOL)isRod;
@@ -40,23 +41,41 @@
 @property (nonatomic, retain) IBOutlet UISegmentedControl *sex;
 @property (nonatomic, retain) IBOutlet UILabel *ageLabel;
 @property (nonatomic, retain) IBOutlet UILabel *birthdayLabel;
+@property (nonatomic, retain) IBOutlet UIButton *birthdaySelectButton;
+@property (nonatomic, retain) IBOutlet UILabel *birthdayBarLabel;
+@property (nonatomic, retain) IBOutlet UIButton *birthdaySelectionOkButton;
+@property (nonatomic, retain) IBOutlet UIButton *birthdaySelectionCancelButton;
 
-@property (nonatomic, retain) IBOutlet UITextField *lengthLabel;
+@property (nonatomic, retain) IBOutlet UILabel *lengthLabel;
+@property (nonatomic, retain) IBOutlet UITextField *lengthTextField;
 @property (nonatomic, retain) IBOutlet UIStepper *lengthStepper;
+@property (nonatomic, retain) IBOutlet UILabel *lengthUnitLabel;
 
-@property (nonatomic, retain) IBOutlet UITextField *weightLabel;
+@property (nonatomic, retain) IBOutlet UILabel *weightLabel;
+@property (nonatomic, retain) IBOutlet UITextField *weightTextField;
 @property (nonatomic, retain) IBOutlet UIStepper *weightStepper;
+@property (nonatomic, retain) IBOutlet UILabel *weightUnitLabel;
 
-@property (nonatomic, retain) IBOutlet UITextField *spirometry;
+@property (nonatomic, retain) IBOutlet UILabel *spirometryLabel;
+@property (nonatomic, retain) IBOutlet UITextField *spirometryTextField;
+@property (nonatomic, retain) IBOutlet UILabel *spirometryUnitLabel;
 
-@property (nonatomic, retain) IBOutlet UITextField *thighLabel;
+@property (nonatomic, retain) IBOutlet UILabel *sizesLabel;
+
+@property (nonatomic, retain) IBOutlet UILabel *thighLabel;
+@property (nonatomic, retain) IBOutlet UITextField *thighTextField;
 @property (nonatomic, retain) IBOutlet UIStepper *thighStepper;
+@property (nonatomic, retain) IBOutlet UILabel *thighUnitLabel;
 
-@property (nonatomic, retain) IBOutlet UITextField *waistLabel;
+@property (nonatomic, retain) IBOutlet UILabel *waistLabel;
+@property (nonatomic, retain) IBOutlet UITextField *waistTextField;
 @property (nonatomic, retain) IBOutlet UIStepper *waistStepper;
+@property (nonatomic, retain) IBOutlet UILabel *waistUnitLabel;
 
-@property (nonatomic, retain) IBOutlet UITextField *chestLabel;
+@property (nonatomic, retain) IBOutlet UILabel *chestLabel;
+@property (nonatomic, retain) IBOutlet UITextField *chestTextField;
 @property (nonatomic, retain) IBOutlet UIStepper *chestStepper;
+@property (nonatomic, retain) IBOutlet UILabel *chestUnitLabel;
 
 - (IBAction)pressSelectPhoto:(id)sender;
 

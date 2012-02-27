@@ -4,9 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AllModules.plist</key>
+		<data>
+		b9AgE+NpAOwtKtkZvAiqxCFpYqI=
+		</data>
+		<key>DesktopViewController_iPad.nib</key>
+		<data>
+		idFua4Ihfqjzuus1lE00Rgxo+9o=
+		</data>
+		<key>DesktopViewController_iPhone.nib</key>
+		<data>
+		WzrGNasNAVfOmlAl8H9cDqoKKTQ=
+		</data>
 		<key>MainInformation.nib</key>
 		<data>
-		0IbHh+UES5Y3/GskurCUIR0aSD0=
+		hOTmTVPNL/F4vt0+r9CiV0jSnIc=
 		</data>
 		<key>ModuleTableCell.nib</key>
 		<data>
@@ -16,9 +28,13 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>antropometry.export.plist</key>
+		<data>
+		mdpQ7QuyDufxFzWvHwRgD6/O2N0=
+		</data>
 		<key>birthday_navbar.png</key>
 		<data>
-		+pM4RTq4zYidNthoJAOncMOIpKo=
+		D0zmMLVbBexAEhnPa6Zze+bOn8I=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -36,9 +52,17 @@
 		<data>
 		zmV6UqBSo6r1NOz798vd5O4zTBA=
 		</data>
+		<key>en.lproj/Localizable.strings</key>
+		<data>
+		hf7jvCSSpinllBLH4fIoMn1I330=
+		</data>
 		<key>mainInfoModule_icon.png</key>
 		<data>
 		bgv2CczWZ7uMPukzfqhyPnBdDfk=
+		</data>
+		<key>ru.lproj/Localizable.strings</key>
+		<data>
+		A9hwlzf8/wP+/BFeRAiF23pj9Hg=
 		</data>
 		<key>voidPhoto.png</key>
 		<data>

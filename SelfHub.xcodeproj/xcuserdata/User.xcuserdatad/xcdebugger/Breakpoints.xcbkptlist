@@ -51,11 +51,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "SelfHub/Modules/MainInformation/MainInformation.m"
-         timestampString = "351886369.514383"
+         timestampString = "352067283.143944"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "229"
-         endingLineNumber = "229"
+         startingLineNumber = "297"
+         endingLineNumber = "297"
          landmarkName = "-valueLengthFinishChanged:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -65,11 +65,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "SelfHub/Modules/MainInformation/MainInformation.m"
-         timestampString = "351886369.514383"
+         timestampString = "352067283.143944"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "323"
-         endingLineNumber = "323"
+         startingLineNumber = "391"
+         endingLineNumber = "391"
          landmarkName = "-hideKeyboard:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -79,11 +79,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "SelfHub/Modules/MainInformation/MainInformation.m"
-         timestampString = "351886369.514383"
+         timestampString = "352067283.143944"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "314"
-         endingLineNumber = "314"
+         startingLineNumber = "382"
+         endingLineNumber = "382"
          landmarkName = "-correctScrollBeforeEditing:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -93,11 +93,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "SelfHub/Modules/MainInformation/MainInformation.m"
-         timestampString = "351886369.514383"
+         timestampString = "352069843.379091"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "569"
-         endingLineNumber = "569"
+         startingLineNumber = "637"
+         endingLineNumber = "637"
          landmarkName = "-loadModuleData"
          landmarkType = "5">
       </FileBreakpoint>
@@ -107,11 +107,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "SelfHub/Modules/MainInformation/MainInformation.m"
-         timestampString = "351886369.514383"
+         timestampString = "352069843.379091"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "588"
-         endingLineNumber = "588"
+         startingLineNumber = "656"
+         endingLineNumber = "656"
          landmarkName = "-saveModuleData"
          landmarkType = "5">
       </FileBreakpoint>
@@ -121,11 +121,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "SelfHub/Modules/MainInformation/MainInformation.m"
-         timestampString = "351886369.514383"
+         timestampString = "352069843.379091"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "413"
-         endingLineNumber = "413"
+         startingLineNumber = "481"
+         endingLineNumber = "481"
          landmarkName = "-getModuleMessage"
          landmarkType = "5">
       </FileBreakpoint>
@@ -135,11 +135,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "SelfHub/Modules/MainInformation/MainInformation.m"
-         timestampString = "351806703.280139"
+         timestampString = "352067283.143944"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "42"
-         endingLineNumber = "42"
+         startingLineNumber = "47"
+         endingLineNumber = "47"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
@@ -149,11 +149,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "SelfHub/Modules/MainInformation/MainInformation.m"
-         timestampString = "351886369.514383"
+         timestampString = "352067283.143944"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "181"
-         endingLineNumber = "181"
+         startingLineNumber = "249"
+         endingLineNumber = "249"
          landmarkName = "-pressSelectBirthday:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -163,11 +163,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "SelfHub/Modules/MainInformation/MainInformation.m"
-         timestampString = "351886369.514383"
+         timestampString = "352067283.143944"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "203"
-         endingLineNumber = "203"
+         startingLineNumber = "271"
+         endingLineNumber = "271"
          landmarkName = "-pressFinishSelectBirthday:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -205,11 +205,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "SelfHub/DesktopViewController.m"
-         timestampString = "351875730.826189"
+         timestampString = "352069951.953495"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "159"
-         endingLineNumber = "159"
+         startingLineNumber = "158"
+         endingLineNumber = "158"
          landmarkName = "-getValueForName:fromModuleWithID:"
          landmarkType = "5">
       </FileBreakpoint>

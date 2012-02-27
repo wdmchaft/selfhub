@@ -12,17 +12,18 @@ cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal
 cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/ModuleHelper.o /Projects/SelfHub/SelfHub/Modules/ModuleHelper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub normal i386
 cGenerateDSYMFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub
-cCopyStringsFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/en.lproj/InfoPlist.strings SelfHub/en.lproj/InfoPlist.strings
 cCompileXIB /Projects/SelfHub/SelfHub/ModuleTableCell.xib
-cCompileXIB /Projects/SelfHub/SelfHub/en.lproj/DesktopViewController_iPad.xib
-cCompileXIB /Projects/SelfHub/SelfHub/en.lproj/DesktopViewController_iPhone.xib
-cCompileXIB /Projects/SelfHub/SelfHub/Modules/MainInformation/en.lproj/MainInformation.xib
+cCopyStringsFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/en.lproj/InfoPlist.strings SelfHub/en.lproj/InfoPlist.strings
+cCompileXIB /Projects/SelfHub/SelfHub/DesktopViewController_iPad.xib
+cCompileXIB /Projects/SelfHub/SelfHub/DesktopViewController_iPhone.xib
 cCpResource SelfHub/Modules/MainInformation/images/mainInfoModule_icon.png build/Debug-iphonesimulator/SelfHub.app/mainInfoModule_icon.png
 cCpResource SelfHub/Modules/MainInformation/images/birthday_navbar.png build/Debug-iphonesimulator/SelfHub.app/birthday_navbar.png
-cCompileXIB /Projects/SelfHub/SelfHub/Modules/MainInformation/ru.lproj/MainInformation.xib
+cCompileXIB /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.xib
 cCpResource SelfHub/Modules/MainInformation/images/voidPhoto.png build/Debug-iphonesimulator/SelfHub.app/voidPhoto.png
 cCopyPlistFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/AllModules.plist SelfHub/AllModules.plist
 cCopyPlistFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/antropometry.export.plist SelfHub/Modules/MainInformation/antropometry.export.plist
+cCopyStringsFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/en.lproj/Localizable.strings SelfHub/Localizations/en.lproj/Localizable.strings
+cCopyStringsFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/ru.lproj/Localizable.strings SelfHub/Localizations/ru.lproj/Localizable.strings
 cTouch /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
@@ -70,6 +71,26 @@ c000000004F49251C0000000000002A94
 t1330193692
 s10900
 
+N/Projects/SelfHub/SelfHub/DesktopViewController_iPad.xib
+c000000004F3D522E0000000000001236
+t1329418798
+s4662
+
+N/Projects/SelfHub/SelfHub/DesktopViewController_iPhone.xib
+c000000004F4289D60000000000001FAB
+t1329760726
+s8107
+
+N/Projects/SelfHub/SelfHub/Localizations/en.lproj/Localizable.strings
+c000000004F4BF1400000000000001760
+t1330377024
+s5984
+
+N/Projects/SelfHub/SelfHub/Localizations/ru.lproj/Localizable.strings
+c000000004F4BF133000000000000169A
+t1330377011
+s5786
+
 N/Projects/SelfHub/SelfHub/ModuleTableCell.h
 c000000004F3D515800000000000001F0
 t1329418584
@@ -86,14 +107,19 @@ t1329760776
 s13103
 
 N/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.h
-c000000004F48FC250000000000000B5A
-t1330183205
-s2906
+c000000004F4BE3410000000000000FEF
+t1330373441
+s4079
 
 N/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m
-c000000004F49249E0000000000005105
-t1330193566
-s20741
+c000000004F4BF1490000000000005FA4
+t1330377033
+s24484
+
+N/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.xib
+c000000004F4BE4F70000000000019F8D
+t1330373879
+s106381
 
 N/Projects/SelfHub/SelfHub/Modules/MainInformation/antropometry.export.plist
 c000000004F49295E0000000000000ADF
@@ -161,20 +187,32 @@ t1329422773
 s349
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app
-t1330194673
-s442
+t1330376487
+s544
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM
-t1330194396
+t1330376486
 s102
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/AllModules.plist
 t1330182929
 s176
 
+N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/DesktopViewController_iPad.nib
+t1330374479
+s792
+
+N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/DesktopViewController_iPhone.nib
+t1330374479
+s1222
+
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/Info.plist
 t1330180685
 s950
+
+N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/MainInformation.nib
+t1330374480
+s10507
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/ModuleTableCell.nib
 t1330180691
@@ -185,12 +223,12 @@ t1330180685
 s8
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub
-t1330194396
-s109360
+t1330376486
+s127624
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/antropometry.export.plist
-t1330194673
-s611
+t1330195123
+s624
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/birthday_navbar.png
 t1330180691
@@ -208,6 +246,10 @@ N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/en.lproj/InfoPlist.st
 t1330180688
 s42
 
+N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/en.lproj/Localizable.strings
+t2
+s0
+
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/en.lproj/MainInformation.nib
 t1330180691
 s9612
@@ -215,6 +257,10 @@ s9612
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/mainInfoModule_icon.png
 t1330180688
 s21580
+
+N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/ru.lproj/Localizable.strings
+t2
+s0
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/ru.lproj/MainInformation.nib
 t1330180691
@@ -225,16 +271,16 @@ t1330180691
 s4401
 
 N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/AppDelegate.o
-t1330193566
+t1330374474
 s56560
 
 N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/DesktopViewController.o
-t1330194396
+t1330374474
 s72132
 
 N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/MainInformation.o
-t1330193566
-s145664
+t1330376486
+s179960
 
 N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/ModuleHelper.o
 t1330194396
@@ -282,11 +328,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8882a13362f9b441^3929a43362f9b441^---0#1#0#--18"Check dependencies36"B7987E33-81EC-40BD-BA06-1100112017E0-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesebc91ccf28fcb441^487043cf28fcb441^---0#1#0#--18"Check dependencies36"07E598A2-4418-45BB-82F4-C5D818425548-
 
 CCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/AppDelegate.o /Projects/SelfHub/SelfHub/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s351886366.446713
-e351886366.693981
+s352067273.515333
+e352067274.897912
 r1
 xCompileC
 xbuild/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/AppDelegate.o
@@ -295,11 +341,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Compile /Projects/SelfHub/SelfHub/AppDelegate.mbd71721e5cf9b441^feedb61e5cf9b441^---0#0#0#-19%DVTDocumentLocation2@55"file://localhost/Projects/SelfHub/SelfHub/AppDelegate.m0000000000000000^2395"CompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/AppDelegate.o SelfHub/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-buqtewrirvmuokcnveznjnmsclti/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/AppDelegate.d -c /Projects/SelfHub/SelfHub/AppDelegate.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/AppDelegate.o36"AA32EDD2-501F-4625-8635-35CCE482E0F2-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Compile /Projects/SelfHub/SelfHub/AppDelegate.m740884c91efcb441^50e4e5ca1efcb441^---0#0#0#-19%DVTDocumentLocation2@55"file://localhost/Projects/SelfHub/SelfHub/AppDelegate.m0000000000000000^2395"CompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/AppDelegate.o SelfHub/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-buqtewrirvmuokcnveznjnmsclti/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/AppDelegate.d -c /Projects/SelfHub/SelfHub/AppDelegate.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/AppDelegate.o36"6C379E65-0993-45A6-A75F-C7AEDD463C7A-
 
 CCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/DesktopViewController.o /Projects/SelfHub/SelfHub/DesktopViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s351887196.799077
-e351887196.873655
+s352067273.515396
+e352067274.897921
 r1
 xCompileC
 xbuild/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/DesktopViewController.o
@@ -308,11 +354,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Projects/SelfHub/SelfHub/DesktopViewController.mf0a5cc5c5ff9b441^abb1e85c5ff9b441^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController.m0000000000000000^2445"CompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/DesktopViewController.o SelfHub/DesktopViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-buqtewrirvmuokcnveznjnmsclti/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/DesktopViewController.d -c /Projects/SelfHub/SelfHub/DesktopViewController.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/DesktopViewController.o36"37DBEC53-5784-4272-AE0C-E54B4FDD1D36-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Projects/SelfHub/SelfHub/DesktopViewController.mff0784c91efcb441^90dde5ca1efcb441^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController.m0000000000000000^2445"CompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/DesktopViewController.o SelfHub/DesktopViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-buqtewrirvmuokcnveznjnmsclti/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/DesktopViewController.d -c /Projects/SelfHub/SelfHub/DesktopViewController.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/DesktopViewController.o36"84DDD836-DB54-4505-B563-EF63EEFDDA4A-
 
 CCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/MainInformation.o /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s351886366.447969
-e351886366.816097
+s352069839.286225
+e352069840.307282
 r1
 xCompileC
 xbuild/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/MainInformation.o
@@ -321,7 +367,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m6ac2721e5cf9b441^5644d11e5cf9b441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^2463"CompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/MainInformation.o SelfHub/Modules/MainInformation/MainInformation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-buqtewrirvmuokcnveznjnmsclti/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/MainInformation.d -c /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/MainInformation.o36"105BF118-F863-4C1B-9F78-D4F9FB2A9D47-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.mcd5b49cf28fcb441^f8a94ed028fcb441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^2463"CompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/MainInformation.o SelfHub/Modules/MainInformation/MainInformation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-buqtewrirvmuokcnveznjnmsclti/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/MainInformation.d -c /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/MainInformation.o36"1698F606-51E9-4792-87EA-2E55E91AA82B-
 
 CCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/ModuleHelper.o /Projects/SelfHub/SelfHub/Modules/ModuleHelper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s351887196.800395
@@ -362,6 +408,22 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Compile /Projects/SelfHub/SelfHub/main.mda1d72cf29f9b441^27668dcf29f9b441^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Projects/SelfHub/SelfHub/main.m0000000000000000^2360"CompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/main.o SelfHub/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-buqtewrirvmuokcnveznjnmsclti/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/main.d -c /Projects/SelfHub/SelfHub/main.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/main.o36"60340BF6-0C8C-4D7D-8B56-F427B3FCE786-
 
+CCompileXIB /Projects/SelfHub/SelfHub/DesktopViewController_iPad.xib
+s352067275.567452
+e352067279.852269
+r1
+xCompileXIB
+x/Projects/SelfHub/SelfHub/DesktopViewController_iPad.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compiling /Projects/SelfHub/SelfHub/DesktopViewController_iPad.xibf85591cb1efcb441^0f44dacf1efcb441^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController_iPad.xib0000000000000000^655"CompileXIB SelfHub/DesktopViewController_iPad.xib    cd /Projects/SelfHub    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/DesktopViewController_iPad.nib /Projects/SelfHub/SelfHub/DesktopViewController_iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"A8D30440-21B7-4512-9C34-B8AE6641C28C-
+
+CCompileXIB /Projects/SelfHub/SelfHub/DesktopViewController_iPhone.xib
+s352067275.567473
+e352067279.782367
+r1
+xCompileXIB
+x/Projects/SelfHub/SelfHub/DesktopViewController_iPhone.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compiling /Projects/SelfHub/SelfHub/DesktopViewController_iPhone.xib085691cb1efcb441^ed49c8cf1efcb441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Projects/SelfHub/SelfHub/DesktopViewController_iPhone.xib0000000000000000^661"CompileXIB SelfHub/DesktopViewController_iPhone.xib    cd /Projects/SelfHub    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/DesktopViewController_iPhone.nib /Projects/SelfHub/SelfHub/DesktopViewController_iPhone.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"89FD9C0D-1ACD-4D4C-9413-01CA8D590EF4-
+
 CCompileXIB /Projects/SelfHub/SelfHub/ModuleTableCell.xib
 s351873488.109533
 e351873491.613640
@@ -369,6 +431,14 @@ r1
 xCompileXIB
 x/Projects/SelfHub/SelfHub/ModuleTableCell.xib
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compiling /Projects/SelfHub/SelfHub/ModuleTableCell.xib57221cd029f9b441^2f369dd329f9b441^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Projects/SelfHub/SelfHub/ModuleTableCell.xib0000000000000000^622"CompileXIB SelfHub/ModuleTableCell.xib    cd /Projects/SelfHub    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/ModuleTableCell.nib /Projects/SelfHub/SelfHub/ModuleTableCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"728C214B-375E-492E-9279-5D406BC0F26A-
+
+CCompileXIB /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.xib
+s352067275.568534
+e352067280.253338
+r1
+xCompileXIB
+x/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compiling /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.xib5b9891cb1efcb441^7bdb40d01efcb441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.xib0000000000000000^670"CompileXIB SelfHub/Modules/MainInformation/MainInformation.xib    cd /Projects/SelfHub    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/MainInformation.nib /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"1FAA0BEF-859A-4416-88DC-E5C9DC55525F-
 
 CCompileXIB /Projects/SelfHub/SelfHub/Modules/MainInformation/en.lproj/MainInformation.xib
 s351873488.163016
@@ -429,6 +499,24 @@ x/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/en.lproj/InfoPlist.st
 xSelfHub/en.lproj/InfoPlist.strings
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy SelfHub/en.lproj/InfoPlist.strings14221cd029f9b441^755528d029f9b441^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Projects/SelfHub/SelfHub/en.lproj/InfoPlist.strings0000000000000000^469"CopyStringsFile build/Debug-iphonesimulator/SelfHub.app/en.lproj/InfoPlist.strings SelfHub/en.lproj/InfoPlist.strings    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/en.lproj -- SelfHub/en.lproj/InfoPlist.strings36"294A22E7-FB79-421B-B2DA-7D082E61C325-
 
+CCopyStringsFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/en.lproj/Localizable.strings SelfHub/Localizations/en.lproj/Localizable.strings
+s352069840.939141
+e352069840.945526
+r1
+xCopyStringsFile
+x/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/en.lproj/Localizable.strings
+xSelfHub/Localizations/en.lproj/Localizable.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy SelfHub/Localizations/en.lproj/Localizable.strings3a7af0d028fcb441^0a0ff2d028fcb441^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Projects/SelfHub/SelfHub/Localizations/en.lproj/Localizable.strings0000000000000000^503"CopyStringsFile build/Debug-iphonesimulator/SelfHub.app/en.lproj/Localizable.strings SelfHub/Localizations/en.lproj/Localizable.strings    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/en.lproj -- SelfHub/Localizations/en.lproj/Localizable.strings36"92889A70-FEC7-4058-8354-03793339EA76-
+
+CCopyStringsFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/ru.lproj/Localizable.strings SelfHub/Localizations/ru.lproj/Localizable.strings
+s352069840.939168
+e352069840.946104
+r1
+xCopyStringsFile
+x/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/ru.lproj/Localizable.strings
+xSelfHub/Localizations/ru.lproj/Localizable.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy SelfHub/Localizations/ru.lproj/Localizable.stringsd17af0d028fcb441^2a36f2d028fcb441^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Projects/SelfHub/SelfHub/Localizations/ru.lproj/Localizable.strings0000000000000000^503"CopyStringsFile build/Debug-iphonesimulator/SelfHub.app/ru.lproj/Localizable.strings SelfHub/Localizations/ru.lproj/Localizable.strings    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/ru.lproj -- SelfHub/Localizations/ru.lproj/Localizable.strings36"0AA1A746-D005-413B-BDCD-EE893AB7424C-
+
 CCpResource SelfHub/Modules/MainInformation/images/birthday_navbar.png build/Debug-iphonesimulator/SelfHub.app/birthday_navbar.png
 s351873491.498546
 e351873491.516611
@@ -457,23 +545,23 @@ xbuild/Debug-iphonesimulator/SelfHub.app/voidPhoto.png
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphonesimulator/SelfHub.app/voidPhoto.png29b084d329f9b441^6ac28ad329f9b441^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/voidPhoto.png00f45899deffdf42^515"CpResource SelfHub/Modules/MainInformation/images/voidPhoto.png build/Debug-iphonesimulator/SelfHub.app/voidPhoto.png    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Projects/SelfHub/SelfHub/Modules/MainInformation/images/voidPhoto.png /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app36"A70B0274-65B1-4915-88A4-741410933FD5-
 
 CGenerateDSYMFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub
-s351887196.953294
-e351887196.993166
+s352069840.817406
+e352069840.927465
 r1
 xGenerateDSYMFile
 x/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM
 x/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Generating /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYMcd1ef45c5ff9b441^6440fe5c5ff9b441^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM/0000000000000000^430"GenerateDSYMFile build/Debug-iphonesimulator/SelfHub.app.dSYM build/Debug-iphonesimulator/SelfHub.app/SelfHub    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub -o /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM36"2711FD37-E9CF-499A-AFD1-3FE8C8409D43-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Generating /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM9754d1d028fcb441^696eedd028fcb441^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM/0000000000000000^430"GenerateDSYMFile build/Debug-iphonesimulator/SelfHub.app.dSYM build/Debug-iphonesimulator/SelfHub.app/SelfHub    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub -o /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM36"3FB611B2-5439-4C49-9214-A4784074FCA2-
 
 CLd /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub normal i386
-s351887196.890016
-e351887196.946477
+s352069840.314976
+e352069840.809755
 r1
 xLd
 x/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub
 xnormal
 xi386
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Link /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub8b18e65c5ff9b441^734cf25c5ff9b441^---0#0#0#--926"Ld build/Debug-iphonesimulator/SelfHub.app/SelfHub normal i386    cd /Projects/SelfHub    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Projects/SelfHub/build/Debug-iphonesimulator -F/Projects/SelfHub/build/Debug-iphonesimulator -filelist /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/SelfHub.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework UIKit -framework Foundation -framework CoreGraphics -o /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub36"79218817-3FC5-4AEC-9391-BC905FEE7B00-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Link /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHube5b350d028fcb441^384dcfd028fcb441^---0#0#0#--926"Ld build/Debug-iphonesimulator/SelfHub.app/SelfHub normal i386    cd /Projects/SelfHub    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Projects/SelfHub/build/Debug-iphonesimulator -F/Projects/SelfHub/build/Debug-iphonesimulator -filelist /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/SelfHub.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework UIKit -framework Foundation -framework CoreGraphics -o /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub36"48DD7180-1CC2-48F5-81AF-ABA4FBF7018E-
 
 CProcessInfoPlistFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/Info.plist SelfHub/SelfHub-Info.plist
 s351873485.659943
@@ -501,10 +589,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile SelfHub/SelfHub-Prefix.pch6bd4abcd29f9b441^e46670cf29f9b441^---0#0#0#-19%DVTDocumentLocation2@60"file://localhost/Projects/SelfHub/SelfHub/SelfHub-Prefix.pch0000000000000000^2423"ProcessPCH /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-buqtewrirvmuokcnveznjnmsclti/SelfHub-Prefix.pch.pth SelfHub/SelfHub-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -c /Projects/SelfHub/SelfHub/SelfHub-Prefix.pch -o /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-buqtewrirvmuokcnveznjnmsclti/SelfHub-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-buqtewrirvmuokcnveznjnmsclti/SelfHub-Prefix.pch.d36"25246754-56C1-415C-9242-4D6C2993CD0D-
 
 CTouch /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app
-s351887923.711734
-e351887923.720701
+s352069840.954183
+e352069841.008202
 r1
 xTouch
 x/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Touch /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app4f3db63362f9b441^9580b83362f9b441^---0#0#0#--282"Touch build/Debug-iphonesimulator/SelfHub.app    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app36"0CCCA6FD-2962-482F-819C-382B58379DF8-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Touch /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.appce54f4d028fcb441^3f1a02d128fcb441^---0#0#0#--282"Touch build/Debug-iphonesimulator/SelfHub.app    cd /Projects/SelfHub    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app36"F05A3E51-87E9-4E68-A53C-9C3073E26DE0-
 

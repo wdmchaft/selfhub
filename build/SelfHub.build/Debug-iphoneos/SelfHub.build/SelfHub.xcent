@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>894U5H28D5.ru.hintsolutions.SelfHub</string>
+	<string>894U5H28D5.ru.huntsolutions.selfhub</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>894U5H28D5.ru.hintsolutions.SelfHub</string>
+		<string>894U5H28D5.ru.huntsolutions.selfhub</string>
 	</array>
 </dict>
 </plist>
