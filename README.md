@@ -1,16 +1,17 @@
-Version of the README: 1.0
-Date: 28/02/12
-Number of modules: 1
-Number of developers: 1
+#Introduction#
 
+##Selfhub iOS application##
 
 ABOUT THE APPLICATION
 
-SelfHub - Open Source application for IOS, designed for the collection, storage and analysis of various medical conditions the patient. The ultimate goal is to create a diagnosis application, which a number of indicatorscan be at the right time to inform the user about the need to seek medical help. To implement this idea is allowed to use a variety of medical sensors, interacting with the iphone. The application is written to run on devices iphone and ipod touch. In the process of migration is possible on the iPad.
+SelfHub - Open Source application for IOS, designed for the collection, storage and analysis of various health data from sensors, selfmonitoring, cloud serices. The ultimate goal is to create a diagnosis application, which a number of indicators can be at the right time to inform the user about the need to seek medical help. To implement this idea is allowed to use a variety of medical sensors, interacting with the iphone. The application is written to run on devices iphone and ipod touch. 
 
-Features modular architecture.
+#Features modular architecture.#
+
 To simplify the development process and the independence, the application uses a modular architecture. Each module performs the collection and processing of certain information from a medical area. For example, a module of weight control, blood pressure control module, the module controls the blood sugar, etc. In addition to the control module is necessary to develop analysis modules that use these modules, control and perform some diagnostic functions. The general concept of an application - NavigationBar. The main form (call it server side applications, or simply server) displays a list of all modules and allows you to switch between them. The server accepts the protocol ServerProtocol and is a delegate for each module. Any exchange of data between modules is done using the methods the protocol ServerProtocol:
+<code>
 - (BOOL) isModuleAvailableWithID: (NSString *);
+</code>
 Return true if the module is loaded with the specified identifier
 
 - (Id) getValueForName: (NSString *) fromModuleWithID: (NSString *);
