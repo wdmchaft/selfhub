@@ -38,13 +38,16 @@ To ensure the exchange of data in each module should be formed by Exchange-list.
 1.1 List of loaded modules
 
 At boot time, the main view, is read from the file AllModules.plist list of all modules. It contains an array of NSDictionary, which consist of the following keys:
+
 * Interface - a module class name (String)
 * ID - ID of a text module, for example selfhub.module_name (String)
 * ExchangeFile - the name of the file containing the Exchange-list (String)
 * Type - type of unit, reserved for future use (Integer)
+
 Identifiers of different modules must be different. List of modules loaded once when the application starts. You can also appeal to this file when using auxiliary testing functions.
 
 1.2 Requirements applicable to the module
+
 1.2.1 There are currently modules are implemented as open source in the main project. The use of modules in the form of loadable libraries will be introduced as needed.
 1.2.2 The project unit is located in the folder Modules\module_name\
 1.2.3 Module class inherits from UIViewController.
@@ -117,6 +120,7 @@ Returns the version of the module (1.0 by default)
 
 1.4 Format of the list of Exchange-list
 List of Exchange-list stored in the plist-file (for example, module_name.export.plist). The main element of the list - an array named items. Each array element is an object NSDictionary with the following keys:
+
 * name (type String) - name of the exchange-mandatory parameter that is used by other modules when requesting a server-side parameter of this module. Uniquely in the current module;
 * keypath (type String) - Key binding module that is passed to the method of [ModuleViewController valueForKeyPath:] when prompted for the parameter with the name of the module name;
 * type (type String) - type of the parameter (NSString, NSNumber, NSDictionary, NSData, etc). In the process of obtaining the parameters is not involved. Carries the meaning of information to other developers about the type Gets or sets the parameter;
