@@ -1,2 +1,3 @@
-dependencies: /Projects/SelfHub/SelfHub/ModuleTableCell.m \
-  /Projects/SelfHub/SelfHub/ModuleTableCell.h
+dependencies: \
+  /Projects/SelfHub/SelfHub/HostControllers/Desktop/ModuleTableCell.m \
+  /Projects/SelfHub/SelfHub/HostControllers/Desktop/ModuleTableCell.h

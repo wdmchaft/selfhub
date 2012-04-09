@@ -7,14 +7,25 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BottomPanelViewController.h"
+#import "SelfhubNavigationController.h"
+#import "InfoViewController.h"
 
 @class DesktopViewController;
+@class InfoViewController;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) UIWindow *window;
 
 @property (nonatomic, retain) DesktopViewController *desktopViewController;
-@property (strong, nonatomic) UINavigationController *navigationController;
+@property (nonatomic, retain) InfoViewController *infoViewController;
+
+@property (nonatomic, retain) UITabBarController *tabBarController;
+@property (nonatomic, retain) BottomPanelViewController *bottomPanel;
+
+- (IBAction)pressTab1:(id)sender;
+- (IBAction)pressTab2:(id)sender;
+- (IBAction)pressTab3:(id)sender;
 
 @end
