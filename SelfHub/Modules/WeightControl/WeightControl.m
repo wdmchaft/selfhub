@@ -40,7 +40,6 @@
     weightGraph.delegate = self;
     [self fillTestData:20];
     [weightGraph createGraphLayer];
-    //[weightGraph updateGraph];
     
     aimWeight = [NSNumber numberWithFloat:NAN];
     normalWeight = [NSNumber numberWithFloat:NAN];

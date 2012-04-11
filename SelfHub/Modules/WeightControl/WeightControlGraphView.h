@@ -27,10 +27,18 @@
 
 - (NSInteger)getIntegerDateComponent:(NSDate *)date byFormat:(NSString *)format;
 
+//Called for graph initializing
 - (void)createGraphLayer;
+
+//Called when weight records are changed
+- (void)updatePlotRanges;
+
+//Update all graph's labels for current axis ranges
+- (void)updateGraphLabels;
+
+//Subroutines for setting x-axis range
 - (void)showLastWeekGraph;
 - (void)showFullGraph;
 - (void)showGraphFromDate:(NSDate *)fromDate toDate:(NSDate *)toDate;
-- (void)updatePlotRanges;
 
 @end

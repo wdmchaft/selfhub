@@ -218,11 +218,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "SelfHub/Modules/WeightControl/WeightControl.m"
-         timestampString = "355430168.878546"
+         timestampString = "355849140.757152"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "205"
-         endingLineNumber = "205"
+         startingLineNumber = "204"
+         endingLineNumber = "204"
          landmarkName = "-generateNormalWeight"
          landmarkType = "5">
       </FileBreakpoint>
@@ -244,11 +244,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "SelfHub/Modules/WeightControl/WeightControlGraphView.m"
-         timestampString = "355698778.555693"
+         timestampString = "355864014.519967"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "336"
-         endingLineNumber = "336"
+         startingLineNumber = "500"
+         endingLineNumber = "500"
          landmarkName = "-showGraphFromDate:toDate:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -257,38 +257,77 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "SelfHub/Modules/WeightControl/WeightControlGraphView.m"
-         timestampString = "355698778.555693"
+         timestampString = "355854034.986661"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "403"
-         endingLineNumber = "403"
-         landmarkName = "-showGraphFromDate:toDate:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "SelfHub/Modules/WeightControl/WeightControlGraphView.m"
-         timestampString = "355698778.555693"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "421"
-         endingLineNumber = "421"
-         landmarkName = "-showGraphFromDate:toDate:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "SelfHub/Modules/WeightControl/WeightControlGraphView.m"
-         timestampString = "355698778.555693"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "178"
-         endingLineNumber = "178"
+         startingLineNumber = "179"
+         endingLineNumber = "179"
          landmarkName = "-createGraphLayer"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "SelfHub/Modules/WeightControl/WeightControlGraphView.m"
+         timestampString = "355864014.519967"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "673"
+         endingLineNumber = "673"
+         landmarkName = "-plotSpace:shouldScaleBy:aboutPoint:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "SelfHub/Modules/WeightControl/WeightControlGraphView.m"
+         timestampString = "355861342.161401"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "326"
+         endingLineNumber = "326"
+         landmarkName = "-updatePlotRanges"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "SelfHub/Modules/WeightControl/WeightControlGraphView.m"
+         timestampString = "355864014.519967"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "387"
+         endingLineNumber = "387"
+         landmarkName = "-updatePlotRanges"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "SelfHub/Modules/WeightControl/WeightControlGraphView.m"
+         timestampString = "355864014.519967"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "723"
+         endingLineNumber = "723"
+         landmarkName = "-plotSpace:shouldScaleBy:aboutPoint:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "SelfHub/Modules/WeightControl/WeightControlGraphView.m"
+         timestampString = "355864014.519967"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "451"
+         endingLineNumber = "451"
+         landmarkName = "-updateGraphLabels"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

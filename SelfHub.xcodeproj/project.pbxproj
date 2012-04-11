@@ -58,6 +58,8 @@
 		CEC0FA451505582300914403 /* DesktopViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC0FA2A1505582200914403 /* DesktopViewController_iPhone.xib */; };
 		CEC0FA461505582300914403 /* ModuleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC0FA2C1505582200914403 /* ModuleTableCell.m */; };
 		CEC0FA471505582300914403 /* ModuleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC0FA2D1505582200914403 /* ModuleTableCell.xib */; };
+		CEFAAA6D1535F82A0009E6A7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFAAA6B1535F82A0009E6A7 /* Icon.png */; };
+		CEFAAA6E1535F82A0009E6A7 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFAAA6C1535F82A0009E6A7 /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -217,6 +219,8 @@
 		CEC0FA2B1505582200914403 /* ModuleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleTableCell.h; sourceTree = "<group>"; };
 		CEC0FA2C1505582200914403 /* ModuleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleTableCell.m; sourceTree = "<group>"; };
 		CEC0FA2D1505582200914403 /* ModuleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModuleTableCell.xib; sourceTree = "<group>"; };
+		CEFAAA6B1535F82A0009E6A7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CEFAAA6C1535F82A0009E6A7 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -308,6 +312,7 @@
 		CE85D22314ED993500B7D367 /* SelfHub */ = {
 			isa = PBXGroup;
 			children = (
+				CEFAAA6A1535F82A0009E6A7 /* Icons */,
 				CEA0FF9315239D0200520431 /* Headers */,
 				CE1DDD4D14FC26E800A988AE /* Localizations */,
 				CE1DDD2914F699FB00A988AE /* AllModules.plist */,
@@ -523,6 +528,15 @@
 			path = Desktop;
 			sourceTree = "<group>";
 		};
+		CEFAAA6A1535F82A0009E6A7 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAAA6B1535F82A0009E6A7 /* Icon.png */,
+				CEFAAA6C1535F82A0009E6A7 /* icon@2x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -610,6 +624,8 @@
 				CEC0FA451505582300914403 /* DesktopViewController_iPhone.xib in Resources */,
 				CEC0FA471505582300914403 /* ModuleTableCell.xib in Resources */,
 				CE7FF743150FCEB3006F8E4D /* InfoViewController.xib in Resources */,
+				CEFAAA6D1535F82A0009E6A7 /* Icon.png in Resources */,
+				CEFAAA6E1535F82A0009E6A7 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

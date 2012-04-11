@@ -20,6 +20,10 @@
 		<data>
 		ucOBA1kkrRNcl84pZp+KVpMpWAg=
 		</data>
+		<key>Icon.png</key>
+		<data>
+		PqXCNymuUiAjH7GmURzM/JKfkWo=
+		</data>
 		<key>InfoViewController.nib</key>
 		<data>
 		gjJGy3AX8CpGAW76yc6DddRneOg=
@@ -38,7 +42,7 @@
 		</data>
 		<key>WeightControl.nib</key>
 		<data>
-		A9UCxZ0YV5TD+252x8ctgsArs74=
+		kxKRticH0Uu8bA2nKLDLAdIBiZs=
 		</data>
 		<key>antropometry.export.plist</key>
 		<data>
@@ -144,6 +148,10 @@
 		<data>
 		hf7jvCSSpinllBLH4fIoMn1I330=
 		</data>
+		<key>icon@2x.png</key>
+		<data>
+		tQvrldSyrJ5HhEv7VSKkfeVaONQ=
+		</data>
 		<key>mainInfoModule_icon.png</key>
 		<data>
 		ibpjK14AP0EzvKM4LHslb/MwTjo=
@@ -162,7 +170,7 @@
 		</data>
 		<key>weightModule_icon.png</key>
 		<data>
-		T9kmpwi2RIqEJ+23Tf3Wm4X+xtQ=
+		WQgdRFtx5ikh3b/iNVK0XXg40T8=
 		</data>
 	</dict>
 	<key>rules</key>

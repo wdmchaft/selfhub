@@ -4,34 +4,34 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/Info.plist SelfHub/SelfHub-Info.plist
 cProcessPCH /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-gjzdwbblxdwjrvaefzcoizmlrvsc/SelfHub-Prefix.pch.pth SelfHub/SelfHub-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/ModuleHelper.o /Projects/SelfHub/SelfHub/Modules/ModuleHelper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/BottomPanelViewController.o /Projects/SelfHub/SelfHub/HostControllers/BottomPanel/BottomPanelViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/DesktopViewController.o /Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/ModuleTableCell.o /Projects/SelfHub/SelfHub/HostControllers/Desktop/ModuleTableCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/main.o /Projects/SelfHub/SelfHub/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/AppDelegate.o /Projects/SelfHub/SelfHub/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControl.o /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/MainInformation.o /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/SelfhubNavigationController.o /Projects/SelfHub/SelfHub/HostControllers/SelfhubNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/ModuleHelper.o /Projects/SelfHub/SelfHub/Modules/ModuleHelper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControl.o /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/BottomPanelViewController.o /Projects/SelfHub/SelfHub/HostControllers/BottomPanel/BottomPanelViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/ModuleTableCell.o /Projects/SelfHub/SelfHub/HostControllers/Desktop/ModuleTableCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/DesktopViewController.o /Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControlGraphView.o /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/SelfhubNavigationController.o /Projects/SelfHub/SelfHub/HostControllers/SelfhubNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/InfoViewController.o /Projects/SelfHub/SelfHub/HostControllers/Info/InfoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub normal i386
 cGenerateDSYMFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub
 cCopyStringsFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/en.lproj/InfoPlist.strings SelfHub/en.lproj/InfoPlist.strings
-cCompileXIB /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.xib
 cCpResource SelfHub/Modules/MainInformation/images/mainInfoModule_icon.png build/Debug-iphonesimulator/SelfHub.app/mainInfoModule_icon.png
+cCompileXIB /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.xib
 cCpResource SelfHub/Modules/MainInformation/images/birthday_navbar.png build/Debug-iphonesimulator/SelfHub.app/birthday_navbar.png
 cCpResource SelfHub/Modules/MainInformation/images/voidPhoto.png build/Debug-iphonesimulator/SelfHub.app/voidPhoto.png
-cCopyPlistFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/antropometry.export.plist SelfHub/Modules/MainInformation/antropometry.export.plist
 cCopyPlistFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/AllModules.plist SelfHub/AllModules.plist
 cCopyStringsFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/en.lproj/Localizable.strings SelfHub/Localizations/en.lproj/Localizable.strings
+cCopyPlistFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/antropometry.export.plist SelfHub/Modules/MainInformation/antropometry.export.plist
 cCopyStringsFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/ru.lproj/Localizable.strings SelfHub/Localizations/ru.lproj/Localizable.strings
 cCpResource SelfHub/Modules/WeightControl/images/weightModule_icon.png build/Debug-iphonesimulator/SelfHub.app/weightModule_icon.png
 cCopyPlistFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/weight.export.plist SelfHub/Modules/WeightControl/weight.export.plist
 cCompileXIB /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.xib
 cCompileXIB /Projects/SelfHub/SelfHub/HostControllers/BottomPanel/BottomPanelViewController.xib
-cCpResource SelfHub/HostControllers/BottomPanel/images/bottomPanel_greenball.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_greenball.png
 cCpResource SelfHub/HostControllers/BottomPanel/images/bottomPanel_background.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_background.png
+cCpResource SelfHub/HostControllers/BottomPanel/images/bottomPanel_greenball.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_greenball.png
 cCpResource SelfHub/HostControllers/BottomPanel/images/bottomPanel_redball.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_redball.png
 cCpResource SelfHub/HostControllers/BottomPanel/images/bottomPanel_statusbar.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_statusbar.png
 cCpResource SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab1_norm.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab1_norm.png
@@ -39,8 +39,8 @@ cCpResource SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab1_
 cCpResource SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab1_unav.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab1_unav.png
 cCpResource SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab2_norm.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab2_norm.png
 cCpResource SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab2_press.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab2_press.png
-cCpResource SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab2_unav.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab2_unav.png
 cCpResource SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab3_norm.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab3_norm.png
+cCpResource SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab2_unav.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab2_unav.png
 cCpResource SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab3_press.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab3_press.png
 cCpResource SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab3_unav.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab3_unav.png
 cCpResource SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab4_norm.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab4_norm.png
@@ -50,9 +50,11 @@ cCpResource SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab5_
 cCpResource SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab5_press.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab5_press.png
 cCpResource SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab5_unav.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab5_unav.png
 cCompileXIB /Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController_iPad.xib
+cCompileXIB /Projects/SelfHub/SelfHub/HostControllers/Desktop/ModuleTableCell.xib
 cCompileXIB /Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController_iPhone.xib
 cCompileXIB /Projects/SelfHub/SelfHub/HostControllers/Info/InfoViewController.xib
-cCompileXIB /Projects/SelfHub/SelfHub/HostControllers/Desktop/ModuleTableCell.xib
+cCpResource SelfHub/Icons/Icon.png build/Debug-iphonesimulator/SelfHub.app/Icon.png
+cCpResource SelfHub/Icons/icon@2x.png build/Debug-iphonesimulator/SelfHub.app/icon@2x.png
 cTouch /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
@@ -81,499 +83,509 @@ t1331797191
 s9461312
 
 N/Projects/SelfHub/SelfHub/AllModules.plist
-c000000004F5504A600000000000002CF
-t1330971814
+c000000004F83527600000000000002CF
+t1334006390
 s719
 
 N/Projects/SelfHub/SelfHub/AppDelegate.h
-c000000004F736632000000000000036A
-t1332962866
+c000000004F835276000000000000036A
+t1334006390
 s874
 
 N/Projects/SelfHub/SelfHub/AppDelegate.m
-c000000004F5F98A20000000000001578
-t1331665058
+c000000004F8352760000000000001578
+t1334006390
 s5496
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTAnnotation.h
-c000000004F42C9FE00000000000003B7
-t1329777150
+c000000004F83527600000000000003B7
+t1334006390
 s951
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTAnnotationHostLayer.h
-c000000004F42C9FE000000000000017B
-t1329777150
+c000000004F835276000000000000017B
+t1334006390
 s379
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTAxis.h
-c000000004F42C9FE00000000000022CD
-t1329777150
+c000000004F83527600000000000022CD
+t1334006390
 s8909
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTAxisLabel.h
-c000000004F42C9FE0000000000000419
-t1329777150
+c000000004F8352760000000000000419
+t1334006390
 s1049
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTAxisSet.h
-c000000004F42C9FE0000000000000166
-t1329777150
+c000000004F8352760000000000000166
+t1334006390
 s358
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTAxisTitle.h
-c000000004F42C9FE000000000000006D
-t1329777150
+c000000004F835276000000000000006D
+t1334006390
 s109
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTBarPlot.h
-c000000004F42C9FE0000000000000F07
-t1329777150
+c000000004F8352760000000000000F07
+t1334006390
 s3847
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTBorderedLayer.h
-c000000004F42C9FE0000000000000162
-t1329777150
+c000000004F8352760000000000000162
+t1334006390
 s354
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTColor.h
-c000000004F42C9FE0000000000000449
-t1329777150
+c000000004F8352760000000000000449
+t1334006390
 s1097
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTColorSpace.h
-c000000004F42C9FE0000000000000198
-t1329777150
+c000000004F8352760000000000000198
+t1334006390
 s408
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTConstraints.h
-c000000004F42C9FE00000000000003B4
-t1329777150
+c000000004F83527600000000000003B4
+t1334006390
 s948
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTDefinitions.h
-c000000004F42C9FE0000000000000F6A
-t1329777150
+c000000004F8352760000000000000F6A
+t1334006390
 s3946
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTExceptions.h
-c000000004F42C9FE00000000000000E1
-t1329777150
+c000000004F83527600000000000000E1
+t1334006390
 s225
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTFill.h
-c000000004F42C9FE0000000000000352
-t1329777150
+c000000004F8352760000000000000352
+t1334006390
 s850
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTGradient.h
-c000000004F42C9FE0000000000000C0A
-t1329777150
+c000000004F8352760000000000000C0A
+t1334006390
 s3082
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTGraph.h
-c000000004F42C9FE0000000000000DB8
-t1329777150
+c000000004F8352760000000000000DB8
+t1334006390
 s3512
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTGraphHostingView.h
-c000000004F42C9FE00000000000001B4
-t1329777150
+c000000004F83527600000000000001B4
+t1334006390
 s436
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTImage.h
-c000000004F42C9FE00000000000003CB
-t1329777150
+c000000004F83527600000000000003CB
+t1334006390
 s971
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTLayer.h
-c000000004F42C9FE0000000000000A7A
-t1329777150
+c000000004F8352760000000000000A7A
+t1334006390
 s2682
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTLayerAnnotation.h
-c000000004F42C9FE00000000000001FA
-t1329777150
+c000000004F83527600000000000001FA
+t1334006390
 s506
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTLegend.h
-c000000004F42C9FE0000000000000FFE
-t1329777150
+c000000004F8352760000000000000FFE
+t1334006390
 s4094
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTLegendEntry.h
-c000000004F42C9FE0000000000000392
-t1329777150
+c000000004F8352760000000000000392
+t1334006390
 s914
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTLimitBand.h
-c000000004F42C9FE000000000000021E
-t1329777150
+c000000004F835276000000000000021E
+t1334006390
 s542
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTLineCap.h
-c000000004F42C9FE0000000000000859
-t1329777150
+c000000004F8352760000000000000859
+t1334006390
 s2137
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTLineStyle.h
-c000000004F42C9FE0000000000000418
-t1329777150
+c000000004F8352760000000000000418
+t1334006390
 s1048
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTMutableLineStyle.h
-c000000004F42C9FE0000000000000236
-t1329777150
+c000000004F8352760000000000000236
+t1334006390
 s566
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTMutableNumericData+TypeConversion.h
-c000000004F42C9FE00000000000002BD
-t1329777150
+c000000004F83527600000000000002BD
+t1334006390
 s701
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTMutableNumericData.h
-c000000004F42C9FE0000000000000302
-t1329777150
+c000000004F8352760000000000000302
+t1334006390
 s770
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTMutablePlotRange.h
-c000000004F42C9FE0000000000000277
-t1329777150
+c000000004F8352760000000000000277
+t1334006390
 s631
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTMutableShadow.h
-c000000004F42C9FE0000000000000161
-t1329777150
+c000000004F8352760000000000000161
+t1334006390
 s353
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTMutableTextStyle.h
-c000000004F42C9FE000000000000017E
-t1329777150
+c000000004F835276000000000000017E
+t1334006390
 s382
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTNumericData+TypeConversion.h
-c000000004F42C9FE000000000000032D
-t1329777150
+c000000004F835276000000000000032D
+t1334006390
 s813
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTNumericData.h
-c000000004F42C9FE00000000000007F0
-t1329777150
+c000000004F83527600000000000007F0
+t1334006390
 s2032
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTNumericDataType.h
-c000000004F42C9FE000000000000051A
-t1329777150
+c000000004F835276000000000000051A
+t1334006390
 s1306
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTPathExtensions.h
-c000000004F42C9FE0000000000000125
-t1329777150
+c000000004F8352760000000000000125
+t1334006390
 s293
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTPieChart.h
-c000000004F42C9FE0000000000000D54
-t1329777150
+c000000004F8352760000000000000D54
+t1334006390
 s3412
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTPlatformSpecificCategories.h
-c000000004F42C9FE00000000000003AD
-t1329777150
+c000000004F83527600000000000003AD
+t1334006390
 s941
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTPlatformSpecificDefines.h
-c000000004F42C9FE000000000000005B
-t1329777150
+c000000004F835276000000000000005B
+t1334006390
 s91
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTPlatformSpecificFunctions.h
-c000000004F42C9FE0000000000000161
-t1329777150
+c000000004F8352760000000000000161
+t1334006390
 s353
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTPlot.h
-c000000004F736F130000000000001E53
-t1332965139
+c000000004F8352760000000000001E53
+t1334006390
 s7763
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTPlotArea.h
-c000000004F42C9FE0000000000000662
-t1329777150
+c000000004F8352760000000000000662
+t1334006390
 s1634
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTPlotAreaFrame.h
-c000000004F42C9FE0000000000000176
-t1329777150
+c000000004F8352760000000000000176
+t1334006390
 s374
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTPlotRange.h
-c000000004F42C9FE0000000000000780
-t1329777150
+c000000004F8352760000000000000780
+t1334006390
 s1920
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTPlotSpace.h
-c000000004F8320500000000000001733
-t1333993552
+c000000004F8352760000000000001733
+t1334006390
 s5939
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTPlotSpaceAnnotation.h
-c000000004F42C9FE000000000000019B
-t1329777150
+c000000004F835276000000000000019B
+t1334006390
 s411
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTPlotSymbol.h
-c000000004F42C9FE0000000000000964
-t1329777150
+c000000004F8352760000000000000964
+t1334006390
 s2404
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTRangePlot.h
-c000000004F42C9FE0000000000000521
-t1329777150
+c000000004F8352760000000000000521
+t1334006390
 s1313
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTResponder.h
-c000000004F42C9FE00000000000006A9
-t1329777150
+c000000004F83527600000000000006A9
+t1334006390
 s1705
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTScatterPlot.h
-c000000004F42C9FE0000000000000DF6
-t1329777150
+c000000004F8352760000000000000DF6
+t1334006390
 s3574
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTShadow.h
-c000000004F42C9FE0000000000000245
-t1329777150
+c000000004F8352760000000000000245
+t1334006390
 s581
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTTextLayer.h
-c000000004F42C9FE0000000000000247
-t1329777150
+c000000004F8352760000000000000247
+t1334006390
 s583
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTTextStyle.h
-c000000004F42C9FE00000000000004BD
-t1329777150
+c000000004F83527600000000000004BD
+t1334006390
 s1213
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTTheme.h
-c000000004F42C9FE0000000000000477
-t1329777150
+c000000004F8352760000000000000477
+t1334006390
 s1143
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTTimeFormatter.h
-c000000004F42C9FE0000000000000199
-t1329777150
+c000000004F8352760000000000000199
+t1334006390
 s409
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTTradingRangePlot.h
-c000000004F42C9FE0000000000000892
-t1329777150
+c000000004F8352760000000000000892
+t1334006390
 s2194
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTUtilities.h
-c000000004F42C9FE0000000000000E24
-t1329777150
+c000000004F8352760000000000000E24
+t1334006390
 s3620
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTXYAxis.h
-c000000004F42C9FE0000000000000183
-t1329777150
+c000000004F8352760000000000000183
+t1334006390
 s387
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTXYAxisSet.h
-c000000004F42C9FE00000000000000F1
-t1329777150
+c000000004F83527600000000000000F1
+t1334006390
 s241
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTXYGraph.h
-c000000004F42C9FE0000000000000157
-t1329777150
+c000000004F8352760000000000000157
+t1334006390
 s343
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CPTXYPlotSpace.h
-c000000004F42C9FE00000000000002D3
-t1329777150
+c000000004F83527600000000000002D3
+t1334006390
 s723
 
 N/Projects/SelfHub/SelfHub/CorePlot/Headers/CorePlot-CocoaTouch.h
-c000000004F42C9FE000000000000066E
-t1329777150
+c000000004F835276000000000000066E
+t1334006390
 s1646
 
 N/Projects/SelfHub/SelfHub/CorePlot/libCorePlot-CocoaTouch.a
-c000000004F42CA1C00000000004A3FB0
-t1329777180
+c000000004F83527700000000004A3FB0
+t1334006391
 s4865968
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/BottomPanelViewController.h
-c000000004F5F51800000000000000BAB
-t1331646848
+c000000004F8352770000000000000BAB
+t1334006391
 s2987
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/BottomPanelViewController.m
-c000000004F5F51B60000000000001E88
-t1331646902
+c000000004F8352770000000000001E88
+t1334006391
 s7816
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/BottomPanelViewController.xib
-c000000004F5F4D3D0000000000009DF7
-t1331645757
+c000000004F8352770000000000009DF7
+t1334006391
 s40439
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/bottomPanel_background.png
-c000000004E0B53880000000000000C9F
-t1309365128
+c000000004F8352770000000000000C9F
+t1334006391
 s3231
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/bottomPanel_greenball.png
-c000000004E0B51AE0000000000000D03
-t1309364654
+c000000004F8352770000000000000D03
+t1334006391
 s3331
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/bottomPanel_redball.png
-c000000004E0B51920000000000000D02
-t1309364626
+c000000004F8352770000000000000D02
+t1334006391
 s3330
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/bottomPanel_statusbar.png
-c000000004E0B51540000000000000BE9
-t1309364564
+c000000004F8352770000000000000BE9
+t1334006391
 s3049
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab1_norm.png
-c000000004E11D4DA0000000000002036
-t1309791450
+c000000004F8352770000000000002036
+t1334006391
 s8246
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab1_press.png
-c000000004E11D4A60000000000001D79
-t1309791398
+c000000004F8352770000000000001D79
+t1334006391
 s7545
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab1_unav.png
-c000000004E176D810000000000001EB3
-t1310158209
+c000000004F8352770000000000001EB3
+t1334006391
 s7859
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab2_norm.png
-c000000004E11D0A60000000000001490
-t1309790374
+c000000004F8352770000000000001490
+t1334006391
 s5264
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab2_press.png
-c000000004E11D0A60000000000001302
-t1309790374
+c000000004F8352770000000000001302
+t1334006391
 s4866
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab2_unav.png
-c000000004E176D940000000000001DD3
-t1310158228
+c000000004F8352770000000000001DD3
+t1334006391
 s7635
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab3_norm.png
-c000000004E11D0A60000000000001714
-t1309790374
+c000000004F8352770000000000001714
+t1334006391
 s5908
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab3_press.png
-c000000004E11D0A6000000000000150D
-t1309790374
+c000000004F835277000000000000150D
+t1334006391
 s5389
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab3_unav.png
-c000000004E176D780000000000001FED
-t1310158200
+c000000004F8352770000000000001FED
+t1334006391
 s8173
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab4_norm.png
-c000000004E11D0A60000000000001ABB
-t1309790374
+c000000004F8352770000000000001ABB
+t1334006391
 s6843
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab4_press.png
-c000000004E11D0A600000000000018D5
-t1309790374
+c000000004F83527700000000000018D5
+t1334006391
 s6357
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab4_unav.png
-c000000004E1309060000000000001AC2
-t1309870342
+c000000004F8352770000000000001AC2
+t1334006391
 s6850
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab5_norm.png
-c000000004E11D0A60000000000001759
-t1309790374
+c000000004F8352770000000000001759
+t1334006391
 s5977
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab5_press.png
-c000000004E11D0A60000000000001430
-t1309790374
+c000000004F8352770000000000001430
+t1334006391
 s5168
 
 N/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab5_unav.png
-c000000004E176D8A000000000000204E
-t1310158218
+c000000004F835277000000000000204E
+t1334006391
 s8270
 
 N/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.h
-c000000004F5F7FA20000000000000239
-t1331658658
+c000000004F8352770000000000000239
+t1334006391
 s569
 
 N/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m
-c000000004F5F82740000000000002F2A
-t1331659380
+c000000004F8352770000000000002F2A
+t1334006391
 s12074
 
 N/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController_iPad.xib
-c000000004F3D522E0000000000001236
-t1329418798
+c000000004F8352770000000000001236
+t1334006391
 s4662
 
 N/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController_iPhone.xib
-c000000004F4289D60000000000001FAB
-t1329760726
+c000000004F8352770000000000001FAB
+t1334006391
 s8107
 
 N/Projects/SelfHub/SelfHub/HostControllers/Desktop/ModuleTableCell.h
-c000000004F3D515800000000000001F0
-t1329418584
+c000000004F83527700000000000001F0
+t1334006391
 s496
 
 N/Projects/SelfHub/SelfHub/HostControllers/Desktop/ModuleTableCell.m
-c000000004F3E9C6600000000000003A7
-t1329503334
+c000000004F83527700000000000003A7
+t1334006391
 s935
 
 N/Projects/SelfHub/SelfHub/HostControllers/Desktop/ModuleTableCell.xib
-c000000004F55144600000000000039DB
-t1330975814
+c000000004F83527700000000000039DB
+t1334006391
 s14811
 
 N/Projects/SelfHub/SelfHub/HostControllers/Info/InfoViewController.h
-c000000004F5F973200000000000000EC
-t1331664690
+c000000004F83527700000000000000EC
+t1334006391
 s236
 
 N/Projects/SelfHub/SelfHub/HostControllers/Info/InfoViewController.m
-c000000004F5F976E00000000000004A2
-t1331664750
+c000000004F83527700000000000004A2
+t1334006391
 s1186
 
 N/Projects/SelfHub/SelfHub/HostControllers/Info/InfoViewController.xib
-c000000004F5F979E0000000000001C44
-t1331664798
+c000000004F8352770000000000001C44
+t1334006391
 s7236
 
 N/Projects/SelfHub/SelfHub/HostControllers/SelfhubNavigationController.h
-c000000004F5E04E500000000000001A1
-t1331561701
+c000000004F83527700000000000001A1
+t1334006391
 s417
 
 N/Projects/SelfHub/SelfHub/HostControllers/SelfhubNavigationController.m
-c000000004F5E071E00000000000005CC
-t1331562270
+c000000004F83527700000000000005CC
+t1334006391
 s1484
+
+N/Projects/SelfHub/SelfHub/Icons/Icon.png
+c000000004F85C019000000000000282C
+t1334165529
+s10284
+
+N/Projects/SelfHub/SelfHub/Icons/icon@2x.png
+c000000004F85C008000000000000669F
+t1334165512
+s26271
 
 N/Projects/SelfHub/SelfHub/Localizations/en.lproj/Localizable.strings
 c000000004F4BF23B00000000000017DE
@@ -631,38 +643,38 @@ t1330194384
 s4779
 
 N/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.h
-c000000004F7F378700000000000003C7
-t1333737351
+c000000004F83527700000000000003C7
+t1334006391
 s967
 
 N/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.m
-c000000004F8350C50000000000002116
-t1334005957
-s8470
+c000000004F859C1C00000000000020F5
+t1334156316
+s8437
 
 N/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.xib
-c000000004F7DFFC00000000000005812
-t1333657536
-s22546
+c000000004F85E410000000000000597B
+t1334174736
+s22907
 
 N/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.h
-c000000004F832CFC00000000000003CC
-t1333996796
-s972
+c000000004F85C758000000000000048E
+t1334167384
+s1166
 
 N/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m
-c000000004F8350D80000000000005DB9
-t1334005976
-s23993
+c000000004F85E4240000000000007C7D
+t1334174756
+s31869
 
 N/Projects/SelfHub/SelfHub/Modules/WeightControl/images/weightModule_icon.png
-c000000004F5503C0000000000000441F
-t1330971584
-s17439
+c000000004F85C270000000000000486D
+t1334166128
+s18541
 
 N/Projects/SelfHub/SelfHub/Modules/WeightControl/weight.export.plist
-c000000004F55040100000000000000D8
-t1330971649
+c000000004F83527700000000000000D8
+t1334006391
 s216
 
 N/Projects/SelfHub/SelfHub/SelfHub-Prefix.pch
@@ -681,56 +693,60 @@ t1329422773
 s349
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app
-t1334005901
-s1360
+t1334174740
+s1428
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM
-t1334005901
+t1334171634
 s102
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/AllModules.plist
-t1333645089
+t1334006392
 s241
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/BottomPanelViewController.nib
-t1333645093
+t1334006392
 s4575
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/DesktopViewController_iPad.nib
-t1333645093
+t1334006392
 s792
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/DesktopViewController_iPhone.nib
-t1333645093
+t1334006392
 s1222
 
+N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/Icon.png
+t1334165720
+s10284
+
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/Info.plist
-t1333645088
-s950
+t1334165720
+s1004
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/InfoViewController.nib
-t1333645094
+t1334006392
 s1317
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/MainInformation.nib
-t1333645093
+t1334006392
 s10503
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/ModuleTableCell.nib
-t1333645093
+t1334006392
 s2439
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/PkgInfo
-t1333645088
+t1334165720
 s8
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub
-t1334005900
-s1001000
+t1334171634
+s1005636
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/WeightControl.nib
-t1333734003
-s2493
+t1334174740
+s2686
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/antropometry.export.plist
 t1333645089
@@ -741,79 +757,79 @@ t1333645089
 s4382
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_background.png
-t1333645090
+t1334006392
 s3231
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_greenball.png
-t1333645090
+t1334006392
 s3331
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_redball.png
-t1333645090
+t1334006392
 s3330
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_statusbar.png
-t1333645090
+t1334006392
 s3049
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab1_norm.png
-t1333645090
+t1334006392
 s8246
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab1_press.png
-t1333645090
+t1334006392
 s7545
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab1_unav.png
-t1333645090
+t1334006392
 s7859
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab2_norm.png
-t1333645090
+t1334006392
 s5264
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab2_press.png
-t1333645090
+t1334006392
 s4866
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab2_unav.png
-t1333645090
+t1334006392
 s7635
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab3_norm.png
-t1333645090
+t1334006392
 s5908
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab3_press.png
-t1333645090
+t1334006392
 s5389
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab3_unav.png
-t1333645090
+t1334006392
 s8173
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab4_norm.png
-t1333645090
+t1334006392
 s6843
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab4_press.png
-t1333645090
+t1334006392
 s6357
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab4_unav.png
-t1333645090
+t1334006392
 s6850
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab5_norm.png
-t1333645090
+t1334006392
 s5977
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab5_press.png
-t1333645090
+t1334006392
 s5168
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab5_unav.png
-t1333645090
+t1334006392
 s8270
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/en.lproj/InfoPlist.strings
@@ -821,15 +837,19 @@ t1333645089
 s42
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/en.lproj/Localizable.strings
-t1333645089
+t1334006392
 s818
+
+N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/icon@2x.png
+t1334165720
+s26271
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/mainInfoModule_icon.png
 t1333645089
 s21580
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/ru.lproj/Localizable.strings
-t1333645089
+t1334006392
 s2014
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/voidPhoto.png
@@ -837,70 +857,234 @@ t1333645089
 s4401
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/weight.export.plist
-t1333645089
+t1334006392
 s53
 
 N/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/weightModule_icon.png
-t1333645089
-s17439
+t1334169682
+s18541
 
 N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/AppDelegate.o
-t1333645089
+t1334006392
 s76300
 
 N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/BottomPanelViewController.o
-t1333645089
+t1334006392
 s89220
 
 N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/DesktopViewController.o
-t1333645089
+t1334006392
 s84756
 
 N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/InfoViewController.o
-t1333645089
+t1334006392
 s46924
 
 N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/MainInformation.o
-t1333645089
+t1334006392
 s197528
 
 N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/ModuleHelper.o
-t1333645089
+t1334006392
 s15160
 
 N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/ModuleTableCell.o
-t1333645089
+t1334006392
 s51340
 
 N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/SelfHub.LinkFileList
-c000000004F7DCF2000000000000004E2
-t1333645088
+c000000004F83527800000000000004E2
+t1334006392
 s1250
 
 N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/SelfhubNavigationController.o
-t1333645089
+t1334006392
 s51636
 
 N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControl.o
-t1333996828
+t1334169682
 s84268
 
 N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControlGraphView.o
-t1334005900
-s121096
+t1334171634
+s128008
 
 N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/main.o
-t1333645089
+t1334006392
 s2996
+
+N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/AppDelegate.plist
+t1334158253
+s276
+
+N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/BottomPanelViewController.plist
+t1334158253
+s276
+
+N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/DesktopViewController.plist
+t1334158253
+s45797
+
+N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/InfoViewController.plist
+t1334158253
+s276
+
+N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/MainInformation.plist
+t1334158257
+s4298
+
+N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/ModuleHelper.plist
+t1334158255
+s33804
+
+N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/ModuleTableCell.plist
+t1334158253
+s276
+
+N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/SelfhubNavigationController.plist
+t1334158253
+s276
+
+N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/WeightControl.plist
+t1334158253
+s276
+
+N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/WeightControlGraphView.plist
+t1334158597
+s2936
+
+N/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/main.plist
+t1334158253
+s276
+
+N/var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-clqdwjexpyxbpzghxvpdrjercinm/SelfHub-Prefix.pch.pth
+t1334158253
+s4021020
 
 N/var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-gjzdwbblxdwjrvaefzcoizmlrvsc/SelfHub-Prefix.pch.pth
 t1333645089
 s4021020
 
 NSelfHub/SelfHub-Info.plist
-c000000004F42AA7A000000000000057D
-t1329769082
-s1405
+c000000004F85C0D500000000000005E8
+t1334165717
+s1512
+
+CAnalyze /Projects/SelfHub/SelfHub/AppDelegate.m
+s355851053.397194
+e355851053.500555
+r1
+xAnalyze
+x/Projects/SelfHub/SelfHub/AppDelegate.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Analyze /Projects/SelfHub/SelfHub/AppDelegate.m85cc652ddb35b541^2925802ddb35b541^---0#0#0#-19%DVTDocumentLocation2@55"file://localhost/Projects/SelfHub/SelfHub/AppDelegate.m0000000000000000^2848"Analyze SelfHub/AppDelegate.m    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-clqdwjexpyxbpzghxvpdrjercinm/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/AppDelegate.d --analyze /Projects/SelfHub/SelfHub/AppDelegate.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/AppDelegate.plist36"9B376F80-A687-40C3-B769-A6537B8231B2-
+
+CAnalyze /Projects/SelfHub/SelfHub/HostControllers/BottomPanel/BottomPanelViewController.m
+s355851053.501855
+e355851053.580022
+r1
+xAnalyze
+x/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/BottomPanelViewController.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Analyze /Projects/SelfHub/SelfHub/HostControllers/BottomPanel/BottomPanelViewController.m4f94802ddb35b541^4e7d942ddb35b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Projects/SelfHub/SelfHub/HostControllers/BottomPanel/BottomPanelViewController.m0000000000000000^2960"Analyze SelfHub/HostControllers/BottomPanel/BottomPanelViewController.m    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-clqdwjexpyxbpzghxvpdrjercinm/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/BottomPanelViewController.d --analyze /Projects/SelfHub/SelfHub/HostControllers/BottomPanel/BottomPanelViewController.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/BottomPanelViewController.plist36"3D5F3706-B968-45A0-ADE2-7C7B2EB4AFAB-
+
+CAnalyze /Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m
+s355851053.578854
+e355851053.771476
+r1
+xAnalyze
+x/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m
+o/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m:48:26: warning: Potential leak of an object allocated on line 48
+o        listFromPList = [[[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"AllModules" ofType:@"plist"]] objectForKey:@"modules"];
+o                         ^
+o/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m:203:31: warning: Potential leak of an object allocated on line 203
+o        moduleExchangeList = [[[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:moduleExchangeFileName ofType:nil]] objectForKey:@"items"];
+o                              ^
+o/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m:268:31: warning: Potential leak of an object allocated on line 268
+o        moduleExchangeList = [[[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:moduleExchangeFileName ofType:nil]] objectForKey:@"items"];
+o                              ^
+o3 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Analyze /Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.md84a942ddb35b541^878ac52ddb35b541^-1049"/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m:48:26: warning: Potential leak of an object allocated on line 48        listFromPList = [[[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"AllModules" ofType:@"plist"]] objectForKey:@"modules"];                         ^/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m:203:31: warning: Potential leak of an object allocated on line 203        moduleExchangeList = [[[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:moduleExchangeFileName ofType:nil]] objectForKey:@"items"];                              ^/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m:268:31: warning: Potential leak of an object allocated on line 268        moduleExchangeList = [[[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:moduleExchangeFileName ofType:nil]] objectForKey:@"items"];                              ^3 warnings generated.3(35%IDEActivityLogAnalyzerResultMessage2@48"Potential leak of an object allocated on line 48-355851053#18446744073709551615#0#6(44%IDEActivityLogAnalyzerControlFlowStepMessage3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result23%DVTTextDocumentLocation4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(41%IDEActivityLogAnalyzerControlFlowStepEdge5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^26#4#26#4#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^46#4#46#4#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^46#4#46#4#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^47#8#47#8#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^47#8#47#8#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^47#25#47#139#18446744073709551615#0#38%IDEActivityLogAnalyzerEventStepMessage6@59"Method returns an Objective-C object with a +1 retain count-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^47#25#47#25#18446744073709551615#0#-1(4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^47#25#47#140#18446744073709551615#0#-59"Method returns an Objective-C object with a +1 retain count3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^47#25#47#139#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^47#8#47#8#18446744073709551615#0#6@107"Object leaked: allocated object is not referenced later in this execution path and has a retain count of +1-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^47#8#47#8#18446744073709551615#0#-1(4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^47#8#47#165#18446744073709551615#0#-107"Object leaked: allocated object is not referenced later in this execution path and has a retain count of +11#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^47#8#47#8#18446744073709551615#0#36"Memory (Core Foundation/Objective-C)1(4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^47#8#47#165#18446744073709551615#0#-4"Leak2@49"Potential leak of an object allocated on line 203-355851053#18446744073709551615#0#20(3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^180#4#180#4#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^182#4#182#4#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^182#4#182#4#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^182#8#182#8#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^182#8#182#8#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^183#8#183#8#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^183#8#183#8#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^184#12#184#12#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^184#12#184#12#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^185#12#185#12#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^185#12#185#12#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^188#4#188#4#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^188#4#188#4#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^193#4#193#4#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^193#4#193#4#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^194#4#194#4#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^194#4#194#4#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^194#7#194#7#18446744073709551615#0#6@45"Assuming 'moduleExchangeList' is equal to nil-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^194#7#194#7#18446744073709551615#0#-1(4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^194#7#194#30#18446744073709551615#0#-45"Assuming 'moduleExchangeList' is equal to nil3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^194#7#194#7#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^195#8#195#8#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^195#8#195#8#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^196#8#196#8#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^196#8#196#8#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^196#11#196#11#18446744073709551615#0#6@53"Assuming 'moduleExchangeFileName' is not equal to nil-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^196#11#196#11#18446744073709551615#0#-1(4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^196#11#196#38#18446744073709551615#0#-53"Assuming 'moduleExchangeFileName' is not equal to nil3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^196#11#196#11#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^197#11#197#11#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^197#11#197#11#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^202#8#202#8#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^202#8#202#8#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^202#30#202#148#18446744073709551615#0#6@59"Method returns an Objective-C object with a +1 retain count-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^202#30#202#30#18446744073709551615#0#-1(4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^202#30#202#149#18446744073709551615#0#-59"Method returns an Objective-C object with a +1 retain count3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^202#30#202#148#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^202#8#202#8#18446744073709551615#0#6@107"Object leaked: allocated object is not referenced later in this execution path and has a retain count of +1-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^202#8#202#8#18446744073709551615#0#-1(4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^202#8#202#172#18446744073709551615#0#-107"Object leaked: allocated object is not referenced later in this execution path and has a retain count of +11#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^202#8#202#8#18446744073709551615#0#36"Memory (Core Foundation/Objective-C)1(4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^202#8#202#172#18446744073709551615#0#-4"Leak2@49"Potential leak of an object allocated on line 268-355851053#18446744073709551615#0#20(3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^245#4#245#4#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^247#4#247#4#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^247#4#247#4#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^247#8#247#8#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^247#8#247#8#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^248#8#248#8#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^248#8#248#8#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^249#12#249#12#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^249#12#249#12#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^250#12#250#12#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^250#12#250#12#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^253#4#253#4#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^253#4#253#4#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^258#4#258#4#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^258#4#258#4#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^259#4#259#4#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^259#4#259#4#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^259#7#259#7#18446744073709551615#0#6@45"Assuming 'moduleExchangeList' is equal to nil-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^259#7#259#7#18446744073709551615#0#-1(4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^259#7#259#30#18446744073709551615#0#-45"Assuming 'moduleExchangeList' is equal to nil3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^259#7#259#7#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^260#8#260#8#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^260#8#260#8#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^261#8#261#8#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^261#8#261#8#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^261#11#261#11#18446744073709551615#0#6@53"Assuming 'moduleExchangeFileName' is not equal to nil-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^261#11#261#11#18446744073709551615#0#-1(4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^261#11#261#38#18446744073709551615#0#-53"Assuming 'moduleExchangeFileName' is not equal to nil3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^261#11#261#11#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^262#11#262#11#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^262#11#262#11#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^267#8#267#8#18446744073709551615#0#3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^267#8#267#8#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^267#30#267#148#18446744073709551615#0#6@59"Method returns an Objective-C object with a +1 retain count-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^267#30#267#30#18446744073709551615#0#-1(4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^267#30#267#149#18446744073709551615#0#-59"Method returns an Objective-C object with a +1 retain count3@0"-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^267#30#267#148#18446744073709551615#0#4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^267#8#267#8#18446744073709551615#0#6@107"Object leaked: allocated object is not referenced later in this execution path and has a retain count of +1-355851053#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^267#8#267#8#18446744073709551615#0#-1(4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^267#8#267#172#18446744073709551615#0#-107"Object leaked: allocated object is not referenced later in this execution path and has a retain count of +11#32"com.apple.dt.IDE.analyzer.result4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^267#8#267#8#18446744073709551615#0#36"Memory (Core Foundation/Objective-C)1(4@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^267#8#267#172#18446744073709551615#0#-4"Leak0#0#0#-19%DVTDocumentLocation7@89"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m0000000000000000^2936"Analyze SelfHub/HostControllers/Desktop/DesktopViewController.m    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-clqdwjexpyxbpzghxvpdrjercinm/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/DesktopViewController.d --analyze /Projects/SelfHub/SelfHub/HostControllers/Desktop/DesktopViewController.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/DesktopViewController.plist36"1804B0DA-A6F3-4758-AB7E-B36B2CAFEFDB-
+
+CAnalyze /Projects/SelfHub/SelfHub/HostControllers/Desktop/ModuleTableCell.m
+s355851053.581198
+e355851053.641482
+r1
+xAnalyze
+x/Projects/SelfHub/SelfHub/HostControllers/Desktop/ModuleTableCell.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Analyze /Projects/SelfHub/SelfHub/HostControllers/Desktop/ModuleTableCell.m72e1942ddb35b541^3739a42ddb35b541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Desktop/ModuleTableCell.m0000000000000000^2912"Analyze SelfHub/HostControllers/Desktop/ModuleTableCell.m    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-clqdwjexpyxbpzghxvpdrjercinm/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/ModuleTableCell.d --analyze /Projects/SelfHub/SelfHub/HostControllers/Desktop/ModuleTableCell.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/ModuleTableCell.plist36"5CF5F4F5-1FB3-44D2-886A-CD36281EBF3E-
+
+CAnalyze /Projects/SelfHub/SelfHub/HostControllers/Info/InfoViewController.m
+s355851053.694943
+e355851053.753475
+r1
+xAnalyze
+x/Projects/SelfHub/SelfHub/HostControllers/Info/InfoViewController.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Analyze /Projects/SelfHub/SelfHub/HostControllers/Info/InfoViewController.m0401b22ddb35b541^65e4c02ddb35b541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Projects/SelfHub/SelfHub/HostControllers/Info/InfoViewController.m0000000000000000^2918"Analyze SelfHub/HostControllers/Info/InfoViewController.m    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-clqdwjexpyxbpzghxvpdrjercinm/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/InfoViewController.d --analyze /Projects/SelfHub/SelfHub/HostControllers/Info/InfoViewController.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/InfoViewController.plist36"E6C6776F-4700-47FB-8E90-1D1A82073841-
+
+CAnalyze /Projects/SelfHub/SelfHub/HostControllers/SelfhubNavigationController.m
+s355851053.642711
+e355851053.693719
+r1
+xAnalyze
+x/Projects/SelfHub/SelfHub/HostControllers/SelfhubNavigationController.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Analyze /Projects/SelfHub/SelfHub/HostControllers/SelfhubNavigationController.m16a1a42ddb35b541^af98b12ddb35b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Projects/SelfHub/SelfHub/HostControllers/SelfhubNavigationController.m0000000000000000^2944"Analyze SelfHub/HostControllers/SelfhubNavigationController.m    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-clqdwjexpyxbpzghxvpdrjercinm/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/SelfhubNavigationController.d --analyze /Projects/SelfHub/SelfHub/HostControllers/SelfhubNavigationController.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/SelfhubNavigationController.plist36"111D01F9-603D-46F6-BC8C-A3B188B460E3-
+
+CAnalyze /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m
+s355851053.397206
+e355851057.348982
+r1
+xAnalyze
+x/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m
+o/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m:242:34: warning: Potential leak of an object allocated on line 242 and stored into 'actionSheet'
+o    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:NSLocalizedString(@"Select photo:", @"") delegate:self cancelButtonTitle:NSLocalizedString(@"Cancel", @"") destructiveButtonTitle:nil otherButtonTitles:NSLocalizedString(@"Camera", @""), NSLocalizedString(@"Library", @""), NSLocalizedString(@"Album", @""), nil];
+o                                 ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Analyze /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.me7c5652ddb35b541^75585931db35b541^-554"/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m:242:34: warning: Potential leak of an object allocated on line 242 and stored into 'actionSheet'    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:NSLocalizedString(@"Select photo:", @"") delegate:self cancelButtonTitle:NSLocalizedString(@"Cancel", @"") destructiveButtonTitle:nil otherButtonTitles:NSLocalizedString(@"Camera", @""), NSLocalizedString(@"Library", @""), NSLocalizedString(@"Album", @""), nil];                                 ^1 warning generated.1(35%IDEActivityLogAnalyzerResultMessage2@79"Potential leak of an object allocated on line 242 and stored into 'actionSheet'-355851057#18446744073709551615#0#4(44%IDEActivityLogAnalyzerControlFlowStepMessage3@0"-355851057#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result23%DVTTextDocumentLocation4@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(41%IDEActivityLogAnalyzerControlFlowStepEdge5@4@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^241#4#241#4#18446744073709551615#0#4@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^241#33#241#330#18446744073709551615#0#38%IDEActivityLogAnalyzerEventStepMessage6@59"Method returns an Objective-C object with a +1 retain count-355851057#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^241#33#241#33#18446744073709551615#0#-1(4@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^241#33#241#331#18446744073709551615#0#-59"Method returns an Objective-C object with a +1 retain count3@0"-355851057#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^241#33#241#330#18446744073709551615#0#4@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^244#0#244#0#18446744073709551615#0#6@137"Object leaked: object allocated and stored into 'actionSheet' is not referenced later in this execution path and has a retain count of +1-355851057#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^244#0#244#0#18446744073709551615#0#-1(4@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^244#0#244#0#18446744073709551615#0#-137"Object leaked: object allocated and stored into 'actionSheet' is not referenced later in this execution path and has a retain count of +11#32"com.apple.dt.IDE.analyzer.result4@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^244#0#244#0#18446744073709551615#0#36"Memory (Core Foundation/Objective-C)1(4@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^244#0#244#0#18446744073709551615#0#-4"Leak0#0#0#-19%DVTDocumentLocation7@83"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m0000000000000000^2912"Analyze SelfHub/Modules/MainInformation/MainInformation.m    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-clqdwjexpyxbpzghxvpdrjercinm/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/MainInformation.d --analyze /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/MainInformation.plist36"3801611B-1CA8-4539-9C89-BB99FF5346E9-
+
+CAnalyze /Projects/SelfHub/SelfHub/Modules/ModuleHelper.m
+s355851053.397226
+e355851055.016212
+r1
+xAnalyze
+x/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m
+o/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m:21:25: warning: Potential leak of an object allocated on line 21
+o        modulesArray = [[[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"AllModules" ofType:@"plist"]] objectForKey:@"modules"];
+o                        ^
+o/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m:48:36: warning: Potential leak of an object allocated on line 48
+o    NSArray *moduleExchangeList = [[[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:moduleExchangeFileName ofType:nil]] objectForKey:@"items"];
+o                                   ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Analyze /Projects/SelfHub/SelfHub/Modules/ModuleHelper.m64cc652ddb35b541^9a26042fdb35b541^-658"/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m:21:25: warning: Potential leak of an object allocated on line 21        modulesArray = [[[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"AllModules" ofType:@"plist"]] objectForKey:@"modules"];                        ^/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m:48:36: warning: Potential leak of an object allocated on line 48    NSArray *moduleExchangeList = [[[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:moduleExchangeFileName ofType:nil]] objectForKey:@"items"];                                   ^2 warnings generated.2(35%IDEActivityLogAnalyzerResultMessage2@48"Potential leak of an object allocated on line 21-355851055#18446744073709551615#0#6(44%IDEActivityLogAnalyzerControlFlowStepMessage3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result23%DVTTextDocumentLocation4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(41%IDEActivityLogAnalyzerControlFlowStepEdge5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^17#4#17#4#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^19#4#19#4#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^19#4#19#4#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^20#8#20#8#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^20#8#20#8#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^20#24#20#138#18446744073709551615#0#38%IDEActivityLogAnalyzerEventStepMessage6@59"Method returns an Objective-C object with a +1 retain count-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^20#24#20#24#18446744073709551615#0#-1(4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^20#24#20#139#18446744073709551615#0#-59"Method returns an Objective-C object with a +1 retain count3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^20#24#20#138#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^20#8#20#8#18446744073709551615#0#6@107"Object leaked: allocated object is not referenced later in this execution path and has a retain count of +1-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^20#8#20#8#18446744073709551615#0#-1(4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^20#8#20#164#18446744073709551615#0#-107"Object leaked: allocated object is not referenced later in this execution path and has a retain count of +11#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^20#8#20#8#18446744073709551615#0#36"Memory (Core Foundation/Objective-C)1(4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^20#8#20#164#18446744073709551615#0#-4"Leak2@48"Potential leak of an object allocated on line 48-355851055#18446744073709551615#0#28(3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^17#4#17#4#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^19#4#19#4#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^19#4#19#4#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^20#8#20#8#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^20#8#20#8#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^22#4#22#4#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^22#4#22#4#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^22#7#22#7#18446744073709551615#0#6@43"Assuming 'modulesArray' is not equal to nil-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^22#7#22#7#18446744073709551615#0#-1(4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^22#7#22#24#18446744073709551615#0#-43"Assuming 'modulesArray' is not equal to nil3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^22#7#22#7#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^27#4#27#4#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^27#4#27#4#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^29#4#29#4#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^29#4#29#4#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^29#8#29#8#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^29#8#29#8#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^30#8#30#8#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^30#8#30#8#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^29#8#29#8#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^29#8#29#8#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^30#8#30#8#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^30#8#30#8#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^29#8#29#8#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^29#8#29#8#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^30#8#30#8#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^30#8#30#8#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^29#8#29#8#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^29#8#29#8#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^30#8#30#8#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^30#8#30#8#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^31#12#31#12#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^31#12#31#12#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^32#12#32#12#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^32#12#32#12#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^35#4#35#4#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^35#4#35#4#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^41#4#41#4#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^41#4#41#4#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^42#4#42#4#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^42#4#42#4#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^42#7#42#7#18446744073709551615#0#6@53"Assuming 'moduleExchangeFileName' is not equal to nil-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^42#7#42#7#18446744073709551615#0#-1(4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^42#7#42#34#18446744073709551615#0#-53"Assuming 'moduleExchangeFileName' is not equal to nil3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^42#7#42#7#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^43#7#43#7#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^43#7#43#7#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^47#4#47#4#18446744073709551615#0#3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^47#4#47#4#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^47#35#47#153#18446744073709551615#0#6@59"Method returns an Objective-C object with a +1 retain count-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^47#35#47#35#18446744073709551615#0#-1(4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^47#35#47#154#18446744073709551615#0#-59"Method returns an Objective-C object with a +1 retain count3@0"-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#1(5@4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^47#35#47#153#18446744073709551615#0#4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^47#4#47#30#18446744073709551615#0#6@107"Object leaked: allocated object is not referenced later in this execution path and has a retain count of +1-355851055#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^47#4#47#4#18446744073709551615#0#-1(4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^47#4#47#31#18446744073709551615#0#-107"Object leaked: allocated object is not referenced later in this execution path and has a retain count of +11#32"com.apple.dt.IDE.analyzer.result4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^47#4#47#4#18446744073709551615#0#36"Memory (Core Foundation/Objective-C)1(4@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^47#4#47#31#18446744073709551615#0#-4"Leak0#0#0#-19%DVTDocumentLocation7@64"file://localhost/Projects/SelfHub/SelfHub/Modules/ModuleHelper.m0000000000000000^2868"Analyze SelfHub/Modules/ModuleHelper.m    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-clqdwjexpyxbpzghxvpdrjercinm/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/ModuleHelper.d --analyze /Projects/SelfHub/SelfHub/Modules/ModuleHelper.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/ModuleHelper.plist36"D853E582-ACAE-438C-BE21-094CFA593FEE-
+
+CAnalyze /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.m
+s355851053.492184
+e355851053.577570
+r1
+xAnalyze
+x/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Analyze /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.mb51a7e2ddb35b541^addc932ddb35b541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.m0000000000000000^2900"Analyze SelfHub/Modules/WeightControl/WeightControl.m    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-clqdwjexpyxbpzghxvpdrjercinm/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/WeightControl.d --analyze /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/WeightControl.plist36"6D76C7B8-5AE4-43C7-BAAA-156A465419F9-
+
+CAnalyze /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m
+s355851397.567157
+e355851397.773153
+r1
+xAnalyze
+x/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m
+o/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m:610:3: warning: Value stored to 'newLocationY' is never read
+o                newLocationY = CPTDecimalSubtract(plotInteractionPoint[CPTCoordinateY], newFirstLengthY);
+o                ^              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m:615:3: warning: Value stored to 'newLocationY' is never read
+o                newLocationY = CPTDecimalAdd(plotInteractionPoint[CPTCoordinateY], newSecondLengthY);
+o                ^              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Analyze /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.mf9499185dc35b541^4ef0c585dc35b541^-704"/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m:610:3: warning: Value stored to 'newLocationY' is never read                newLocationY = CPTDecimalSubtract(plotInteractionPoint[CPTCoordinateY], newFirstLengthY);                ^              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m:615:3: warning: Value stored to 'newLocationY' is never read                newLocationY = CPTDecimalAdd(plotInteractionPoint[CPTCoordinateY], newSecondLengthY);                ^              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~2 warnings generated.2(35%IDEActivityLogAnalyzerResultMessage2@44"Value stored to 'newLocationY' is never read-355851397#18446744073709551615#0#1(38%IDEActivityLogAnalyzerEventStepMessage3@44"Value stored to 'newLocationY' is never read-355851397#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result23%DVTTextDocumentLocation4@88"file://localhost/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m0000000000000000^609#2#609#2#18446744073709551615#0#-1(4@88"file://localhost/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m0000000000000000^609#17#609#90#18446744073709551615#0#-44"Value stored to 'newLocationY' is never read1#32"com.apple.dt.IDE.analyzer.result4@88"file://localhost/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m0000000000000000^609#2#609#2#18446744073709551615#0#10"Dead store1(4@88"file://localhost/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m0000000000000000^609#17#609#90#18446744073709551615#0#-15"Dead assignment2@44"Value stored to 'newLocationY' is never read-355851397#18446744073709551615#0#1(3@44"Value stored to 'newLocationY' is never read-355851397#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result4@88"file://localhost/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m0000000000000000^614#2#614#2#18446744073709551615#0#-1(4@88"file://localhost/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m0000000000000000^614#17#614#86#18446744073709551615#0#-44"Value stored to 'newLocationY' is never read1#32"com.apple.dt.IDE.analyzer.result4@88"file://localhost/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m0000000000000000^614#2#614#2#18446744073709551615#0#10"Dead store1(4@88"file://localhost/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m0000000000000000^614#17#614#86#18446744073709551615#0#-15"Dead assignment0#0#0#-19%DVTDocumentLocation5@88"file://localhost/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m0000000000000000^2936"Analyze SelfHub/Modules/WeightControl/WeightControlGraphView.m    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-clqdwjexpyxbpzghxvpdrjercinm/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/WeightControlGraphView.d --analyze /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/WeightControlGraphView.plist36"329EE98A-F070-4090-9FB5-3E1F094420BA-
+
+CAnalyze /Projects/SelfHub/SelfHub/main.m
+s355851053.396954
+e355851053.490952
+r1
+xAnalyze
+x/Projects/SelfHub/SelfHub/main.m
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Analyze /Projects/SelfHub/SelfHub/main.me1b7652ddb35b541^95b97d2ddb35b541^---0#0#0#-19%DVTDocumentLocation2@48"file://localhost/Projects/SelfHub/SelfHub/main.m0000000000000000^2820"Analyze SelfHub/main.m    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-clqdwjexpyxbpzghxvpdrjercinm/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/main.d --analyze /Projects/SelfHub/SelfHub/main.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/StaticAnalyzer/normal/i386/main.plist36"20467F7E-46D8-48A3-8CB4-34F4AE5F66BA-
 
 CBuild AST from /Projects/SelfHub/SelfHub/AppDelegate.m
 r0
@@ -937,7 +1121,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesea40f6588833b541^d6acf7588833b541^---0#1#0#--18"Check dependencies36"C7C4A175-2A9C-4CBB-A431-66797DD25396-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5dfc55a51b36b541^7c4359a51b36b541^---0#1#0#--18"Check dependencies36"66708BC8-48D5-4F02-AD44-C7209296CA84-
 
 CCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/AppDelegate.o /Projects/SelfHub/SelfHub/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s355337889.081790
@@ -1044,8 +1228,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Projects/SelfHub/SelfHub/HostControllers/SelfhubNavigationController.m622f58a1062eb541^971f68a1062eb541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Projects/SelfHub/SelfHub/HostControllers/SelfhubNavigationController.m0000000000000000^3106"CompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/SelfhubNavigationController.o SelfHub/HostControllers/SelfhubNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-gjzdwbblxdwjrvaefzcoizmlrvsc/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/SelfhubNavigationController.d --serialize-diagnostics /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/SelfhubNavigationController.dia -c /Projects/SelfHub/SelfHub/HostControllers/SelfhubNavigationController.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/SelfhubNavigationController.o36"24C80C12-461B-45CD-BC5C-4A6451D4E89A-
 
 CCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControl.o /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s355698776.988205
-e355698777.112895
+s355862482.110979
+e355862482.223366
 r1
 xCompileC
 xbuild/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControl.o
@@ -1054,11 +1238,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.m0212fd588833b541^acfe1c598833b541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.m0000000000000000^3034"CompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControl.o SelfHub/Modules/WeightControl/WeightControl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-gjzdwbblxdwjrvaefzcoizmlrvsc/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControl.d --serialize-diagnostics /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControl.dia -c /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControl.o36"85B65875-6B1C-474D-B77F-A46A3C17051F-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.m34831cd20736b541^03953dd20736b541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.m0000000000000000^3034"CompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControl.o SelfHub/Modules/WeightControl/WeightControl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-gjzdwbblxdwjrvaefzcoizmlrvsc/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControl.d --serialize-diagnostics /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControl.dia -c /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControl.o36"72B71AC0-5B62-4894-BEBB-EE2AB61F275E-
 
 CCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControlGraphView.o /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s355698776.989422
-e355698777.134210
+s355867557.387709
+e355867557.626623
 r1
 xCompileC
 xbuild/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControlGraphView.o
@@ -1067,7 +1251,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.mee5ffd588833b541^958024598833b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m0000000000000000^3088"CompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControlGraphView.o SelfHub/Modules/WeightControl/WeightControlGraphView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-gjzdwbblxdwjrvaefzcoizmlrvsc/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControlGraphView.d --serialize-diagnostics /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControlGraphView.dia -c /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControlGraphView.o36"17BCCAAD-0B3D-4CE8-A16A-BBC83EA0BAB5-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m9b5963a51b36b541^61a8aba51b36b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m0000000000000000^3088"CompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControlGraphView.o SelfHub/Modules/WeightControl/WeightControlGraphView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -include /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-gjzdwbblxdwjrvaefzcoizmlrvsc/SelfHub-Prefix.pch -MMD -MT dependencies -MF /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControlGraphView.d --serialize-diagnostics /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControlGraphView.dia -c /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.m -o /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/WeightControlGraphView.o36"8690A368-93DD-4F17-BFBF-6CAA89C4E267-
 
 CCompileC build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/main.o /Projects/SelfHub/SelfHub/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s355337889.081532
@@ -1131,12 +1315,12 @@ x/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.xib
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compiling /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.xib4a28ada1062eb541^581e08a6062eb541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.xib0000000000000000^830"CompileXIB SelfHub/Modules/MainInformation/MainInformation.xib    cd /Projects/SelfHub    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/MainInformation.nib /Projects/SelfHub/SelfHub/Modules/MainInformation/MainInformation.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"06BD1F0A-83EF-4B12-9E08-015AB6C29293-
 
 CCompileXIB /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.xib
-s355426803.067787
-e355426803.417080
+s355867536.857141
+e355867540.434203
 r1
 xCompileXIB
 x/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compiling /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.xib236b11f3612fb541^3ed06af3612fb541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.xib0000000000000000^820"CompileXIB SelfHub/Modules/WeightControl/WeightControl.xib    cd /Projects/SelfHub    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/WeightControl.nib /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"E4F9D4E1-F019-444C-883E-EE2F3328EF4A-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compiling /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.xib637ddb901b36b541^f6ec71941b36b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.xib0000000000000000^820"CompileXIB SelfHub/Modules/WeightControl/WeightControl.xib    cd /Projects/SelfHub    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/WeightControl.nib /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"E57B9C48-C00F-4B1B-A8EF-F3A8DC36F376-
 
 CCopyPlistFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/AllModules.plist SelfHub/AllModules.plist
 s355337889.818293
@@ -1363,6 +1547,24 @@ xSelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab5_unav.png
 xbuild/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab5_unav.png
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab5_unav.png068042a2062eb541^812143a2062eb541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab5_unav.png000000000080d041^744"CpResource SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab5_unav.png build/Debug-iphonesimulator/SelfHub.app/bottomPanel_tab5_unav.png    cd /Projects/SelfHub    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Projects/SelfHub/SelfHub/HostControllers/BottomPanel/images/buttons/bottomPanel_tab5_unav.png /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app36"489B09FF-D6E4-477F-B2C4-AD83023A680F-
 
+CCpResource SelfHub/Icons/Icon.png build/Debug-iphonesimulator/SelfHub.app/Icon.png
+s355858520.846761
+e355858520.850607
+r1
+xCpResource
+xSelfHub/Icons/Icon.png
+xbuild/Debug-iphonesimulator/SelfHub.app/Icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Debug-iphonesimulator/SelfHub.app/Icon.png26dfd858f835b541^7ac3d958f835b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/Icon.png000000000080d041^619"CpResource SelfHub/Icons/Icon.png build/Debug-iphonesimulator/SelfHub.app/Icon.png    cd /Projects/SelfHub    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Projects/SelfHub/SelfHub/Icons/Icon.png /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app36"0F1DEA90-A494-48C9-AA43-1096E00D3691-
+
+CCpResource SelfHub/Icons/icon@2x.png build/Debug-iphonesimulator/SelfHub.app/icon@2x.png
+s355858520.846786
+e355858520.849569
+r1
+xCpResource
+xSelfHub/Icons/icon@2x.png
+xbuild/Debug-iphonesimulator/SelfHub.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/SelfHub.app/icon@2x.png59dfd858f835b541^637fd958f835b541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/icon@2x.png000000000080d041^634"CpResource "SelfHub/Icons/icon@2x.png" "build/Debug-iphonesimulator/SelfHub.app/icon@2x.png"    cd /Projects/SelfHub    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Projects/SelfHub/SelfHub/Icons/icon@2x.png" /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app36"87F95E27-AFA5-44B3-B1A6-DF12FBD2B5A9-
+
 CCpResource SelfHub/Modules/MainInformation/images/birthday_navbar.png build/Debug-iphonesimulator/SelfHub.app/birthday_navbar.png
 s355337889.676434
 e355337889.808543
@@ -1391,44 +1593,57 @@ xbuild/Debug-iphonesimulator/SelfHub.app/voidPhoto.png
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphonesimulator/SelfHub.app/voidPhoto.pngaa65cfa1062eb541^2a71d5a1062eb541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/voidPhoto.png000000000080d041^684"CpResource SelfHub/Modules/MainInformation/images/voidPhoto.png build/Debug-iphonesimulator/SelfHub.app/voidPhoto.png    cd /Projects/SelfHub    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Projects/SelfHub/SelfHub/Modules/MainInformation/images/voidPhoto.png /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app36"DD3CB486-4366-47A7-9F07-F39DEBF56000-
 
 CCpResource SelfHub/Modules/WeightControl/images/weightModule_icon.png build/Debug-iphonesimulator/SelfHub.app/weightModule_icon.png
-s355337889.876152
-e355337889.942708
+s355862482.478879
+e355862482.480840
 r1
 xCpResource
 xSelfHub/Modules/WeightControl/images/weightModule_icon.png
 xbuild/Debug-iphonesimulator/SelfHub.app/weightModule_icon.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug-iphonesimulator/SelfHub.app/weightModule_icon.pngf756e0a1062eb541^3657f1a1062eb541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/weightModule_icon.png000000000080d041^704"CpResource SelfHub/Modules/WeightControl/images/weightModule_icon.png build/Debug-iphonesimulator/SelfHub.app/weightModule_icon.png    cd /Projects/SelfHub    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Projects/SelfHub/SelfHub/Modules/WeightControl/images/weightModule_icon.png /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app36"43447980-A70C-4AB3-A5E7-DA654E069A94-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug-iphonesimulator/SelfHub.app/weightModule_icon.pngdfa77ad20736b541^0d197bd20736b541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/weightModule_icon.png0000000000000000^704"CpResource SelfHub/Modules/WeightControl/images/weightModule_icon.png build/Debug-iphonesimulator/SelfHub.app/weightModule_icon.png    cd /Projects/SelfHub    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Projects/SelfHub/SelfHub/Modules/WeightControl/images/weightModule_icon.png /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app36"D3806FDB-51C6-4CB0-A5EF-188FFB623320-
 
 CGenerateDSYMFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub
-s355698777.230939
-e355698777.307819
+s355867557.804882
+e355867557.893812
 r1
 xGenerateDSYMFile
 x/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM
 x/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Generating /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM2c293b598833b541^d1cd4e598833b541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM/0000000000000000^571"GenerateDSYMFile build/Debug-iphonesimulator/SelfHub.app.dSYM build/Debug-iphonesimulator/SelfHub.app/SelfHub    cd /Projects/SelfHub    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub -o /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM36"54692860-A74E-48F0-B87F-4EE840911AE2-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Generating /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM001dcea51b36b541^31d1e4a51b36b541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM/0000000000000000^571"GenerateDSYMFile build/Debug-iphonesimulator/SelfHub.app.dSYM build/Debug-iphonesimulator/SelfHub.app/SelfHub    cd /Projects/SelfHub    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub -o /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app.dSYM36"9F26AF80-DD75-48C5-8F49-7521BA254E24-
 
 CLd /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub normal i386
-s355698777.141070
-e355698777.224069
+s355867557.633367
+e355867557.797357
 r1
 xLd
 x/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Link /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub1f2f24598833b541^e65d39598833b541^---0#0#0#--1132"Ld build/Debug-iphonesimulator/SelfHub.app/SelfHub normal i386    cd /Projects/SelfHub    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Projects/SelfHub/build/Debug-iphonesimulator -L/Projects/SelfHub/SelfHub/CorePlot -F/Projects/SelfHub/build/Debug-iphonesimulator -filelist /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/SelfHub.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -ObjC -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -lCorePlot-CocoaTouch -o /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub36"ADAFB373-3D22-40A5-BD83-01B69E6EC460-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Link /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHubd236a2a51b36b541^2522cca51b36b541^---0#0#0#--1132"Ld build/Debug-iphonesimulator/SelfHub.app/SelfHub normal i386    cd /Projects/SelfHub    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Projects/SelfHub/build/Debug-iphonesimulator -L/Projects/SelfHub/SelfHub/CorePlot -F/Projects/SelfHub/build/Debug-iphonesimulator -filelist /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/Objects-normal/i386/SelfHub.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -ObjC -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -lCorePlot-CocoaTouch -o /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/SelfHub36"01DC66EB-CD46-48C0-AB4E-9139E18F1926-
 
 CProcessInfoPlistFile /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/Info.plist SelfHub/SelfHub-Info.plist
-s355337888.645797
-e355337888.661155
+s355858520.355826
+e355858520.359066
 r1
 xProcessInfoPlistFile
 x/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/Info.plist
 xSelfHub/SelfHub-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process SelfHub/SelfHub-Info.plist0263a5a0062eb541^1c42a9a0062eb541^---0#0#0#-19%DVTDocumentLocation2@60"file://localhost/Projects/SelfHub/SelfHub/SelfHub-Info.plist0000000000000000^587"ProcessInfoPlistFile build/Debug-iphonesimulator/SelfHub.app/Info.plist SelfHub/SelfHub-Info.plist    cd /Projects/SelfHub    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SelfHub/SelfHub-Info.plist -genpkginfo /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/Info.plist36"5338DBDB-9447-444C-B5B3-32351D12C9E6-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process SelfHub/SelfHub-Info.plistfd2f5b58f835b541^46ee5d58f835b541^---0#0#0#-19%DVTDocumentLocation2@60"file://localhost/Projects/SelfHub/SelfHub/SelfHub-Info.plist0000000000000000^587"ProcessInfoPlistFile build/Debug-iphonesimulator/SelfHub.app/Info.plist SelfHub/SelfHub-Info.plist    cd /Projects/SelfHub    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SelfHub/SelfHub-Info.plist -genpkginfo /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app/Info.plist36"F3DE6BC7-F203-4D37-969D-F59363E7D6C7-
 
 CProcessPCH /Users/User/Library/Developer/Xcode/DerivedData/SelfHub-dycifjkwlrgoqzeqownopgistrge/Index/PrecompiledHeaders/SelfHub-Prefix-guxyirsnemifokgcfnpgsfdngobz_ast/SelfHub-Prefix.pch.pth SelfHub/SelfHub-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
+
+CProcessPCH /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-clqdwjexpyxbpzghxvpdrjercinm/SelfHub-Prefix.pch.pth SelfHub/SelfHub-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s355851053.096447
+e355851053.389273
+r1
+xProcessPCH
+x/var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-clqdwjexpyxbpzghxvpdrjercinm/SelfHub-Prefix.pch.pth
+xSelfHub/SelfHub-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile SelfHub/SelfHub-Prefix.pchabcc182ddb35b541^98a7632ddb35b541^---0#0#0#-19%DVTDocumentLocation2@60"file://localhost/Projects/SelfHub/SelfHub/SelfHub-Prefix.pch0000000000000000^3010"ProcessPCH /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-clqdwjexpyxbpzghxvpdrjercinm/SelfHub-Prefix.pch.pth SelfHub/SelfHub-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-disable-checker -Xclang deadcode.IdempotentOperations -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator -c /Projects/SelfHub/SelfHub/SelfHub-Prefix.pch -o /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-clqdwjexpyxbpzghxvpdrjercinm/SelfHub-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-clqdwjexpyxbpzghxvpdrjercinm/SelfHub-Prefix.pch.d36"D4F60C99-0B21-4476-A14B-26F10237210F-
 
 CProcessPCH /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-gjzdwbblxdwjrvaefzcoizmlrvsc/SelfHub-Prefix.pch.pth SelfHub/SelfHub-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s355337888.669408
@@ -1444,10 +1659,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile SelfHub/SelfHub-Prefix.pchee78aba0062eb541^9aed12a1062eb541^---0#0#0#-19%DVTDocumentLocation2@60"file://localhost/Projects/SelfHub/SelfHub/SelfHub-Prefix.pch0000000000000000^3057"ProcessPCH /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-gjzdwbblxdwjrvaefzcoizmlrvsc/SelfHub-Prefix.pch.pth SelfHub/SelfHub-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Projects/SelfHub    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-generated-files.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-own-target-headers.hmap -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-all-target-headers.hmap -iquote /Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/SelfHub-project-headers.hmap -I/Projects/SelfHub/build/Debug-iphonesimulator/include -ISelfHub/CorePlot/Headers -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources/i386 -I/Projects/SelfHub/build/SelfHub.build/Debug-iphonesimulator/SelfHub.build/DerivedSources -F/Projects/SelfHub/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-gjzdwbblxdwjrvaefzcoizmlrvsc/SelfHub-Prefix.pch.dia -c /Projects/SelfHub/SelfHub/SelfHub-Prefix.pch -o /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-gjzdwbblxdwjrvaefzcoizmlrvsc/SelfHub-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/sz/c2zfm5ds273f9wmm6vprs0900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SelfHub-Prefix-gjzdwbblxdwjrvaefzcoizmlrvsc/SelfHub-Prefix.pch.d36"13FDE9CA-D04D-4831-95C3-64A71212CD60-
 
 CTouch /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app
-s355698777.336454
-e355698777.340660
+s355867557.923165
+e355867557.927433
 r1
 xTouch
 x/Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Touch /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.appd02b56598833b541^ac3657598833b541^---0#0#0#--346"Touch build/Debug-iphonesimulator/SelfHub.app    cd /Projects/SelfHub    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app36"F8B15BB1-E77C-46F2-A5D9-F0911F057D41-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Touch /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app075feca51b36b541^84d7eea51b36b541^---0#0#0#--346"Touch build/Debug-iphonesimulator/SelfHub.app    cd /Projects/SelfHub    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Projects/SelfHub/build/Debug-iphonesimulator/SelfHub.app36"E1962C2F-DB5F-4B4B-A508-D7F1CD8B50AD-
 
