@@ -63,4 +63,5 @@ dependencies: \
   SelfHub/CorePlot/Headers/CPTXYGraph.h \
   SelfHub/CorePlot/Headers/CPTXYPlotSpace.h \
   /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.h \
-  /Projects/SelfHub/SelfHub/Modules/ModuleHelper.h
+  /Projects/SelfHub/SelfHub/Modules/ModuleHelper.h \
+  /Projects/SelfHub/SelfHub/Modules/WeightControl/Chart/WeightControlChart.h

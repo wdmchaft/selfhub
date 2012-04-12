@@ -2,6 +2,7 @@ dependencies: \
   /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.m \
   /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControl.h \
   /Projects/SelfHub/SelfHub/Modules/ModuleHelper.h \
+  /Projects/SelfHub/SelfHub/Modules/WeightControl/Chart/WeightControlChart.h \
   /Projects/SelfHub/SelfHub/Modules/WeightControl/WeightControlGraphView.h \
   /Projects/SelfHub/SelfHub/CorePlot/Headers/CorePlot-CocoaTouch.h \
   SelfHub/CorePlot/Headers/CPTAnnotation.h \

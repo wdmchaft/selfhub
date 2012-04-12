@@ -60,6 +60,16 @@
 		CEC0FA471505582300914403 /* ModuleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC0FA2D1505582200914403 /* ModuleTableCell.xib */; };
 		CEFAAA6D1535F82A0009E6A7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFAAA6B1535F82A0009E6A7 /* Icon.png */; };
 		CEFAAA6E1535F82A0009E6A7 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFAAA6C1535F82A0009E6A7 /* icon@2x.png */; };
+		CEFAAA7715373E0C0009E6A7 /* WeightControlChart.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFAAA7515373E0C0009E6A7 /* WeightControlChart.m */; };
+		CEFAAA7815373E0C0009E6A7 /* WeightControlChart.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFAAA7615373E0C0009E6A7 /* WeightControlChart.xib */; };
+		CEFAAA8C153760720009E6A7 /* WeightControlData.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFAAA8A153760720009E6A7 /* WeightControlData.m */; };
+		CEFAAA8D153760720009E6A7 /* WeightControlData.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFAAA8B153760720009E6A7 /* WeightControlData.xib */; };
+		CEFAAA93153769510009E6A7 /* WeightControlStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFAAA91153769510009E6A7 /* WeightControlStatistics.m */; };
+		CEFAAA94153769510009E6A7 /* WeightControlStatistics.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFAAA92153769510009E6A7 /* WeightControlStatistics.xib */; };
+		CEFAAA9815376A3D0009E6A7 /* WeightControlSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFAAA9615376A3D0009E6A7 /* WeightControlSettings.m */; };
+		CEFAAA9915376A3D0009E6A7 /* WeightControlSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFAAA9715376A3D0009E6A7 /* WeightControlSettings.xib */; };
+		CEFAAA9D15376DF40009E6A7 /* WeightControlDataEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFAAA9B15376DF30009E6A7 /* WeightControlDataEdit.m */; };
+		CEFAAA9E15376DF40009E6A7 /* WeightControlDataEdit.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFAAA9C15376DF30009E6A7 /* WeightControlDataEdit.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -221,6 +231,21 @@
 		CEC0FA2D1505582200914403 /* ModuleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModuleTableCell.xib; sourceTree = "<group>"; };
 		CEFAAA6B1535F82A0009E6A7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		CEFAAA6C1535F82A0009E6A7 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		CEFAAA7415373E0C0009E6A7 /* WeightControlChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeightControlChart.h; path = Chart/WeightControlChart.h; sourceTree = "<group>"; };
+		CEFAAA7515373E0C0009E6A7 /* WeightControlChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeightControlChart.m; path = Chart/WeightControlChart.m; sourceTree = "<group>"; };
+		CEFAAA7615373E0C0009E6A7 /* WeightControlChart.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WeightControlChart.xib; path = Chart/WeightControlChart.xib; sourceTree = "<group>"; };
+		CEFAAA89153760720009E6A7 /* WeightControlData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeightControlData.h; path = Data/WeightControlData.h; sourceTree = "<group>"; };
+		CEFAAA8A153760720009E6A7 /* WeightControlData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeightControlData.m; path = Data/WeightControlData.m; sourceTree = "<group>"; };
+		CEFAAA8B153760720009E6A7 /* WeightControlData.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WeightControlData.xib; path = Data/WeightControlData.xib; sourceTree = "<group>"; };
+		CEFAAA90153769510009E6A7 /* WeightControlStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeightControlStatistics.h; path = Statistics/WeightControlStatistics.h; sourceTree = "<group>"; };
+		CEFAAA91153769510009E6A7 /* WeightControlStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeightControlStatistics.m; path = Statistics/WeightControlStatistics.m; sourceTree = "<group>"; };
+		CEFAAA92153769510009E6A7 /* WeightControlStatistics.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WeightControlStatistics.xib; path = Statistics/WeightControlStatistics.xib; sourceTree = "<group>"; };
+		CEFAAA9515376A3D0009E6A7 /* WeightControlSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeightControlSettings.h; path = Settings/WeightControlSettings.h; sourceTree = "<group>"; };
+		CEFAAA9615376A3D0009E6A7 /* WeightControlSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeightControlSettings.m; path = Settings/WeightControlSettings.m; sourceTree = "<group>"; };
+		CEFAAA9715376A3D0009E6A7 /* WeightControlSettings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WeightControlSettings.xib; path = Settings/WeightControlSettings.xib; sourceTree = "<group>"; };
+		CEFAAA9A15376DF30009E6A7 /* WeightControlDataEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeightControlDataEdit.h; path = Data/WeightControlDataEdit.h; sourceTree = "<group>"; };
+		CEFAAA9B15376DF30009E6A7 /* WeightControlDataEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeightControlDataEdit.m; path = Data/WeightControlDataEdit.m; sourceTree = "<group>"; };
+		CEFAAA9C15376DF30009E6A7 /* WeightControlDataEdit.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WeightControlDataEdit.xib; path = Data/WeightControlDataEdit.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,11 +276,13 @@
 			isa = PBXGroup;
 			children = (
 				CE1DDD5515053B7000A988AE /* images */,
+				CEFAAA7915373E140009E6A7 /* Chart */,
+				CEFAAA8315375F9C0009E6A7 /* Data */,
+				CEFAAA8E1537690B0009E6A7 /* Statistics */,
+				CEFAAA8F153769160009E6A7 /* Settings */,
 				CE1DDD5C15053BDA00A988AE /* WeightControl.h */,
 				CE1DDD5D15053BDA00A988AE /* WeightControl.m */,
 				CE1DDD5E15053BDA00A988AE /* WeightControl.xib */,
-				CE3FA02F152384C3005618A4 /* WeightControlGraphView.h */,
-				CE3FA030152384C3005618A4 /* WeightControlGraphView.m */,
 				CE1DDD5715053B7000A988AE /* weight.export.plist */,
 			);
 			name = WeightControl;
@@ -537,6 +564,51 @@
 			path = Icons;
 			sourceTree = "<group>";
 		};
+		CEFAAA7915373E140009E6A7 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAAA7415373E0C0009E6A7 /* WeightControlChart.h */,
+				CEFAAA7515373E0C0009E6A7 /* WeightControlChart.m */,
+				CE3FA02F152384C3005618A4 /* WeightControlGraphView.h */,
+				CE3FA030152384C3005618A4 /* WeightControlGraphView.m */,
+				CEFAAA7615373E0C0009E6A7 /* WeightControlChart.xib */,
+			);
+			name = Chart;
+			sourceTree = "<group>";
+		};
+		CEFAAA8315375F9C0009E6A7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAAA89153760720009E6A7 /* WeightControlData.h */,
+				CEFAAA8A153760720009E6A7 /* WeightControlData.m */,
+				CEFAAA8B153760720009E6A7 /* WeightControlData.xib */,
+				CEFAAA9A15376DF30009E6A7 /* WeightControlDataEdit.h */,
+				CEFAAA9B15376DF30009E6A7 /* WeightControlDataEdit.m */,
+				CEFAAA9C15376DF30009E6A7 /* WeightControlDataEdit.xib */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		CEFAAA8E1537690B0009E6A7 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAAA90153769510009E6A7 /* WeightControlStatistics.h */,
+				CEFAAA91153769510009E6A7 /* WeightControlStatistics.m */,
+				CEFAAA92153769510009E6A7 /* WeightControlStatistics.xib */,
+			);
+			name = Statistics;
+			sourceTree = "<group>";
+		};
+		CEFAAA8F153769160009E6A7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAAA9515376A3D0009E6A7 /* WeightControlSettings.h */,
+				CEFAAA9615376A3D0009E6A7 /* WeightControlSettings.m */,
+				CEFAAA9715376A3D0009E6A7 /* WeightControlSettings.xib */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -626,6 +698,11 @@
 				CE7FF743150FCEB3006F8E4D /* InfoViewController.xib in Resources */,
 				CEFAAA6D1535F82A0009E6A7 /* Icon.png in Resources */,
 				CEFAAA6E1535F82A0009E6A7 /* icon@2x.png in Resources */,
+				CEFAAA7815373E0C0009E6A7 /* WeightControlChart.xib in Resources */,
+				CEFAAA8D153760720009E6A7 /* WeightControlData.xib in Resources */,
+				CEFAAA94153769510009E6A7 /* WeightControlStatistics.xib in Resources */,
+				CEFAAA9915376A3D0009E6A7 /* WeightControlSettings.xib in Resources */,
+				CEFAAA9E15376DF40009E6A7 /* WeightControlDataEdit.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,6 +724,11 @@
 				CE9C5E34150E3C230079ADDC /* SelfhubNavigationController.m in Sources */,
 				CE7FF742150FCEB3006F8E4D /* InfoViewController.m in Sources */,
 				CE3FA031152384C3005618A4 /* WeightControlGraphView.m in Sources */,
+				CEFAAA7715373E0C0009E6A7 /* WeightControlChart.m in Sources */,
+				CEFAAA8C153760720009E6A7 /* WeightControlData.m in Sources */,
+				CEFAAA93153769510009E6A7 /* WeightControlStatistics.m in Sources */,
+				CEFAAA9815376A3D0009E6A7 /* WeightControlSettings.m in Sources */,
+				CEFAAA9D15376DF40009E6A7 /* WeightControlDataEdit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

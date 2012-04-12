@@ -11,7 +11,8 @@
 @implementation WeightControl
 
 @synthesize delegate;
-@synthesize weightGraph, weightData, aimWeight, normalWeight;
+@synthesize viewControllers, segmentedControl, hostView;
+@synthesize weightData, aimWeight, normalWeight;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -36,13 +37,34 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    self.title = @"Weight";
+    
     weightData = [[NSMutableArray alloc] init];
-    weightGraph.delegate = self;
     [self fillTestData:20];
-    [weightGraph createGraphLayer];
     
     aimWeight = [NSNumber numberWithFloat:NAN];
     normalWeight = [NSNumber numberWithFloat:NAN];
+    
+    WeightControlChart *chartViewController = [[WeightControlChart alloc] initWithNibName:@"WeightControlChart" bundle:nil];
+    chartViewController.delegate = self;
+    WeightControlData *dataViewController = [[WeightControlData alloc] initWithNibName:@"WeightControlData" bundle:nil];
+    dataViewController.delegate = self;
+    WeightControlStatistics *statisticsViewController = [[WeightControlStatistics alloc] initWithNibName:@"WeightControlStatistics" bundle:nil];
+    statisticsViewController.delegate = self;
+    WeightControlSettings *settingsViewController = [[WeightControlSettings alloc] initWithNibName:@"WeightControlSettings" bundle:nil];
+    settingsViewController.delegate = self;
+    
+    viewControllers = [[NSArray alloc] initWithObjects:chartViewController, dataViewController, statisticsViewController, settingsViewController, nil];
+    
+    [settingsViewController release];
+    [statisticsViewController release];
+    [dataViewController release];
+    [chartViewController release];
+    
+    [hostView addSubview:((UIViewController *)[viewControllers objectAtIndex:0]).view];
+    segmentedControl.selectedSegmentIndex = 0;
+    currentlySelectedViewController = 0;
 }
 
 - (void)viewDidUnload
@@ -51,13 +73,13 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
     
-    weightGraph = nil;
     weightData = nil;
+    segmentedControl = nil;
 }
 
 - (void)dealloc{
-    [weightGraph release];
     [weightData release];
+    [viewControllers release];
     
     [super dealloc];
 };
@@ -71,7 +93,20 @@
 - (void)viewWillAppear:(BOOL)animated{
     [self generateNormalWeight];
     
-    [weightGraph showLastWeekGraph];
+    //[weightGraph showLastWeekGraph];
+};
+
+- (IBAction)segmentedControlChanged:(id)sender{
+    [((UIViewController *)[viewControllers objectAtIndex:currentlySelectedViewController]).view removeFromSuperview];
+    if(segmentedControl.selectedSegmentIndex >= [viewControllers count]){
+        [hostView addSubview:((UIViewController *)[viewControllers objectAtIndex:0]).view];
+        segmentedControl.selectedSegmentIndex = 0;
+        currentlySelectedViewController = 0;
+        return;
+    };
+    
+    [hostView addSubview:((UIViewController *)[viewControllers objectAtIndex:segmentedControl.selectedSegmentIndex]).view];
+    currentlySelectedViewController = segmentedControl.selectedSegmentIndex;
 };
 
 
@@ -234,37 +269,9 @@
     NSLog(@"Normal weight is: %.2f", res);
 };
 
-
-- (IBAction)fitAll:(id)sender{
-    [weightGraph showFullGraph];
-};
-
-- (IBAction)zoomIn:(id)sender{
-    NSTimeInterval currentGrahTimeInterval = [weightGraph.toDateGraph timeIntervalSinceDate:weightGraph.fromDateGraph];
-    NSDate *startDate = [NSDate dateWithTimeIntervalSince1970:[weightGraph.fromDateGraph timeIntervalSince1970] + currentGrahTimeInterval/4];
-    NSDate *finishDate = [NSDate dateWithTimeIntervalSince1970:[weightGraph.toDateGraph timeIntervalSince1970] - currentGrahTimeInterval/4];
-    [weightGraph showGraphFromDate:startDate toDate:finishDate];
-};
-
-- (IBAction)zoomOut:(id)sender{
-    NSTimeInterval currentGrahTimeInterval = [weightGraph.toDateGraph timeIntervalSinceDate:weightGraph.fromDateGraph];
-    NSDate *startDate = [NSDate dateWithTimeIntervalSince1970:[weightGraph.fromDateGraph timeIntervalSince1970] - currentGrahTimeInterval/4];
-    NSDate *finishDate = [NSDate dateWithTimeIntervalSince1970:[weightGraph.toDateGraph timeIntervalSince1970] + currentGrahTimeInterval/4];
-    [weightGraph showGraphFromDate:startDate toDate:finishDate];
-};
-
-- (IBAction)moveRight:(id)sender{
-    NSTimeInterval currentGrahTimeInterval = [weightGraph.toDateGraph timeIntervalSinceDate:weightGraph.fromDateGraph];
-    NSDate *startDate = [NSDate dateWithTimeIntervalSince1970:[weightGraph.fromDateGraph timeIntervalSince1970] + currentGrahTimeInterval/4];
-    NSDate *finishDate = [NSDate dateWithTimeIntervalSince1970:[weightGraph.toDateGraph timeIntervalSince1970] + currentGrahTimeInterval/4];
-    [weightGraph showGraphFromDate:startDate toDate:finishDate];
-};
-
-- (IBAction)moveLeft:(id)sender{
-    NSTimeInterval currentGrahTimeInterval = [weightGraph.toDateGraph timeIntervalSinceDate:weightGraph.fromDateGraph];
-    NSDate *startDate = [NSDate dateWithTimeIntervalSince1970:[weightGraph.fromDateGraph timeIntervalSince1970] - currentGrahTimeInterval/4];
-    NSDate *finishDate = [NSDate dateWithTimeIntervalSince1970:[weightGraph.toDateGraph timeIntervalSince1970] - currentGrahTimeInterval/4];
-    [weightGraph showGraphFromDate:startDate toDate:finishDate];
+- (void)sortWeightData{
+    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"date" ascending:NO];
+    [weightData sortUsingDescriptors:[NSArray arrayWithObject:sortDescriptor]];
 };
 
 @end

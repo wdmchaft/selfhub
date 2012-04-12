@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "ModuleHelper.h"
-#import "WeightControlGraphView.h"
+#import "WeightControlChart.h"
+#import "WeightControlData.h"
+#import "WeightControlStatistics.h"
+#import "WeightControlSettings.h"
 
 @class WeightControlGraphView;
 
@@ -16,23 +19,26 @@
     NSMutableArray *weightData;
     NSNumber *aimWeight;
     NSNumber *normalWeight;
+    
+    NSArray *viewControllers;
+    NSUInteger currentlySelectedViewController;
 };
 
 @property (nonatomic, assign) id <ServerProtocol> delegate;
-@property (nonatomic, retain) IBOutlet WeightControlGraphView *weightGraph;
 
 @property (nonatomic, retain) NSMutableArray *weightData;
 @property (nonatomic, retain) NSNumber *aimWeight;
 @property (nonatomic, retain) NSNumber *normalWeight;
 
-- (void)fillTestData:(NSUInteger)numOfElements;
+@property (nonatomic, retain) NSArray *viewControllers;
+@property (nonatomic, retain) IBOutlet UISegmentedControl *segmentedControl;
+@property (nonatomic, retain) IBOutlet UIView *hostView;
 
+- (IBAction)segmentedControlChanged:(id)sender;
+
+- (void)fillTestData:(NSUInteger)numOfElements;
 - (void)generateNormalWeight;
 
-- (IBAction)fitAll:(id)sender;
-- (IBAction)zoomIn:(id)sender;
-- (IBAction)zoomOut:(id)sender;
-- (IBAction)moveRight:(id)sender;
-- (IBAction)moveLeft:(id)sender;
+- (void)sortWeightData;
 
 @end
