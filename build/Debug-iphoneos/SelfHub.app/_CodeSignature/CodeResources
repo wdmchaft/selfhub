@@ -10,31 +10,31 @@
 		</data>
 		<key>BottomPanelViewController.nib</key>
 		<data>
-		kCpncWIIhak5fhymHX/0CGQxEnQ=
+		7FLoS/l9fZon34sv7jclzsLPasE=
 		</data>
 		<key>DesktopViewController_iPad.nib</key>
 		<data>
-		c7ePq49kF/cFdRim7tI85XgcuO0=
+		rPBJssdrM9S1570XNHdVM2Ah+ec=
 		</data>
 		<key>DesktopViewController_iPhone.nib</key>
 		<data>
-		ucOBA1kkrRNcl84pZp+KVpMpWAg=
+		ckSN6PctTHQvGIVulzL+c07l7kY=
 		</data>
 		<key>Icon.png</key>
 		<data>
-		PqXCNymuUiAjH7GmURzM/JKfkWo=
+		rikIM1MiJml/pfiwHTzstZIFngs=
 		</data>
 		<key>InfoViewController.nib</key>
 		<data>
-		gjJGy3AX8CpGAW76yc6DddRneOg=
+		8Zi19ooi/qwJzB/jUmWdK8riXvA=
 		</data>
 		<key>MainInformation.nib</key>
 		<data>
-		q5W5cdicYQADw2VXpA1VyC9higs=
+		JbLb+HGnOSb6zvs9efud+UjFkeQ=
 		</data>
 		<key>ModuleTableCell.nib</key>
 		<data>
-		AGQ3e89Zx9mSjKmbcElbxKhwn0I=
+		Eu0Tekrs9u8aNGhNWLOsWefkOZI=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -42,11 +42,27 @@
 		</data>
 		<key>WeightControl.nib</key>
 		<data>
-		2zu2mPpojBoWKGEHaK5KSQAY4BY=
+		WB46nLiITuE6QIKoREJTWwzK5Qc=
 		</data>
 		<key>WeightControlChart.nib</key>
 		<data>
-		Wa2ZjvCG7C3UW0RO+LIpLgnAnIc=
+		6CCt73Kf5dZLnjSATKMQC86wmwM=
+		</data>
+		<key>WeightControlData.nib</key>
+		<data>
+		BfFpkGYuS2FVHLh23CjaDZj6d8c=
+		</data>
+		<key>WeightControlDataEdit.nib</key>
+		<data>
+		ShjdhGFK8QSq5W5du7K6kE5M9ug=
+		</data>
+		<key>WeightControlSettings.nib</key>
+		<data>
+		hIcL9b/hCio9yjjIgGIIe3wPWGI=
+		</data>
+		<key>WeightControlStatistics.nib</key>
+		<data>
+		BjT6YN4VDgd2DySg7/15qq3c53k=
 		</data>
 		<key>antropometry.export.plist</key>
 		<data>
@@ -136,14 +152,6 @@
 		<data>
 		E7haIdq9r/wijbD7/22LPqEGrjs=
 		</data>
-		<key>en.lproj/DesktopViewController_iPad.nib</key>
-		<data>
-		hBzKDjUQnCMzNigpLVWFAECMfss=
-		</data>
-		<key>en.lproj/DesktopViewController_iPhone.nib</key>
-		<data>
-		pbnNJ+b+BoSLyFSElHrh5sxuEwY=
-		</data>
 		<key>en.lproj/InfoPlist.strings</key>
 		<data>
 		zmV6UqBSo6r1NOz798vd5O4zTBA=
@@ -151,10 +159,6 @@
 		<key>en.lproj/Localizable.strings</key>
 		<data>
 		hf7jvCSSpinllBLH4fIoMn1I330=
-		</data>
-		<key>icon@2x.png</key>
-		<data>
-		tQvrldSyrJ5HhEv7VSKkfeVaONQ=
 		</data>
 		<key>mainInfoModule_icon.png</key>
 		<data>
@@ -171,6 +175,50 @@
 		<key>weight.export.plist</key>
 		<data>
 		+rCvcNrWiO35YmWSu+bBCnmQwGI=
+		</data>
+		<key>weightModule_1month_btn@2x.png</key>
+		<data>
+		s5uGSFJr9L85BPGBZcrilagOGQg=
+		</data>
+		<key>weightModule_1month_btn_press@2x.png</key>
+		<data>
+		D7UZ3jqrgDm3Q2YXn0j4o3Uf3OM=
+		</data>
+		<key>weightModule_1week_btn@2x.png</key>
+		<data>
+		XihY6n+clVXmTaMBaAn9nD9pYFM=
+		</data>
+		<key>weightModule_1week_btn_press@2x.png</key>
+		<data>
+		hUodHaXlookpAwxopt3ooY5ATqI=
+		</data>
+		<key>weightModule_2week_btn@2x.png</key>
+		<data>
+		ndc9t6Bp/nKUoEpozh0XDZ1UyOg=
+		</data>
+		<key>weightModule_2week_btn_press@2x.png</key>
+		<data>
+		7HKMKWcIQTlxUn78zR7A3W6VDD4=
+		</data>
+		<key>weightModule_3month_btn@2x.png</key>
+		<data>
+		1h1keW/6kFqYSkF2jlhy/4TOAb8=
+		</data>
+		<key>weightModule_3month_btn_press@2x.png</key>
+		<data>
+		CFLgey2er6X5V+qMTtuTfSFF3kk=
+		</data>
+		<key>weightModule_6month_btn@2x.png</key>
+		<data>
+		JZDsQyMAbId/cT65BzMlv/g87O8=
+		</data>
+		<key>weightModule_6month_btn_press@2x.png</key>
+		<data>
+		97X/YFyxJjipay8LBHhSnLQrdXU=
+		</data>
+		<key>weightModule_addRecord.png</key>
+		<data>
+		RRtL3d0n55px9EbcXsUCZJHDcB0=
 		</data>
 		<key>weightModule_icon.png</key>
 		<data>

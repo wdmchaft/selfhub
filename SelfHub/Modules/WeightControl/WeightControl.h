@@ -34,11 +34,15 @@
 @property (nonatomic, retain) IBOutlet UISegmentedControl *segmentedControl;
 @property (nonatomic, retain) IBOutlet UIView *hostView;
 
+- (NSString *)getBaseDir;
+
 - (IBAction)segmentedControlChanged:(id)sender;
 
 - (void)fillTestData:(NSUInteger)numOfElements;
 - (void)generateNormalWeight;
 
+- (NSDate *)getDateWithoutTime:(NSDate *)_myDate;
+- (NSComparisonResult)compareDateByDays:(NSDate *)_firstDate WithDate:(NSDate *)_secondDate;
 - (void)sortWeightData;
 
 @end

@@ -309,4 +309,15 @@
     return YES;
 };
 
+- (UIViewController *)getViewControllerForModuleWithID:(NSString *)moduleID{
+    NSMutableDictionary *oneModuleInfo;
+    for(oneModuleInfo in modulesArray){
+        if([[oneModuleInfo objectForKey:@"ID"] isEqualToString:moduleID]){
+            return [oneModuleInfo objectForKey:@"viewController"];
+        };
+    };
+    
+    return nil;
+};
+
 @end

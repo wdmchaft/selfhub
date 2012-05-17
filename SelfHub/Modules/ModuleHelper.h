@@ -13,6 +13,7 @@
 - (BOOL)isModuleAvailableWithID:(NSString *)moduleID;
 - (id)getValueForName:(NSString *)name fromModuleWithID:(NSString *)moduleID;
 - (BOOL)setValue:(id)value forName:(NSString *)name forModuleWithID:(NSString *)moduleID;
+- (UIViewController *)getViewControllerForModuleWithID:(NSString *)moduleID;
 @end
 
 @protocol ModuleProtocol

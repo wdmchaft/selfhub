@@ -211,7 +211,7 @@
 
 -(void)handlePinchGesture:(id)aPinchGestureRecognizer
 {
-	CGPoint interactionPoint = [aPinchGestureRecognizer locationInView:self];
+    CGPoint interactionPoint = [aPinchGestureRecognizer locationInView:self];
 
 	if ( !collapsesLayers ) {
 		interactionPoint = [self.layer convertPoint:interactionPoint toLayer:hostedGraph];
@@ -224,8 +224,8 @@
 
 	for ( CPTPlotSpace *space in hostedGraph.allPlotSpaces ) {
 		if ( space.allowsUserInteraction ) {
-			[space scaleBy:[[pinchGestureRecognizer valueForKey:@"scale"] cgFloatValue] aboutPoint:pointInPlotArea];
-		}
+            [space scaleBy:[[pinchGestureRecognizer valueForKey:@"scale"] cgFloatValue] aboutPoint:pointInPlotArea];
+		};
 	}
 
 	[pinchGestureRecognizer setScale:1.0f];

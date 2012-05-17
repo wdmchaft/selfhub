@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "WeightControl.h"
-#import "WeightControlGraphView.h"
+#import "WeightControlQuartzPlot.h"
 
 @class WeightControl;
-@class WeightControlGraphView;
+@class WeightControlQuartzPlot;
 
 @interface WeightControlChart : UIViewController{
     
@@ -19,12 +19,20 @@
 
 @property (nonatomic, assign) WeightControl *delegate;
 
-@property (nonatomic, retain) IBOutlet WeightControlGraphView *weightGraph;
+@property (nonatomic, retain) IBOutlet WeightControlQuartzPlot *weightGraph;
+
+//@property (nonatomic, retain) IBOutlet WeightControlPlotScrollView *weightGraphScrollView;
+//@property (nonatomic, retain) IBOutlet WeightControlVerticalAxisView *weightGraphYAxisView;
+
 @property (nonatomic, retain) IBOutlet UILabel *todayWeightLabel;
 @property (nonatomic, retain) IBOutlet UIStepper *todayWeightStepper;
 @property (nonatomic, retain) IBOutlet UILabel *topGraphStatus;
 @property (nonatomic, retain) IBOutlet UILabel *bottomGraphStatus;
 
+- (IBAction)pressDefault;
+- (void)updateTodaysWeightState;
 - (IBAction)todayWeightStepperChanged:(id)sender;
+
+- (IBAction)pressScaleButton:(id)sender;
 
 @end

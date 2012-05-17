@@ -14,16 +14,22 @@
 
 @interface WeightControlGraphView : UIView <CPTPlotDataSource, CPTPlotSpaceDelegate> {
     CPTGraphHostingView *hostingView;
+    UIScrollView *graphScrollView;
+    
     CPTPlotSpaceAnnotation *normLineAnnotation;
     CPTPlotRange *dataRangeX, *dataRangeY;
+    CGFloat scaleFactor;
+    NSTimer *scaleHideTimer;
 };
 
 @property (nonatomic, assign) WeightControl *delegate;
 
 @property (nonatomic, retain) NSDate *fromDateGraph;
 @property (nonatomic, retain) NSDate *toDateGraph;
+@property (nonatomic) CGFloat scaleFactor;
 
 @property (nonatomic, retain) CPTGraphHostingView *hostingView;
+@property (nonatomic, retain) IBOutlet UIView *scaleView;
 
 - (NSInteger)getIntegerDateComponent:(NSDate *)date byFormat:(NSString *)format;
 
@@ -40,5 +46,18 @@
 - (void)showLastWeekGraph;
 - (void)showFullGraph;
 - (void)showGraphFromDate:(NSDate *)fromDate toDate:(NSDate *)toDate;
+
+- (void)setGraphWidth:(CGFloat)graphWidth;
+- (void)setScaleFactor:(CGFloat)newScaleFactor;
+- (void)showDateAtBegin:(NSDate *)showingDate;
+
+- (IBAction)pressScaleButton:(id)sender;
+- (void)showScaleView;
+- (void)hideScaleView;
+- (void)hideScaleViewTimerSelector:(NSTimer *)timer;
+
+
+- (IBAction)pinchGestureSelector:(UIPinchGestureRecognizer *)sender;
+- (IBAction)tapGestureSelector:(UITapGestureRecognizer *)sender;
 
 @end

@@ -1,0 +1,28 @@
+dependencies: \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/_CPTPlainBlackTheme.m \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/_CPTPlainBlackTheme.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/_CPTXYTheme.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTTheme.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTBorderedLayer.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTAnnotationHostLayer.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTLayer.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTDefinitions.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTResponder.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTColor.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTExceptions.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTFill.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTGradient.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTMutableLineStyle.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTLineStyle.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTMutableTextStyle.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTTextStyle.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTPlotAreaFrame.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTUtilities.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTXYAxis.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTAxis.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTXYAxisSet.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTAxisSet.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTXYGraph.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTGraph.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTXYPlotSpace.h \
+  /Projects/SelfHub/SelfHub/CorePlot/Source/Source/CPTPlotSpace.h

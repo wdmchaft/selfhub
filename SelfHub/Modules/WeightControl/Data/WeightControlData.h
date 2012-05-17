@@ -13,11 +13,16 @@
 @class WeightControl;
 @class WeightControlDataEdit;
 
-@interface WeightControlData : UIViewController <UITableViewDelegate, UITableViewDataSource>{
+@interface WeightControlData : UIViewController <UITableViewDelegate, UITableViewDataSource, UIActionSheetDelegate>{
     WeightControlDataEdit *detailView;
+    NSIndexPath *deletedRow;
 };
 
 @property (nonatomic, assign) WeightControl *delegate;
 @property (nonatomic, retain) IBOutlet UITableView *dataTableView;
+
+- (IBAction)addDataRecord;
+- (IBAction)finishEditingRecord;
+- (IBAction)pressEdit;
 
 @end

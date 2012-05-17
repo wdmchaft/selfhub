@@ -40,11 +40,12 @@
     
     self.title = @"Weight";
     
-    weightData = [[NSMutableArray alloc] init];
-    [self fillTestData:20];
+    //weightData = [[NSMutableArray alloc] init];
+    //[self fillTestData:20];
     
     aimWeight = [NSNumber numberWithFloat:NAN];
     normalWeight = [NSNumber numberWithFloat:NAN];
+    [self generateNormalWeight];
     
     WeightControlChart *chartViewController = [[WeightControlChart alloc] initWithNibName:@"WeightControlChart" bundle:nil];
     chartViewController.delegate = self;
@@ -91,10 +92,28 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated{
-    [self generateNormalWeight];
+    [[viewControllers objectAtIndex:currentlySelectedViewController] viewWillAppear:animated];
     
-    //[weightGraph showLastWeekGraph];
+    UIBarButtonItem *rightBtn;
+    if(currentlySelectedViewController==0){
+        rightBtn = [[UIBarButtonItem alloc] initWithTitle:@"Test-fill" style:UIBarButtonSystemItemAction target:[viewControllers objectAtIndex:0] action:@selector(pressDefault)];
+        self.navigationItem.rightBarButtonItem = rightBtn;
+        [rightBtn release];
+    }else if(currentlySelectedViewController==1){
+        rightBtn = [[UIBarButtonItem alloc] initWithTitle:@"Edit" style:UIBarButtonSystemItemEdit target:[viewControllers objectAtIndex:1] action:@selector(pressEdit)];
+        self.navigationItem.rightBarButtonItem = rightBtn;
+        [rightBtn release];
+    }else{
+        self.navigationItem.rightBarButtonItem = nil;
+    };
+
+    
+    [self generateNormalWeight];
 };
+
+- (void)viewWillDisappear:(BOOL)animated{
+    [self saveModuleData];
+}
 
 - (IBAction)segmentedControlChanged:(id)sender{
     [((UIViewController *)[viewControllers objectAtIndex:currentlySelectedViewController]).view removeFromSuperview];
@@ -107,6 +126,21 @@
     
     [hostView addSubview:((UIViewController *)[viewControllers objectAtIndex:segmentedControl.selectedSegmentIndex]).view];
     currentlySelectedViewController = segmentedControl.selectedSegmentIndex;
+    
+    UIBarButtonItem *rightBtn;
+    if(currentlySelectedViewController==0){
+        rightBtn = [[UIBarButtonItem alloc] initWithTitle:@"Test-fill" style:UIBarButtonSystemItemAction target:[viewControllers objectAtIndex:0] action:@selector(pressDefault)];
+        self.navigationItem.rightBarButtonItem = rightBtn;
+        [rightBtn release];
+        //self.navigationItem.rightBarButtonItem = nil;
+    }else if(currentlySelectedViewController==1){
+        rightBtn = [[UIBarButtonItem alloc] initWithTitle:@"Edit" style:UIBarButtonSystemItemEdit target:[viewControllers objectAtIndex:1] action:@selector(pressEdit)];
+        self.navigationItem.rightBarButtonItem = rightBtn;
+        [rightBtn release];
+    }else{
+        self.navigationItem.rightBarButtonItem = nil;
+    };
+
 };
 
 
@@ -170,31 +204,36 @@
     return res;
 };
 
-- (void)loadModuleData{
-    /*NSString *listFilePath = [[self getBaseDir] stringByAppendingPathComponent:@"antropometry.dat"];
-    NSDictionary *loadedParams = [NSDictionary dictionaryWithContentsOfFile:listFilePath];
-    if(loadedParams){
-        if(moduleData) [moduleData release];
-        moduleData = [[NSMutableDictionary alloc] initWithDictionary:loadedParams];
-    };
-    
-    if([self isViewLoaded]){
-        [self convertSavedDataToViewFields];
-    }*/
+- (NSString *)getBaseDir{
+    return [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"];
 };
-- (void)saveModuleData{    
-    /*if([self isViewLoaded]){
-        [self convertViewFieldsToSavedData];
+
+- (void)loadModuleData{
+    
+    //weightData = [[NSMutableArray alloc] init];
+    //[self fillTestData:20];
+    //return;
+    
+    NSString *weightFilePath = [[self getBaseDir] stringByAppendingPathComponent:@"weightcontrol.dat"];
+    //NSArray *importedWeightArray = [NSArray arrayWithContentsOfFile:weightFilePath];
+    
+    if(weightData){
+        [weightData release];
+        weightData = nil;
     };
     
-    if(moduleData==nil){
-        return;
+    weightData = [[NSMutableArray alloc] initWithContentsOfFile:weightFilePath];
+    if(!weightData){
+        NSLog(@"Cannot load weight data from file weightcontrol.dat. Loading test data...");
+        weightData = [[NSMutableArray alloc] init];
+        [self fillTestData:33];
+    }else{
+        //[self sortWeightData];
     };
-    
-    BOOL succ = [moduleData writeToFile:[[self getBaseDir] stringByAppendingPathComponent:@"antropometry.dat"] atomically:YES];
-    if(succ==NO){
-        NSLog(@"Anthropometry: Error during save data");
-    };*/
+};
+- (void)saveModuleData{
+    NSString *weightFilePath = [[self getBaseDir] stringByAppendingPathComponent:@"weightcontrol.dat"];
+    [weightData writeToFile:weightFilePath atomically:YES];
 };
 
 - (id)getModuleValueForKey:(NSString *)key{
@@ -207,11 +246,17 @@
 
 #pragma mark - module functions
 - (void)fillTestData:(NSUInteger)numOfElements{
+    if(weightData){
+        [weightData release];
+        weightData = nil;
+    };
+    weightData = [[NSMutableArray alloc] init];
+    
     NSDateComponents *dateComponents = [[NSDateComponents alloc] init];
 	[dateComponents setMonth:03];
 	[dateComponents setDay:25];
 	[dateComponents setYear:2012];
-	[dateComponents setHour:12];
+	[dateComponents setHour:0];
 	[dateComponents setMinute:0];
 	[dateComponents setSecond:0];
 	NSCalendar *gregorian = [[NSCalendar alloc]
@@ -263,10 +308,37 @@
         res += 5.0f;
     }
     
-    normalWeight = [[NSNumber numberWithFloat:130] retain];
+    normalWeight = [[NSNumber numberWithFloat:res] retain];
     
     
-    NSLog(@"Normal weight is: %.2f", res);
+    //NSLog(@"Normal weight is: %.2f", res);
+};
+
+- (NSDate *)getDateWithoutTime:(NSDate *)_myDate{
+    NSDate *res;
+    NSTimeInterval timeInt = [_myDate timeIntervalSince1970];
+    NSTimeInterval oneDay = 60.0f * 60.0f * 24.0f;
+    
+    NSTimeInterval remainder = timeInt - floor(timeInt / oneDay) * oneDay;
+    
+    res = [NSDate dateWithTimeIntervalSince1970:timeInt - remainder];
+    
+    //NSLog(@"%@ -> %@", [_myDate description], [res description]);
+    
+    return res;
+};
+
+- (NSComparisonResult)compareDateByDays:(NSDate *)_firstDate WithDate:(NSDate *)_secondDate{
+    double delta = [_firstDate timeIntervalSinceDate:_secondDate];
+    if(fabs(delta) < 60*60*24){
+        return NSOrderedSame;
+    };
+    
+    if(delta>0){
+        return NSOrderedDescending;
+    };
+    
+    return NSOrderedAscending;
 };
 
 - (void)sortWeightData{

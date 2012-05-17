@@ -8,13 +8,15 @@
 
 #import "WeightControlGraphView.h"
 
+#define NORMAL_DAY_WIDTH 54.0f
+
 @implementation WeightControlGraphView
 
 NSString *const kWeightLine	 = @"Data Line";
 NSString *const kNormalLine	 = @"Normal Line";
 NSString *const kAimLine	 = @"Aim Line";
 
-@synthesize delegate, hostingView, fromDateGraph, toDateGraph;
+@synthesize delegate, hostingView, fromDateGraph, toDateGraph, scaleFactor, scaleView;
 
 - (id)init{
     self = [super init];
@@ -64,9 +66,19 @@ NSString *const kAimLine	 = @"Aim Line";
 - (void)createGraphLayer{
     if(hostingView) [hostingView release];
     
-    hostingView = [[CPTGraphHostingView alloc] initWithFrame:self.bounds];
+    if(graphScrollView){
+        [graphScrollView removeFromSuperview];
+        [graphScrollView release];
+        graphScrollView = nil;
+    };
+    graphScrollView = [[UIScrollView alloc] initWithFrame:self.bounds];
+    graphScrollView.contentSize = CGSizeMake(500.0f, self.bounds.size.height);
+    graphScrollView.scrollEnabled = YES;
+    //[self addSubview:graphScrollView];
     
-    CPTGraph *graph = [[[CPTXYGraph alloc] initWithFrame:self.bounds] autorelease];
+    hostingView = [[CPTGraphHostingView alloc] initWithFrame:CGRectMake(0, 0, 9000.0f, self.bounds.size.height)/*self.bounds*/];
+    
+    CPTGraph *graph = [[[CPTXYGraph alloc] initWithFrame:CGRectMake(0, 0, 9000.0f, self.bounds.size.height)/*self.bounds*/] autorelease];
     hostingView.hostedGraph = graph;
     
     
@@ -87,7 +99,7 @@ NSString *const kAimLine	 = @"Aim Line";
     minorGridLineStyle.lineColor = [[CPTColor colorWithGenericGray:0.2] colorWithAlphaComponent:0.5];
     
     CPTXYPlotSpace *plotSpace = (CPTXYPlotSpace *)graph.defaultPlotSpace;
-	plotSpace.allowsUserInteraction = YES;
+	plotSpace.allowsUserInteraction = NO; //YES;
     plotSpace.delegate = self;
     //[plotSpace setScaleType:CPTScaleTypeDateTime forCoordinate:CPTCoordinateX];
     
@@ -105,16 +117,6 @@ NSString *const kAimLine	 = @"Aim Line";
     NSNumberFormatter *labelFormatter = [[[NSNumberFormatter alloc] init] autorelease];
     labelFormatter.maximumFractionDigits = 1;
     
-    /*NSDateFormatter *dateFormatter_day = [[[NSDateFormatter alloc] init] autorelease];
-    dateFormatter_day.dateFormat = @"dd";
-	CPTTimeFormatter *timeFormatter_day = [[[CPTTimeFormatter alloc] initWithDateFormatter:dateFormatter_day] autorelease];
-	timeFormatter_day.referenceDate = [[delegate.weightData objectAtIndex:0] objectForKey:@"date"];
-    
-    NSDateFormatter *dateFormatter_mounth = [[[NSDateFormatter alloc] init] autorelease];
-    dateFormatter_mounth.dateFormat = @"MMM''yy";
-	CPTTimeFormatter *timeFormatter_mounth = [[[CPTTimeFormatter alloc] initWithDateFormatter:dateFormatter_mounth] autorelease];
-	timeFormatter_mounth.referenceDate = [[delegate.weightData objectAtIndex:0] objectForKey:@"date"];*/
-    
     // !!!!!!!!!!!! X axis !!!!!!!!!!!!!!
     CPTXYAxisSet *axisSet = (CPTXYAxisSet *)graph.axisSet;
     CPTXYAxis *x		  = axisSet.xAxis;
@@ -124,12 +126,7 @@ NSString *const kAimLine	 = @"Aim Line";
     x.minorGridLineStyle = minorGridLineStyle;
     x.tickDirection = CPTSignNone;
     x.labelingPolicy	 = CPTAxisLabelingPolicyLocationsProvided;
-    //x.labelingPolicy = CPTAxisLabelingPolicyFixedInterval;
-    //x.minorTicksPerInterval = 60*60*24;
-    //x.majorIntervalLength = CPTDecimalFromFloat(60*60*24 * 30);
     
-    //x.labelFormatter	 = timeFormatter_mounth;
-    //x.minorTickLabelFormatter = timeFormatter_day;
     x.labelOffset = 10;
     x.labelTextStyle = xAxisLabelTextStyle;
     x.labelAlignment = CPTAlignmentLeft;
@@ -154,41 +151,6 @@ NSString *const kAimLine	 = @"Aim Line";
     x.title = @"date";
     x.titleTextStyle = xAxisTitleTextStyle;
     x.titleOffset = 12.0;
-    
-    /*
-    // X-axis minor and major locations
-    NSMutableSet *minorTickLocations = [NSMutableSet set];
-    NSMutableSet *majorTickLocations = [NSMutableSet set];
-    NSUInteger i, tickLength = 1;
-    int curMonth = [self getIntegerDateComponent:[[delegate.weightData objectAtIndex:0] objectForKey:@"date"] byFormat:@"MM"];
-    //if(daysBetweenDates>21 && daysBetweenDates<150){
-    //    tickLength = 7;
-    //};
-    //if(daysBetweenDates>=150){
-    //    tickLength = INT32_MAX;
-    //};
-    //if(daysBetweenDates<=31 && [self getIntegerDateComponent:fromDate byFormat:@"MM"] == [self getIntegerDateComponent:toDate byFormat:@"MM"]){
-    //    [majorTickLocations addObject:[NSDecimalNumber numberWithFloat:startTimeInterval]];
-    //}
-    NSTimeInterval oneDay = 60 * 60 * 24;
-    NSUInteger totalDays = [[[delegate.weightData lastObject] objectForKey:@"date"] timeIntervalSinceDate:[[delegate.weightData objectAtIndex:0] objectForKey:@"date"]] / oneDay;
-    totalDays += 365;
-	for (i=0; i <= totalDays; i ++ ) {
-        NSTimeInterval curInt = oneDay*i;
-        NSTimeInterval realDateInterval = [[[delegate.weightData objectAtIndex:0] objectForKey:@"date"] timeIntervalSince1970] + oneDay*i;
-        NSDate *realDate = [NSDate dateWithTimeIntervalSince1970:realDateInterval];
-        //NSLog(@"Real day: %d", [self getIntegerDateComponent:realDate byFormat:@"dd"]);
-		if([self getIntegerDateComponent:realDate byFormat:@"dd"] % tickLength == 0){
-            [minorTickLocations addObject:[NSDecimalNumber numberWithFloat:curInt]];
-        }
-        
-        if([self getIntegerDateComponent:realDate byFormat:@"MM"] != curMonth){
-            [majorTickLocations addObject:[NSDecimalNumber numberWithFloat:curInt]];
-            curMonth = [self getIntegerDateComponent:realDate byFormat:@"MM"];
-        };
-	};
-    x.minorTickLocations = minorTickLocations;
-    x.majorTickLocations = majorTickLocations;*/
     
     // !!!!!!!!!!!! Y axis !!!!!!!!!!!!!!
     CPTXYAxis *y = axisSet.yAxis;
@@ -259,8 +221,6 @@ NSString *const kAimLine	 = @"Aim Line";
 	hitAnnotationTextStyle.fontSize = 10.0f;
 	hitAnnotationTextStyle.fontName = @"Helvetica";
 	// Determine point of annotation @"norm" in plot coordinates
-	//NSNumber *anchorX = [NSNumber numberWithFloat:startTimeInterval];
-	//NSNumber *anchorY = [NSNumber numberWithFloat:[delegate.normalWeight floatValue]];
 	NSArray *anchorPoint = [NSArray arrayWithObjects:[NSNumber numberWithInt:0], [NSNumber numberWithInt:0], nil];
 	// Add annotation
 	NSString *normAnnotationString = @"norm";
@@ -294,10 +254,49 @@ NSString *const kAimLine	 = @"Aim Line";
 	plotSymbol.size		 = CGSizeMake(5.0, 5.0);
 	linePlot.plotSymbol	 = plotSymbol;
     
-    [self addSubview:hostingView];
+    NSTimeInterval oneDay = 24 * 60 * 60;
+    
+    
+    NSDate *fromDate = [[delegate.weightData objectAtIndex:0] objectForKey:@"date"];
+    NSDate *toDate = [NSDate date];
+    NSUInteger daysBetweenDates = (NSUInteger)([toDate timeIntervalSinceDate:fromDate] / oneDay);
+    
+    plotSpace.xRange = [CPTPlotRange plotRangeWithLocation:CPTDecimalFromFloat(0) length:CPTDecimalFromFloat([toDate timeIntervalSinceDate:fromDate] + oneDay*7)];
+    graph.frame = CGRectMake(graph.frame.origin.x, graph.frame.origin.y, daysBetweenDates*NORMAL_DAY_WIDTH, graph.frame.size.height);
+    graphScrollView.contentSize = CGSizeMake(daysBetweenDates*NORMAL_DAY_WIDTH, graph.frame.size.height);
+    scaleFactor = 1.0f;
+    //x.titleLocation = CPTDecimalFromFloat([toDate timeIntervalSinceDate:[[delegate.weightData objectAtIndex:0] objectForKey:@"date"]] - oneDay);
+    [self updateGraphLabels];
+
+    
+    
+    [graphScrollView addSubview:hostingView];   //Scroll content adding
+    [self addSubview:graphScrollView];
+    
+    //Simple variant
+    //[self addSubview:hostingView];
 
     [self updatePlotRanges];
-
+    
+    
+    //NSDate *startDate = [NSDate dateWithTimeIntervalSinceNow:(oneDay * -7)];
+    NSDate *startDate = [NSDate dateWithTimeIntervalSince1970:([[NSDate date] timeIntervalSince1970] - (oneDay * 10))];
+    //NSDate *startDate = [[delegate.weightData objectAtIndex:15] objectForKey:@"date"];
+    //NSDate *startDate = [NSDate date];
+    [self showDateAtBegin:startDate];
+    
+    
+    //Adding Gesture Recognizers
+    UIPinchGestureRecognizer *pinchGesture = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(pinchGestureSelector:)];
+    [self addGestureRecognizer:pinchGesture];
+    [pinchGesture release];
+    
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGestureSelector:)];
+    tapGesture.numberOfTapsRequired = 1;
+    [self addGestureRecognizer:tapGesture];
+    [tapGesture release];
+    
+    [self bringSubviewToFront:scaleView];
 };
 
 - (void)updatePlotRanges{
@@ -421,12 +420,11 @@ NSString *const kAimLine	 = @"Aim Line";
 	timeFormatter_mounth.referenceDate = [[delegate.weightData objectAtIndex:0] objectForKey:@"date"];
     
     NSUInteger daysBetweenDates = xRange.lengthDouble / oneDay;
-    if(daysBetweenDates <= 21){
+    if(scaleFactor<=2.0f && scaleFactor>=0.5f){
         x.minorTickLabelFormatter = timeFormatter_day;
         x.labelFormatter = timeFormatter_mounth;
         x.labelOffset = 10.0f;
-    };
-    if(daysBetweenDates>21){
+    }else if(daysBetweenDates>21){
         x.minorTickLabelFormatter = timeFormatter_void;
         x.labelFormatter = timeFormatter_mounth;
         x.labelOffset = 0.0f;
@@ -436,7 +434,7 @@ NSString *const kAimLine	 = @"Aim Line";
     CPTMutableTextStyle *pointLabelStyle = [CPTMutableTextStyle textStyle];
 	pointLabelStyle.color	 = [CPTColor grayColor];
 	pointLabelStyle.fontSize	 = 10.0;
-    if(daysBetweenDates<=14){
+    if(scaleFactor<=2.0f && scaleFactor>=0.5f){
         [graph plotWithIdentifier:kWeightLine].labelTextStyle = pointLabelStyle;
     }else{
         [graph plotWithIdentifier:kWeightLine].labelTextStyle = nil;
@@ -452,8 +450,6 @@ NSString *const kAimLine	 = @"Aim Line";
 	NSNumber *anchorY = [NSNumber numberWithFloat:[delegate.normalWeight floatValue]];
 	NSArray *anchorPoint = [NSArray arrayWithObjects:anchorX, anchorY, nil];
     normLineAnnotation.anchorPlotPoint = anchorPoint;
-    
-    
     
 
     
@@ -498,63 +494,11 @@ NSString *const kAimLine	 = @"Aim Line";
 };
 
 - (void)showGraphFromDate:(NSDate *)fromDate toDate:(NSDate *)toDate{
-    /*
+    
     // Calcing number of days between dates
     NSTimeInterval oneDay = 24 * 60 * 60;
     NSUInteger daysBetweenDates = (NSUInteger)([toDate timeIntervalSinceDate:fromDate] / oneDay);
     //NSLog(@"Days between two dates: %d", daysBetweenDates);
-    
-    // Initialization code
-    CPTGraph *graph = hostingView.hostedGraph;
-    //[graph removePlotWithIdentifier:kNormalLine];
-    //[graph removePlotWithIdentifier:kWeightLine];
-    //[graph removePlotWithIdentifier:kAimLine];
-    
-    
-    CPTMutableLineStyle *redLineStyle = [CPTMutableLineStyle lineStyle];
-    redLineStyle.lineWidth = 10.0;
-    redLineStyle.lineColor = [[CPTColor redColor] colorWithAlphaComponent:0.5];
-
-    
-    //XAxisSettings
-    CPTXYAxisSet *axisSet = (CPTXYAxisSet *)graph.axisSet;
-    CPTXYAxis *x		  = axisSet.xAxis;
-    
-    double titleOffsetPlace = ((double)daysBetweenDates * (25.0f / 250.0f)) / 2.0f;
-    x.titleLocation = CPTDecimalFromDouble(([toDate timeIntervalSince1970] - [[[delegate.weightData objectAtIndex:0] objectForKey:@"date"] timeIntervalSince1970]) - 
-                                           oneDay*titleOffsetPlace);
-    
-    //Labels
-    NSDateFormatter *dateFormatter_day = [[[NSDateFormatter alloc] init] autorelease];
-    dateFormatter_day.dateFormat = @"dd";
-	CPTTimeFormatter *timeFormatter_day = [[[CPTTimeFormatter alloc] initWithDateFormatter:dateFormatter_day] autorelease];
-	timeFormatter_day.referenceDate = [[delegate.weightData objectAtIndex:0] objectForKey:@"date"];
-    
-    NSDateFormatter *dateFormatter_mounth = [[[NSDateFormatter alloc] init] autorelease];
-    dateFormatter_mounth.dateFormat = @"MMM''yy";
-	CPTTimeFormatter *timeFormatter_mounth = [[[CPTTimeFormatter alloc] initWithDateFormatter:dateFormatter_mounth] autorelease];
-	timeFormatter_mounth.referenceDate = [[delegate.weightData objectAtIndex:0] objectForKey:@"date"];
-    
-    x.labelFormatter	 = timeFormatter_mounth;
-    x.minorTickLabelFormatter = timeFormatter_day;
-    
-    
-    NSTimeInterval startTimeInterval = ([fromDate timeIntervalSince1970] - [[[delegate.weightData objectAtIndex:0] objectForKey:@"date"] timeIntervalSince1970]);
-    
-    NSNumber *anchorX = [NSNumber numberWithFloat:startTimeInterval];
-	NSNumber *anchorY = [NSNumber numberWithFloat:[delegate.normalWeight floatValue]];
-	NSArray *anchorPoint = [NSArray arrayWithObjects:anchorX, anchorY, nil];
-    normLineAnnotation.anchorPlotPoint = anchorPoint;
-
-    //Add points labels
-    CPTMutableTextStyle *pointLabelStyle = [CPTMutableTextStyle textStyle];
-	pointLabelStyle.color	 = [CPTColor grayColor];
-	pointLabelStyle.fontSize	 = 10.0;
-    if(daysBetweenDates<=14){
-        [graph plotWithIdentifier:kWeightLine].labelTextStyle	 = pointLabelStyle;
-    };
-    ////////////////////
-    */
     
     if([fromDate timeIntervalSince1970] >= [toDate timeIntervalSince1970]) return;
     
@@ -567,13 +511,97 @@ NSString *const kAimLine	 = @"Aim Line";
     CPTXYPlotSpace *plotSpace = (CPTXYPlotSpace *)graph.defaultPlotSpace;
     CPTXYAxisSet *axisSet = (CPTXYAxisSet *)graph.axisSet;
     CPTXYAxis *x		  = axisSet.xAxis;
-    
-    NSTimeInterval oneDay = 24 * 60 * 60;
 
     plotSpace.xRange = [CPTPlotRange plotRangeWithLocation:CPTDecimalFromFloat([fromDate timeIntervalSinceDate:[[delegate.weightData objectAtIndex:0] objectForKey:@"date"]]) length:CPTDecimalFromFloat([toDate timeIntervalSinceDate:fromDate])];
     x.titleLocation = CPTDecimalFromFloat([toDate timeIntervalSinceDate:[[delegate.weightData objectAtIndex:0] objectForKey:@"date"]] - oneDay);
     
     [self updateGraphLabels];
+};
+
+- (void)setGraphWidth:(CGFloat)graphWidth{
+    CGRect curRect = hostingView.hostedGraph.frame;
+    scaleFactor = scaleFactor * (graphWidth / curRect.size.width);
+    hostingView.hostedGraph.frame = CGRectMake(curRect.origin.x, curRect.origin.y, graphWidth, curRect.size.height);
+    graphScrollView.contentSize = CGSizeMake(graphWidth, curRect.size.height);
+    [self updatePlotRanges];
+};
+
+- (void)setScaleFactor:(CGFloat)newScaleFactor{
+    CGRect curRect = hostingView.hostedGraph.frame;
+    CGFloat graphWidth = fabs(curRect.size.width * (newScaleFactor / scaleFactor));
+    scaleFactor = fabs(newScaleFactor);
+    hostingView.hostedGraph.frame = CGRectMake(curRect.origin.x, curRect.origin.y, graphWidth, curRect.size.height);
+    graphScrollView.contentSize = CGSizeMake(graphWidth, curRect.size.height);
+    [self updateGraphLabels];
+};
+
+- (void)showDateAtBegin:(NSDate *)showingDate{
+    NSTimeInterval oneDay = 24 * 60 * 60;
+    NSUInteger daysBetweenDates = (NSUInteger)([showingDate timeIntervalSinceDate:[[delegate.weightData objectAtIndex:0] objectForKey:@"date"]] / oneDay);
+    
+    float offset = scaleFactor * NORMAL_DAY_WIDTH * daysBetweenDates;
+    [graphScrollView setContentOffset:CGPointMake(offset, 0) animated:NO];
+    
+};
+
+- (void)showScaleView{
+    [UIView animateWithDuration:0.5f animations:^(void){
+        scaleView.alpha = 1.0f; 
+    }];
+};
+
+- (void)hideScaleView{
+    [UIView animateWithDuration:0.5f animations:^(void){
+        scaleView.alpha = 0.0f; 
+    }];
+};
+
+- (void)hideScaleViewTimerSelector:(NSTimer *)timer{
+    [self hideScaleView];
+    
+    [timer invalidate];
+    scaleHideTimer = nil;
+}
+
+- (IBAction)pressScaleButton:(id)sender{
+    [self tapGestureSelector:nil];
+    
+    NSInteger tagScale = [sender tag];
+    //NSLog(@"WeightControlGraphView: scaleButtonPressed - tag = %d", tagScale);
+    
+    NSDate *fromDate = [[delegate.weightData objectAtIndex:0] objectForKey:@"date"];
+    NSDate *toDate = [NSDate date];
+    NSTimeInterval oneDay = 24 * 60 * 60;
+    NSUInteger daysBetweenDates = (NSUInteger)([toDate timeIntervalSinceDate:fromDate] / oneDay) + 7;
+    CGFloat newScaleFactor = 1.0f;
+    
+    CGFloat minScaleFactor = (self.frame.size.width + 60) / (daysBetweenDates * NORMAL_DAY_WIDTH);
+    
+    
+    switch(tagScale){
+        case 1:
+            newScaleFactor = 1.0f;
+            break;
+        case 2:
+            newScaleFactor = 1.0f / 2.0f;
+            break;
+        case 3:
+            newScaleFactor = 1.0f / 4.0f;
+            break;
+        case 4:
+            newScaleFactor = 1.0f / 8.0f;
+            break;
+        case 5:
+            newScaleFactor = 1.0f / 26.0f;
+            break;
+    };
+    
+    if(newScaleFactor < minScaleFactor){
+        newScaleFactor = minScaleFactor;
+    };
+    NSLog(@"Scaling factor: old (%.3f), new (%.3f), min (%.3f). Days Between Dates: %d", scaleFactor, newScaleFactor, minScaleFactor, daysBetweenDates);
+    
+    [self setScaleFactor:newScaleFactor];
 };
 
 #pragma mark - CPTPlotDataSource delegate's functions
@@ -621,6 +649,7 @@ NSString *const kAimLine	 = @"Aim Line";
 
 #pragma mark - CPTPlotSpaceDelegate functions
 
+
 -(CPTPlotRange *)plotSpace:(CPTPlotSpace *)space willChangePlotRangeTo:(CPTPlotRange *)newRange forCoordinate:(CPTCoordinate)coordinate
 {
     //NSLog(@"willChangePlotRangeTo: %@", coordinate==CPTCoordinateX ? @"X-axis" : @"Y-axis");
@@ -629,27 +658,14 @@ NSString *const kAimLine	 = @"Aim Line";
     //NSDate *lastDate = [[delegate.weightData lastObject] objectForKey:@"date"];
     //NSTimeInterval oneDay = 60 * 60 *24;
 	if ( coordinate == CPTCoordinateX ) {
-		//CPTPlotRange *maxRange			  = [CPTPlotRange plotRangeWithLocation:CPTDecimalFromFloat(0) length:CPTDecimalFromFloat([lastDate timeIntervalSinceDate:firstDate] + oneDay * 30)];
-		CPTMutablePlotRange *changedRange = [[newRange mutableCopy] autorelease];
+        CPTMutablePlotRange *changedRange = [[newRange mutableCopy] autorelease];
 		[changedRange shiftEndToFitInRange:dataRangeX];
 		[changedRange shiftLocationToFitInRange:dataRangeX];
 		newRange = changedRange;
 	};
     
     if (coordinate == CPTCoordinateY){
-        //CPTPlotRange *maxRange			  = [CPTPlotRange plotRangeWithLocation:CPTDecimalFromFloat(50.0f) length:CPTDecimalFromFloat(100.0f)];
-		CPTMutablePlotRange *changedRange = [[newRange mutableCopy] autorelease];
-		[changedRange shiftEndToFitInRange:dataRangeY];
-        [changedRange shiftLocationToFitInRange:dataRangeY];
-        
-        NSDecimal deltaLength = CPTDecimalSubtract(CPTDecimalAdd(changedRange.location, changedRange.length), CPTDecimalAdd(dataRangeY.location, dataRangeY.length));
-        if(CPTDecimalGreaterThan(deltaLength, CPTDecimalFromInt(0)) == YES){
-            changedRange.length = CPTDecimalSubtract(changedRange.length, deltaLength);
-        }
-        
-        //NSLog(@"willChangePlotRangeTo: <Y-axis> (%.0f, %.0f) -> (%.0f, %.0f)", newRange.locationDouble, newRange.lengthDouble, changedRange.locationDouble, changedRange.lengthDouble);
-        
-		newRange = changedRange;
+        newRange = [(CPTXYPlotSpace *)space yRange];
     }
     
 	return newRange;
@@ -734,6 +750,29 @@ NSString *const kAimLine	 = @"Aim Line";
     return YES;
 };
 
+
+#pragma mark Native Gesture Selectors
+
+- (IBAction)pinchGestureSelector:(UIPinchGestureRecognizer *)sender{
+    NSLog(@"pinchGestureScale: %.0f", sender.scale);
+};
+
+- (IBAction)tapGestureSelector:(UITapGestureRecognizer *)sender{
+    //NSLog(@"Tapping!");
+    
+    if(scaleView.alpha==0.0f){
+        [self showScaleView];
+    };
+    
+    if(scaleHideTimer){
+        [scaleHideTimer invalidate];
+    };
+    scaleHideTimer = [NSTimer scheduledTimerWithTimeInterval:3.0f target:self selector:@selector(hideScaleViewTimerSelector:) userInfo:nil repeats:NO];
+    [self bringSubviewToFront:scaleView];
+    [scaleView becomeFirstResponder];
+    
+    //[self performSelector:@selector(hideScaleView) withObject:nil afterDelay:5.0f];
+};
 
 
 @end

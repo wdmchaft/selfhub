@@ -17,4 +17,12 @@
 
 @property (nonatomic, assign) WeightControl *delegate;
 
+@property (nonatomic, retain) IBOutlet UILabel *aimLabel;
+@property (nonatomic, retain) IBOutlet UIStepper *aimStepper;
+@property (nonatomic, retain) IBOutlet UILabel *heightLabel;
+@property (nonatomic, retain) IBOutlet UILabel *ageLabel;
+
+- (IBAction)changeAimStepper:(id)sender;
+- (IBAction)pressChangeAntropometryValues:(id)sender;
+
 @end

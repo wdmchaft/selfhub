@@ -6,59 +6,223 @@
 	<dict>
 		<key>AllModules.plist</key>
 		<data>
-		b9AgE+NpAOwtKtkZvAiqxCFpYqI=
+		N+6UlJ6kuKDGLRw7rLZ8LVDibVg=
+		</data>
+		<key>BottomPanelViewController.nib</key>
+		<data>
+		D0a6U5kwH1I8BkAATpM6sQkUckI=
+		</data>
+		<key>DesktopViewController_iPad.nib</key>
+		<data>
+		7Rjp65qRSRYpROubfkRYeqPK05g=
+		</data>
+		<key>DesktopViewController_iPhone.nib</key>
+		<data>
+		W76IDHXrfVEsTL7vg89JBIGTgyQ=
+		</data>
+		<key>Icon.png</key>
+		<data>
+		rikIM1MiJml/pfiwHTzstZIFngs=
+		</data>
+		<key>InfoViewController.nib</key>
+		<data>
+		eDWEJkvXrSm/5gu2lE4AD5rAIR0=
+		</data>
+		<key>MainInformation.nib</key>
+		<data>
+		rEU+wtav8X+1iVOELwtMem+mWLA=
 		</data>
 		<key>ModuleTableCell.nib</key>
 		<data>
-		KxGju5W2vU81nLHxRyo0KhxdfFk=
+		dLrk6hZUvd9TpMs9YpmjyfJjo90=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>WeightControl.nib</key>
+		<data>
+		mfuX+VJJUYyTBhdPoSKjjrnrFPk=
+		</data>
+		<key>WeightControlChart.nib</key>
+		<data>
+		JJcvjwYIFnU17/FpmHJQTf3h/oI=
+		</data>
+		<key>WeightControlData.nib</key>
+		<data>
+		Jg3NpixpY6AuXU2SgF9DTQ8AUXY=
+		</data>
+		<key>WeightControlDataEdit.nib</key>
+		<data>
+		5LdTybaPMdconpRoKI+r3kvy+fg=
+		</data>
+		<key>WeightControlSettings.nib</key>
+		<data>
+		qP14oWnOIX0kQHq+bURcRMsuy3M=
+		</data>
+		<key>WeightControlStatistics.nib</key>
+		<data>
+		dDheJPdXAeXvcSgB4V2r/azGYtE=
+		</data>
 		<key>antropometry.export.plist</key>
 		<data>
 		mdpQ7QuyDufxFzWvHwRgD6/O2N0=
 		</data>
-		<key>antropometry.strings</key>
-		<data>
-		zmV6UqBSo6r1NOz798vd5O4zTBA=
-		</data>
 		<key>birthday_navbar.png</key>
 		<data>
-		D0zmMLVbBexAEhnPa6Zze+bOn8I=
+		7UJpHwtHbzUbcbjDJpktdiG30lA=
+		</data>
+		<key>bottomPanel_background.png</key>
+		<data>
+		LhWXh+kR+Ai4xg+zuV3h/wVMF6c=
+		</data>
+		<key>bottomPanel_greenball.png</key>
+		<data>
+		48Mdvg1Jk6WBA7wlZZR/farwwUQ=
+		</data>
+		<key>bottomPanel_redball.png</key>
+		<data>
+		ovzbgrP8IgUgxY4vhakYvXwuEb0=
+		</data>
+		<key>bottomPanel_statusbar.png</key>
+		<data>
+		jLOEIZfqTmR9M82rrev15zZG7lU=
+		</data>
+		<key>bottomPanel_tab1_norm.png</key>
+		<data>
+		BdraZbi1bGHgtC4ZgalYoVvezzQ=
+		</data>
+		<key>bottomPanel_tab1_press.png</key>
+		<data>
+		HHdFkDnwlMMvNBB1YQ/G2g7MEiA=
+		</data>
+		<key>bottomPanel_tab1_unav.png</key>
+		<data>
+		B6CU7Dk34zKUaG+/Nf18fNVNCYY=
+		</data>
+		<key>bottomPanel_tab2_norm.png</key>
+		<data>
+		0qq0t18fs2ZcbX2GK1SPZVfXuxA=
+		</data>
+		<key>bottomPanel_tab2_press.png</key>
+		<data>
+		xNrxEs208DK1dtPg5ApnQGV+vTM=
+		</data>
+		<key>bottomPanel_tab2_unav.png</key>
+		<data>
+		Sq+3O50seTRLsfA2k6UJdABUhgU=
+		</data>
+		<key>bottomPanel_tab3_norm.png</key>
+		<data>
+		IvL7Fkn5ZqJfZqGvmv8frz/Q3HM=
+		</data>
+		<key>bottomPanel_tab3_press.png</key>
+		<data>
+		QJaU9nf1uyzGBbRGhim7nH5jYbI=
+		</data>
+		<key>bottomPanel_tab3_unav.png</key>
+		<data>
+		gUBX1QQ4wq8Q+y4qXseS1jKK270=
+		</data>
+		<key>bottomPanel_tab4_norm.png</key>
+		<data>
+		D8YGoytffa2Gbo/Q5O3BSsOTYeg=
+		</data>
+		<key>bottomPanel_tab4_press.png</key>
+		<data>
+		rkMBXAqip0Hbq1I9khGls8XrElU=
+		</data>
+		<key>bottomPanel_tab4_unav.png</key>
+		<data>
+		pAV7//gKmoqKvD2QBBj3pgW+YFk=
+		</data>
+		<key>bottomPanel_tab5_norm.png</key>
+		<data>
+		+k3WLgZZ9RjEQ7k4xKCdMcp2XW4=
+		</data>
+		<key>bottomPanel_tab5_press.png</key>
+		<data>
+		SDeADADH9WsBDdU42naxhpo4P/g=
+		</data>
+		<key>bottomPanel_tab5_unav.png</key>
+		<data>
+		IeK3ZSfNinQIL3fuJ1QoKee4WQA=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		9Xa3YzCtnH5NWuSt0P4MoD/7Jv0=
-		</data>
-		<key>en.lproj/DesktopViewController_iPad.nib</key>
-		<data>
-		HW1oWVaUo21VtgRzh5VnnfGQq8M=
-		</data>
-		<key>en.lproj/DesktopViewController_iPhone.nib</key>
-		<data>
-		tlzHTtuMVUWIBRAA45y2IaSYrSA=
+		mDY9uWrCjSbniXvEwf51Vw42Zp0=
 		</data>
 		<key>en.lproj/InfoPlist.strings</key>
 		<data>
 		zmV6UqBSo6r1NOz798vd5O4zTBA=
 		</data>
-		<key>en.lproj/MainInformation.nib</key>
+		<key>en.lproj/Localizable.strings</key>
 		<data>
-		ud9js5Q3d9vwpBMVOR2xMkJ8Ff4=
+		hf7jvCSSpinllBLH4fIoMn1I330=
 		</data>
 		<key>mainInfoModule_icon.png</key>
 		<data>
-		bgv2CczWZ7uMPukzfqhyPnBdDfk=
+		ibpjK14AP0EzvKM4LHslb/MwTjo=
 		</data>
-		<key>ru.lproj/MainInformation.nib</key>
+		<key>ru.lproj/Localizable.strings</key>
 		<data>
-		ia1kIZ5sDx9uaqyUDEpQD2Wp4Yw=
+		A9hwlzf8/wP+/BFeRAiF23pj9Hg=
 		</data>
 		<key>voidPhoto.png</key>
 		<data>
-		38dbqNrfNJVI2x+IfcubGscbS6o=
+		8htlMWjD90wJEND/1EbLfYC8H1k=
+		</data>
+		<key>weight.export.plist</key>
+		<data>
+		+rCvcNrWiO35YmWSu+bBCnmQwGI=
+		</data>
+		<key>weightModule_1month_btn@2x.png</key>
+		<data>
+		s5uGSFJr9L85BPGBZcrilagOGQg=
+		</data>
+		<key>weightModule_1month_btn_press@2x.png</key>
+		<data>
+		D7UZ3jqrgDm3Q2YXn0j4o3Uf3OM=
+		</data>
+		<key>weightModule_1week_btn@2x.png</key>
+		<data>
+		XihY6n+clVXmTaMBaAn9nD9pYFM=
+		</data>
+		<key>weightModule_1week_btn_press@2x.png</key>
+		<data>
+		hUodHaXlookpAwxopt3ooY5ATqI=
+		</data>
+		<key>weightModule_2week_btn@2x.png</key>
+		<data>
+		ndc9t6Bp/nKUoEpozh0XDZ1UyOg=
+		</data>
+		<key>weightModule_2week_btn_press@2x.png</key>
+		<data>
+		7HKMKWcIQTlxUn78zR7A3W6VDD4=
+		</data>
+		<key>weightModule_3month_btn@2x.png</key>
+		<data>
+		1h1keW/6kFqYSkF2jlhy/4TOAb8=
+		</data>
+		<key>weightModule_3month_btn_press@2x.png</key>
+		<data>
+		CFLgey2er6X5V+qMTtuTfSFF3kk=
+		</data>
+		<key>weightModule_6month_btn@2x.png</key>
+		<data>
+		JZDsQyMAbId/cT65BzMlv/g87O8=
+		</data>
+		<key>weightModule_6month_btn_press@2x.png</key>
+		<data>
+		97X/YFyxJjipay8LBHhSnLQrdXU=
+		</data>
+		<key>weightModule_addRecord.png</key>
+		<data>
+		RRtL3d0n55px9EbcXsUCZJHDcB0=
+		</data>
+		<key>weightModule_icon.png</key>
+		<data>
+		WQgdRFtx5ikh3b/iNVK0XXg40T8=
 		</data>
 	</dict>
 	<key>rules</key>
